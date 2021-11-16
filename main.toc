@@ -18,4 +18,23 @@
 \contentsline {subsubsection}{Static characteristics}{11}{}%
 \contentsline {subsubsection}{Kinematic Characteristics}{13}{}%
 \contentsline {paragraph}{Case 1: Acceleration is constant}{14}{}%
-\contentsline {paragraph}{Case 2: Acceleration is the funciton of velocity}{14}{}%
+\contentsline {paragraph}{Case 2: Acceleration is the function of velocity}{14}{}%
+\contentsline {subsubsection}{Dynamic Characteristics}{16}{}%
+\contentsline {paragraph}{Air Resistance}{16}{}%
+\contentsline {paragraph}{Grade Resistance}{16}{}%
+\contentsline {paragraph}{Rolling Resistance}{17}{}%
+\contentsline {paragraph}{Curve Resistance}{18}{}%
+\contentsline {paragraph}{Power Requirements}{18}{}%
+\contentsline {subsection}{\numberline {1.4.3}Pedestrian Characteristics}{20}{}%
+\contentsline {subsection}{\numberline {1.4.4}Road Characteristics}{20}{}%
+\contentsline {subsubsection}{Sight Distance}{21}{}%
+\contentsline {paragraph}{\emph {1. Stopping Sight Distance}}{21}{}%
+\contentsline {paragraph}{\emph {2. Passing Sight Distance}}{21}{}%
+\contentsline {section}{\numberline {1.5}Review Problems}{21}{}%
+\contentsline {chapter}{\numberline {2}Motor Vehicle Act}{23}{}%
+\contentsline {chapter}{\numberline {3}Transport Economics}{25}{}%
+\contentsline {chapter}{\numberline {4}Insurance}{27}{}%
+\contentsline {chapter}{\numberline {5}Passenger Transport Operation}{29}{}%
+\contentsline {chapter}{\numberline {6}Freight Transport Operation}{31}{}%
+\contentsline {chapter}{\numberline {7}Fuel Consumption and Emission Models}{33}{}%
+\contentsline {chapter}{\numberline {8}Planning for New Transport Organization}{35}{}%

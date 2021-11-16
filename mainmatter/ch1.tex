@@ -209,8 +209,127 @@ When the acceleration of the vehicle is assumed to be constant,
 	x =\frac{1}{2}a t^2 + C_1t+ C_2
 \end{gather}
 The constants $C_1$ and $C_2$ are determined either by the initial conditions on velocity and position or by using known positions of the vehicle at two different times.
-\paragraph{Case 2: Acceleration is the funciton of velocity}
-
-
-
+\paragraph{Case 2: Acceleration is the function of velocity}
+Acceleration as a Function of Velocity The assumption of constant acceleration has some limitations, because the accelerating capability of a vehicle at any time t is related to the speed of the vehicle at that time $(u_t)$. The lower the speed, the higher the acceleration rate that can be obtained. One model that is used commonly in this case is\\
+\begin{equation}
+	\label{case2}
+	\frac{du_t}{dt} = \alpha - \beta u_t
+\end{equation}
+Where $\alpha$ and $\beta$ are constants.\\\\
+In this model, the maximum acceleration rate that can be achieved is theoretically $\alpha$, which means that $\alpha$ has units of acceleration as its unit. The term $\beta u_t$ also should have units of acceleration as its unit, which means that b has the inverse of time (for example, $sec^-1$) as its unit.\\\\
+Integrating Equation \ref{case2} gives,
+\begin{equation*}
+	-\frac{1}{\beta}\ln (\alpha - \beta u_t) = t + C
+\end{equation*}
+If the velocity is $u_o$ at $t = 0$,
+\begin{gather*}
+	C = -\frac{1}{\beta}\ln (\alpha - \beta u_o)\\
+	-\frac{1}{\beta}\ln (\alpha - \beta u_t) = t  -\frac{1}{\beta}\ln (\alpha - \beta u_o)\\
+	\ln\frac{(\alpha - \beta u_o)}{(\alpha - \beta u_t)} = -\beta t\\
+\end{gather*}
+\begin{equation}
+	\therefore t = \frac{1}{\beta}\ln\frac{(\alpha - \beta u_o)}{(\alpha - \beta u_t)}
+\end{equation}
+\begin{equation*}
+	\alpha - \beta u_t = (\alpha - \beta u_o) e^{-\beta t}
+\end{equation*}
+\begin{equation}
+	\label{acln}
+	u_t = \frac{\alpha}{\beta} (1 - e^{-\beta t}) + u_o e^{-\beta t}
+\end{equation}
+The distance $x(t)$ traveled at any time $t$ may be determined by integrating equation \ref{acln}
+\begin{equation}
+	x = \int_0^t u_t dt = \int_0^t \left[\frac{\alpha}{\beta} (1 - e^{-\beta t}) + u_o e^{-\beta t} \right] dt
+	= \left(\frac{\alpha}{\beta}\right)t - \frac{\alpha}{\beta^2}(1 - e^{-\beta t}) + \frac{u_o}{\beta}(1 - e^{-\beta t})
+\end{equation}\\\\
+\emph{Numerical Example:}\\
+\includegraphics[scale=0.5]{gfx/fig7.png}
+\subsubsection{Dynamic Characteristics}
+Several forces act on a vehicle while it is in motion: air resistance, grade resistance, rolling resistance, and curve resistance. The extents to which these forces affect the operation of the vehicle are discussed in this section.
+\paragraph{Air Resistance}
+A vehicle in motion has to overcome the resistance of the air in front of it as well as the force due to the frictional action of the air around it. The force required to overcome these is known as the air resistance and is related to the cross-sectional area of the vehicle in a direction perpendicular to the direction of motion and to the square of the speed of the vehicle. Claffey has shown that this force can be estimated from the formula
+\begin{equation}
+	R_a = \frac{1}{2}\frac{(2.15\rho C_d A u^2)}{g}
+\end{equation}
+Where,\\
+\hspace*{10mm}$R_a$ = air resistance force (lb)\\
+\hspace*{10mm}$\rho$ = density of air (0.0766 lb/ft3) at sea level; less at higher elevations\\
+\hspace*{10mm}$C_d$ = aerodynamic drag coefficient\\
+\hspace*{10mm}(current average value for passenger cars is 0.4; for trucks, this value ranges from 0.5 to 0.8, but a typical value is 0.5)\\
+\hspace*{10mm}$A$ = frontal cross-sectional area (ft2)\\
+\hspace*{10mm}$u$ = vehicle speed (mi/h)\\
+\hspace*{10mm}$g$ = acceleration of gravity (32.2 ft /sec2)
+\paragraph{Grade Resistance}
+When a vehicle moves up a grade, a component of the weight of the vehicle acts downward, along the plane of the highway. This creates a force acting in a direction opposite that of the motion. This force is the grade resistance. A vehicle traveling up a grade will therefore tend to lose speed unless an accelerating force is applied. The speed achieved at any point along the grade for a given rate of acceleration will depend on the grade. Figure below shows the relationships between speed achieved and distance traveled on different grades by a typical heavy truck of 200 lb/hp during maximum acceleration. Note: grade resistance = weight * grade, in decimal.\\\\
+\includegraphics{gfx/fig8.png}
+\emph{Fig: Speed-Distance Curves for Acceleration of a Typical Heavy Truck of 120 kg/kw [200 lb/hp] on Upgrades and Downgrades}
+\paragraph{Rolling Resistance}
+There are forces within the vehicle itself that offer resistance to motion. These forces are due mainly to frictional effect on moving parts of the vehicle, but they also include the frictional slip between the pavement surface and the tires. The sum effect of these forces on motion is known as rolling resistance. The rolling resistance depends on the speed of the vehicle and the type of pavement. Rolling forces are relatively lower on smooth pavements than on rough pavements.\\\\
+\par
+The rolling resistance force for passenger cars on a smooth pavement can be determined from the relation
+\begin{equation}
+	R_r = (C_{rs} + 2.15C_{rv} u^2)W
+\end{equation}
+Where,\\
+\hspace*{10mm}$R_r$ = rolling resistance force (lb)\\
+\hspace*{10mm}$C_{rs}$ = constant (typically 0.012 for passenger cars)\\
+\hspace*{10mm}$C_{rv}$ = constant (typically $0.65 * 10^{-6}$ sec2/ft2 for passenger cars)\\
+\hspace*{10mm}$u$ = vehicle speed (mi/h)\\
+\hspace*{10mm}$W$ = gross vehicle weight (lb)\\\\
+For trucks, the rolling resistance can be obtained from
+\begin{equation}
+	R_r = (C_a+1.47C_b u)W
+\end{equation}
+Where,\\
+\hspace*{10mm}$R_r$ = rolling resistance force (lb)\\
+\hspace*{10mm}$C_a$ = constant (typically 0.02445 for trucks)\\
+\hspace*{10mm}$C_b$ = constant (typically 0.00044 sec/ft for trucks)\\
+\hspace*{10mm}$u$ = vehicle speed (mi/h)\\
+\hspace*{10mm}$W$ = gross vehicle weight (lb)\\\\
+The surface condition of the pavement has a significant effect on the rolling resistance. For example, at a speed of 50 mi/h on a badly broken and patched asphalt surface, the rolling resistance is 51 lb/ton of weight, whereas at the same speed on a loose sand surface, the rolling resistance is 76 lb/ton of weight.
+\paragraph{Curve Resistance}
+When a passenger car is maneuvered to take a curve, external forces act on the front wheels of the vehicle. These forces have components that have a retarding effect on the forward motion of the vehicle. The sum effect of these components constitutes the curve resistance. This resistance depends on the radius of the curve, the gross weight of the vehicle, and the velocity at which the vehicle is moving. It can be determined as
+\begin{equation}
+	R_c = 0.5 \frac{(2.15 u^2 W)}{gR}
+\end{equation}
+Where,\\
+\hspace*{10mm}$R_c$ = curve resistance (lb)\\
+\hspace*{10mm}$u$ = vehicle speed (mi/h)\\
+\hspace*{10mm}$W$ = gross vehicle weight (lb)\\
+\hspace*{10mm}$g$ = acceleration due to gravity ($ft/sec^2$)\\
+\hspace*{10mm}$R$ = radius of curvature (ft)
+\paragraph{Power Requirements}
+Power is the rate at which work is done. It is usually expressed in horsepower (a U.S. unit of measure), where 1 horsepower is 550 lb-ft /sec. The performance capability of a vehicle is measured in terms of the horsepower the engine can produce to overcome air, grade, curve, and friction resistance forces and put the vehicle in motion. Figure below shows how these forces act on the moving vehicle.\\
+\includegraphics[scale=0.9]{gfx/fig9.png}\\
+The power delivered by the engine is
+\begin{equation}
+	P = \frac{1.47Ru}{550}
+\end{equation}
+Where,\\
+\hspace*{10mm}$P$ = horsepower delivered (hp)\\
+\hspace*{10mm}$R$ = sum of resistance to motion (lb)\\
+\hspace*{10mm}$u$ = speed of vehicle (mi/h)\\\\
+\emph{Numerical Example:}\\
+\includegraphics[scale=0.5]{gfx/fig10.png}\\
+\subsection{Pedestrian Characteristics}
+Pedestrian characteristics relevant to traffic and highway engineering practice include those of the driver, discussed in the preceding sections. In addition, other pedestrian characteristics may influence the design and location of pedestrian control devices. Such control devices include special pedestrian signals, safety zones and islands at intersections, pedestrian underpasses, elevated walkways, and crosswalks. Apart from visual and hearing characteristics, walking characteristics play a major part in the design of some of these controls. For example, the design of an all-red phase, which permits pedestrians to cross an intersection with heavy traffic, requires knowledge of the walking speeds of pedestrians. Observations of pedestrian movements have indicated that walking speeds vary between 3.0 and 8.0 ft /sec. Significant differences have also been observed between male and female walking speeds. At intersections, the mean male walking speed has been determined to be 4.93 ft /sec, and for females, 4.63 ft /sec. A more conservative value of 4.0 ft /sec is normally used for design purposes. However, Rouphail and others have shown that the average walking speed depends on the population of elderly pedestrians. For example, the average walking speed is 4.0 ft /sec when the percentage of elderly pedestrians is 20 percent or lower, but reduces to 3.0 ft /sec when the percentage of elderly pedestrians is higher than 20 percent. This factor therefore should be taken into consideration for the design of intersection pedestrian signals at locations where a high number of older pedestrians is expected. Consideration also should be given to the characteristics of handicapped pedestrians, such as the blind. Studies have shown that accidents involving blind pedestrians can be reduced by installing special signals. The blind pedestrian can turn the signal to a red phase by using a special key, which also rings a bell, indicating to the pedestrian that it is safe to cross. Ramps are also now being provided at intersection curbs to facilitate the crossing of the intersection by the occupant of a wheelchair. Also, consideration should be given to the relatively lower average walking speed of the handicapped pedestrian, which can vary from a low of 1.97 ft /sec to 3.66 ft /sec.\\
+%
+\subsection{Road Characteristics}
+The characteristics of the highway discussed in this section are related to stopping and passing because these have a more direct relationship to the characteristics of the driver and the vehicle discussed earlier.
+\subsubsection{Sight Distance}
+Sight distance is the length of the roadway a driver can see ahead at any particular time. The sight distance available at each point of the highway must be such that, when a driver is traveling at the highway’s design speed, adequate time is given after an object is observed in the vehicle’s path to make the necessary evasive maneuvers without colliding with the object. The two types of sight distance are (1) stopping sight distance and (2) passing sight distance.
+\paragraph{\emph{1. Stopping Sight Distance}}
+The stopping sight distance (SSD), for design purposes, is usually taken as the minimum sight distance required for a driver to stop a vehicle after seeing an object in the vehicle’s path without hitting that object. This distance is the sum of the distance traveled during perception-reaction time and the distance traveled during braking. The SSD for a vehicle traveling at u mi/h is
+\begin{equation}
+	SSD = 1.47ut + \frac{u^2}{30\left(\frac{a}{g} \pm G \right)}
+\end{equation}
+Where,\\
+\hspace*{10mm}$u$ = speed of the vehicle when brakes are appled\\
+\hspace*{10mm}$t$ = distance travelled between perception-reaction time\\
+\hspace*{10mm}$g$ = acceleration due to gravity\\
+\hspace*{10mm}$a$ = acceleration of the vehicle\\
+\hspace*{10mm}$G$ = $\tan \gamma$ (\% Grade/100)\\\\
+\paragraph{\emph{2. Passing Sight Distance}}
+The passing sight distance is the minimum sight distance required on a two-lane, twoway highway that will permit a driver to complete a passing maneuver without colliding with an opposing vehicle and without cutting off the passed vehicle. The passing sight distance will also allow the driver to successfully abort the passing maneuver (that is, return to the right lane behind the vehicle being passed) if he or she so desires. In determining minimum passing sight distances for design purposes, only single passes (that is, a single vehicle passing a single vehicle) are considered. Although it is possible for multiple passing maneuvers to occur (that is, more than one vehicle pass or are passed in one maneuver), it is not practical for minimum design criteria to be based on them.
+\section{Review Problems}
 
