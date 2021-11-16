@@ -1,3 +1,21 @@
 \contentsline {chapter}{\numberline {1}Transportation System}{1}{}%
 \contentsline {section}{\numberline {1.1}Introduction}{1}{}%
 \contentsline {section}{\numberline {1.2}History of Transportation}{1}{}%
+\contentsline {section}{\numberline {1.3}Transportation Sector and Modes of Transportation}{4}{}%
+\contentsline {subsection}{\numberline {1.3.1}Transportation Sector}{4}{}%
+\contentsline {subsection}{\numberline {1.3.2}Modes of Transportation}{4}{}%
+\contentsline {section}{\numberline {1.4}Factors influencing Transport Operations}{6}{}%
+\contentsline {subsection}{\numberline {1.4.1}Driver Characteristics}{6}{}%
+\contentsline {subsubsection}{The Human Response Process}{6}{}%
+\contentsline {paragraph}{Visual Reception}{6}{}%
+\contentsline {subparagraph}{1. Visual Acuity}{6}{}%
+\contentsline {subparagraph}{2. Peripheral Vision}{7}{}%
+\contentsline {subparagraph}{3. Color Vision}{8}{}%
+\contentsline {subparagraph}{4. Glare Vision and Recovery}{8}{}%
+\contentsline {subparagraph}{5. Depth Perception}{8}{}%
+\contentsline {subsubsection}{Perception-Reaction Process}{9}{}%
+\contentsline {subsection}{\numberline {1.4.2}Vehicle Characteristics}{10}{}%
+\contentsline {subsubsection}{Static characteristics}{11}{}%
+\contentsline {subsubsection}{Kinematic Characteristics}{13}{}%
+\contentsline {paragraph}{Case 1: Acceleration is constant}{14}{}%
+\contentsline {paragraph}{Case 2: Acceleration is the funciton of velocity}{14}{}%
