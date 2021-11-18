@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  17 NOV 2021 00:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  18 NOV 2021 23:31
 entering extended mode
 **./main.tex
 (main.tex
@@ -642,64 +642,156 @@ Chapter 2.
 
 ]
 Chapter 3.
-) [25]
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+<gfx/fig11.png, id=132, 387.69844pt x 289.83281pt>
+File: gfx/fig11.png Graphic file (type png)
+<use gfx/fig11.png>
+Package pdftex.def Info: gfx/fig11.png  used on input line 31.
+(pdftex.def)             Requested size: 387.69748pt x 289.83209pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+
+ []
+
+
+Overfull \hbox (27.69748pt too wide) in paragraph at lines 30--33
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+
+ []
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 38--46
+
+ []
+
+
+Overfull \hbox (2.14131pt too wide) in paragraph at lines 38--46
+\OT1/cmr/m/n/10.95 a-tors for con-struc-tion of in-fras-truc-ture and ac-quir-i
+ng the rolling stock/vehicle
+ []
+
+[28 <./gfx/fig11.png>]
+<gfx/fig12.png, id=141, 319.94531pt x 157.33781pt>
+File: gfx/fig12.png Graphic file (type png)
+<use gfx/fig12.png>
+Package pdftex.def Info: gfx/fig12.png  used on input line 48.
+(pdftex.def)             Requested size: 319.94452pt x 157.33742pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+[29 <./gfx/fig12.png>]) [30]
 \openout2 = `mainmatter/ch4.aux'.
 
- (mainmatter/ch4.tex [26
+ (mainmatter/ch4.tex
+Chapter 4.
+) [31
 
 
 
 
 ]
-Chapter 4.
-) [27]
 \openout2 = `mainmatter/ch5.aux'.
 
- (mainmatter/ch5.tex [28
+ (mainmatter/ch5.tex [32
 
 
 
 
 ]
 Chapter 5.
-) [29]
+) [33]
 \openout2 = `mainmatter/ch6.aux'.
 
- (mainmatter/ch6.tex [30
+ (mainmatter/ch6.tex [34
 
 
 
 
 ]
 Chapter 6.
-) [31]
+) [35]
 \openout2 = `mainmatter/ch7.aux'.
 
- (mainmatter/ch7.tex [32
+ (mainmatter/ch7.tex [36
 
 
 
 
 ]
 Chapter 7.
-) [33]
+) [37]
 \openout2 = `mainmatter/ch8.aux'.
 
- (mainmatter/ch8.tex [34
+ (mainmatter/ch8.tex [38
 
 
 
 
 ]
 Chapter 8.
-) [35] (main.aux (mainmatter/ch1.aux) (mainmatter/ch2.aux) (mainmatter/ch3.aux)
+) [39] (main.aux (mainmatter/ch1.aux) (mainmatter/ch2.aux) (mainmatter/ch3.aux)
 (mainmatter/ch4.aux) (mainmatter/ch5.aux) (mainmatter/ch6.aux)
 (mainmatter/ch7.aux) (mainmatter/ch8.aux)) ) 
 Here is how much of TeX's memory you used:
- 3467 strings out of 478699
- 58426 string characters out of 2847435
- 353893 words of memory out of 3000000
- 21462 multiletter control sequences out of 15000+600000
+ 3482 strings out of 478699
+ 58674 string characters out of 2847435
+ 353904 words of memory out of 3000000
+ 21475 multiletter control sequences out of 15000+600000
  413753 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,10n,65p,2365b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -723,9 +815,9 @@ ell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/
 Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.
 pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/sy
 mbols/msam10.pfb>
-Output written on main.pdf (39 pages, 711034 bytes).
+Output written on main.pdf (43 pages, 749588 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
+ 250 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
