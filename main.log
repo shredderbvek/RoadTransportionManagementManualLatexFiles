@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  18 NOV 2021 23:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  19 NOV 2021 23:57
 entering extended mode
 **./main.tex
 (main.tex
@@ -216,13 +216,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {C:/Users/Dell/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2
 
-] (main.toc)
+] (main.toc
+[3])
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
-[3] [4
-
-]
+ [4]
 \openout2 = `mainmatter/ch1.aux'.
 
  (mainmatter/ch1.tex
@@ -234,6 +233,7 @@ Overfull \hbox (4.57166pt too wide) in paragraph at lines 12--13
  []
 
 [1
+
 
 
 ]
@@ -275,7 +275,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--53
 
  []
 
-<gfx/fig1.png, id=30, 357.58594pt x 182.93344pt>
+<gfx/fig1.png, id=31, 357.58594pt x 182.93344pt>
 File: gfx/fig1.png Graphic file (type png)
 <use gfx/fig1.png>
 Package pdftex.def Info: gfx/fig1.png  used on input line 62.
@@ -286,7 +286,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--63
  []
 
 [4]
-<gfx/fig2.png, id=35, 350.81062pt x 179.16937pt>
+<gfx/fig2.png, id=36, 350.81062pt x 179.16937pt>
 File: gfx/fig2.png Graphic file (type png)
 <use gfx/fig2.png>
 Package pdftex.def Info: gfx/fig2.png  used on input line 68.
@@ -331,7 +331,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--84
  []
 
 [6]
-<gfx/fig3.png, id=44, 753.81625pt x 230.8625pt>
+<gfx/fig3.png, id=45, 753.81625pt x 230.8625pt>
 File: gfx/fig3.png Graphic file (type png)
 <use gfx/fig3.png>
 Package pdftex.def Info: gfx/fig3.png  used on input line 95.
@@ -734,65 +734,252 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
-[29 <./gfx/fig12.png>]) [30]
+[29 <./gfx/fig12.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+
+ []
+
+<gfx/fig13.png, id=146, 287.57437pt x 187.45032pt>
+File: gfx/fig13.png Graphic file (type png)
+<use gfx/fig13.png>
+Package pdftex.def Info: gfx/fig13.png  used on input line 79.
+(pdftex.def)             Requested size: 287.57367pt x 187.44984pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
+
+ []
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+
+Overfull \hbox (2.0703pt too wide) in paragraph at lines 86--89
+\OT1/cmr/m/n/10.95 sumer and pro-ducer sur-plus. The for-mer ap-pears when the 
+users|passengers
+ []
+
+[31 <./gfx/fig13.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--118
+
+ []
+
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 120--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--138
+
+ []
+
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--148
+
+ []
+
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+
+Overfull \hbox (22.56pt too wide) in paragraph at lines 171--174
+\OT1/cmr/m/it/10.95 Example #2: Com-put-ing the Toll to Max-i-mize Rev-enue Us-
+ing a Sup-ply|Demand
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--174
+
+ []
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 175--180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--193
+
+ []
+
+) [37]
 \openout2 = `mainmatter/ch4.aux'.
 
- (mainmatter/ch4.tex
-Chapter 4.
-) [31
+ (mainmatter/ch4.tex [38
 
 
 
 
 ]
+Chapter 4.
+) [39]
 \openout2 = `mainmatter/ch5.aux'.
 
- (mainmatter/ch5.tex [32
+ (mainmatter/ch5.tex [40
 
 
 
 
 ]
 Chapter 5.
-) [33]
+) [41]
 \openout2 = `mainmatter/ch6.aux'.
 
- (mainmatter/ch6.tex [34
+ (mainmatter/ch6.tex [42
 
 
 
 
 ]
 Chapter 6.
-) [35]
+) [43]
 \openout2 = `mainmatter/ch7.aux'.
 
- (mainmatter/ch7.tex [36
+ (mainmatter/ch7.tex [44
 
 
 
 
 ]
 Chapter 7.
-) [37]
+) [45]
 \openout2 = `mainmatter/ch8.aux'.
 
- (mainmatter/ch8.tex [38
+ (mainmatter/ch8.tex [46
 
 
 
 
 ]
 Chapter 8.
-) [39] (main.aux (mainmatter/ch1.aux) (mainmatter/ch2.aux) (mainmatter/ch3.aux)
+) [47] (main.aux (mainmatter/ch1.aux) (mainmatter/ch2.aux) (mainmatter/ch3.aux)
 (mainmatter/ch4.aux) (mainmatter/ch5.aux) (mainmatter/ch6.aux)
 (mainmatter/ch7.aux) (mainmatter/ch8.aux)) ) 
 Here is how much of TeX's memory you used:
- 3482 strings out of 478699
- 58674 string characters out of 2847435
+ 3491 strings out of 478699
+ 58822 string characters out of 2847435
  353904 words of memory out of 3000000
- 21475 multiletter control sequences out of 15000+600000
- 413753 words of font info for 64 fonts, out of 8000000 for 9000
+ 21483 multiletter control sequences out of 15000+600000
+ 414112 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,10n,65p,2365b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\Dell\AppData\Local\MiKTe
@@ -815,9 +1002,9 @@ ell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/
 Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.
 pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/sy
 mbols/msam10.pfb>
-Output written on main.pdf (43 pages, 749588 bytes).
+Output written on main.pdf (51 pages, 794458 bytes).
 PDF statistics:
- 250 PDF objects out of 1000 (max. 8388607)
+ 279 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
