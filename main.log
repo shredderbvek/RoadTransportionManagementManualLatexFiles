@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  19 NOV 2021 23:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  20 NOV 2021 17:11
 entering extended mode
 **./main.tex
 (main.tex
@@ -931,57 +931,193 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--193
 
 ]
 Chapter 4.
-) [39]
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
+
+ []
+
+
+Overfull \hbox (6.70479pt too wide) in paragraph at lines 23--31
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
+
+ []
+
+
+Overfull \hbox (59.59674pt too wide) in paragraph at lines 35--38
+\OT1/cmr/m/n/10.95 SD = $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
+
+ []
+
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+[43]
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
+
+ []
+
+[44]
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+[45]
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+
+ []
+
+[46]
+Overfull \hbox (20.02298pt too wide) in paragraph at lines 122--122
+[]\OT1/cmr/bx/n/14.4 Readings from In-sur-ance Reg-u-la-tion, 2049 (1993) 
+ []
+
+[47] [48] [49] [50]
+Overfull \hbox (1.5709pt too wide) in paragraph at lines 233--233
+[]\OT1/cmr/bx/n/12 Provisions re-lat-ing to pay-ment against In-sur-ance Claim 
+
+ []
+
+[51]) [52]
 \openout2 = `mainmatter/ch5.aux'.
 
- (mainmatter/ch5.tex [40
+ (mainmatter/ch5.tex
+Chapter 5.
+) [53
 
 
 
 
 ]
-Chapter 5.
-) [41]
 \openout2 = `mainmatter/ch6.aux'.
 
- (mainmatter/ch6.tex [42
+ (mainmatter/ch6.tex [54
 
 
 
 
 ]
 Chapter 6.
-) [43]
+) [55]
 \openout2 = `mainmatter/ch7.aux'.
 
- (mainmatter/ch7.tex [44
+ (mainmatter/ch7.tex [56
 
 
 
 
 ]
 Chapter 7.
-) [45]
+) [57]
 \openout2 = `mainmatter/ch8.aux'.
 
- (mainmatter/ch8.tex [46
+ (mainmatter/ch8.tex [58
 
 
 
 
 ]
 Chapter 8.
-) [47] (main.aux (mainmatter/ch1.aux) (mainmatter/ch2.aux) (mainmatter/ch3.aux)
+) [59] (main.aux (mainmatter/ch1.aux) (mainmatter/ch2.aux) (mainmatter/ch3.aux)
 (mainmatter/ch4.aux) (mainmatter/ch5.aux) (mainmatter/ch6.aux)
 (mainmatter/ch7.aux) (mainmatter/ch8.aux)) ) 
 Here is how much of TeX's memory you used:
- 3491 strings out of 478699
- 58822 string characters out of 2847435
+ 3492 strings out of 478699
+ 58840 string characters out of 2847435
  353904 words of memory out of 3000000
- 21483 multiletter control sequences out of 15000+600000
+ 21484 multiletter control sequences out of 15000+600000
  414112 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,10n,65p,2365b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,10n,65p,2365b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\Dell\AppData\Local\MiKTe
 X\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/Dell/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Dell/AppData
@@ -1001,10 +1137,11 @@ ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/D
 ell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/
 Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.
 pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/sy
-mbols/msam10.pfb>
-Output written on main.pdf (51 pages, 794458 bytes).
+mbols/msam10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (63 pages, 839216 bytes).
 PDF statistics:
- 279 PDF objects out of 1000 (max. 8388607)
+ 323 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
