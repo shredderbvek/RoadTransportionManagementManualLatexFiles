@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  20 NOV 2021 17:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  21 NOV 2021 22:32
 entering extended mode
 **./main.tex
 (main.tex
@@ -1072,49 +1072,117 @@ Overfull \hbox (1.5709pt too wide) in paragraph at lines 233--233
 
  (mainmatter/ch5.tex
 Chapter 5.
-) [53
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+[53
 
 
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
+
+ []
+
+[54]
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+[55]
+Overfull \hbox (11.28311pt too wide) in paragraph at lines 53--53
+[]\OT1/cmr/bx/n/14.4 Number of Pas-sen-gers Ver-sus Num-ber of Served
+ []
+
+<gfx/fig15.png, id=231, 307.1475pt x 225.09094pt>
+File: gfx/fig15.png Graphic file (type png)
+<use gfx/fig15.png>
+Package pdftex.def Info: gfx/fig15.png  used on input line 57.
+(pdftex.def)             Requested size: 307.14674pt x 225.09038pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56]
+Underfull \hbox (badness 10000) in paragraph at lines 60--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--62
+
+ []
+
+<gfx/fig16.png, id=235, 439.6425pt x 95.6072pt>
+File: gfx/fig16.png Graphic file (type png)
+<use gfx/fig16.png>
+Package pdftex.def Info: gfx/fig16.png  used on input line 64.
+(pdftex.def)             Requested size: 351.71446pt x 76.48584pt.
+<gfx/fig17.png, id=236, 317.68687pt x 162.6075pt>
+File: gfx/fig17.png Graphic file (type png)
+<use gfx/fig17.png>
+Package pdftex.def Info: gfx/fig17.png  used on input line 65.
+(pdftex.def)             Requested size: 317.68608pt x 162.6071pt.
+)
+Underfull \vbox (badness 2343) has occurred while \output is active []
+
+
+Overfull \hbox (40.09795pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10.95 5.2.  NUMBER OF PASSENGERS VERSUS NUMBER OF SERVED VEHICLES
+ \OT1/cmr/m/n/10.95 57
+ []
+
+[57 <./gfx/fig15.png> <./gfx/fig16.png>] [58 <./gfx/fig17.png>]
 \openout2 = `mainmatter/ch6.aux'.
 
- (mainmatter/ch6.tex [54
+
+(mainmatter/ch6.tex
+Chapter 6.
+) [59
 
 
 
 
 ]
-Chapter 6.
-) [55]
 \openout2 = `mainmatter/ch7.aux'.
 
- (mainmatter/ch7.tex [56
+ (mainmatter/ch7.tex [60
 
 
 
 
 ]
 Chapter 7.
-) [57]
+) [61]
 \openout2 = `mainmatter/ch8.aux'.
 
- (mainmatter/ch8.tex [58
+ (mainmatter/ch8.tex [62
 
 
 
 
 ]
 Chapter 8.
-) [59] (main.aux (mainmatter/ch1.aux) (mainmatter/ch2.aux) (mainmatter/ch3.aux)
+) [63] (main.aux (mainmatter/ch1.aux) (mainmatter/ch2.aux) (mainmatter/ch3.aux)
 (mainmatter/ch4.aux) (mainmatter/ch5.aux) (mainmatter/ch6.aux)
 (mainmatter/ch7.aux) (mainmatter/ch8.aux)) ) 
 Here is how much of TeX's memory you used:
- 3492 strings out of 478699
- 58840 string characters out of 2847435
+ 3513 strings out of 478699
+ 59194 string characters out of 2847435
  353904 words of memory out of 3000000
- 21484 multiletter control sequences out of 15000+600000
+ 21502 multiletter control sequences out of 15000+600000
  414112 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,10n,65p,2365b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1139,9 +1207,9 @@ Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.
 pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/sy
 mbols/msam10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (63 pages, 839216 bytes).
+Output written on main.pdf (67 pages, 896227 bytes).
 PDF statistics:
- 323 PDF objects out of 1000 (max. 8388607)
+ 342 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

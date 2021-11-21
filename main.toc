@@ -84,6 +84,14 @@
 \contentsline {subsubsection}{Process of payment against Non-Life Insurance Claim}{52}{}%
 \contentsline {section}{\numberline {4.6}Review Problems}{52}{}%
 \contentsline {chapter}{\numberline {5}Passenger Transport Operation}{53}{}%
-\contentsline {chapter}{\numberline {6}Freight Transport Operation}{55}{}%
-\contentsline {chapter}{\numberline {7}Fuel Consumption and Emission Models}{57}{}%
-\contentsline {chapter}{\numberline {8}Planning for New Transport Organization}{59}{}%
+\contentsline {section}{\numberline {5.1}Public Transportation}{53}{}%
+\contentsline {subsection}{\numberline {5.1.1}Transit Modes}{53}{}%
+\contentsline {subsection}{\numberline {5.1.2}Transit Capacity and Level of Service}{53}{}%
+\contentsline {subsection}{\numberline {5.1.3}The Role and Future of Public Transportation}{55}{}%
+\contentsline {subsubsection}{Factors Bad for Transit}{55}{}%
+\contentsline {subsubsection}{Factors Good for Transit}{56}{}%
+\contentsline {section}{\numberline {5.2}Number of Passengers Versus Number of Served Vehicles}{56}{}%
+\contentsline {subsection}{\numberline {5.2.1}A Hypothetical Case Study}{57}{}%
+\contentsline {chapter}{\numberline {6}Freight Transport Operation}{59}{}%
+\contentsline {chapter}{\numberline {7}Fuel Consumption and Emission Models}{61}{}%
+\contentsline {chapter}{\numberline {8}Planning for New Transport Organization}{63}{}%
