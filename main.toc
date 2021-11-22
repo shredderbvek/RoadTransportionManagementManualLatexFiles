@@ -91,7 +91,20 @@
 \contentsline {subsubsection}{Factors Bad for Transit}{55}{}%
 \contentsline {subsubsection}{Factors Good for Transit}{56}{}%
 \contentsline {section}{\numberline {5.2}Number of Passengers Versus Number of Served Vehicles}{56}{}%
-\contentsline {subsection}{\numberline {5.2.1}A Hypothetical Case Study}{57}{}%
-\contentsline {chapter}{\numberline {6}Freight Transport Operation}{59}{}%
-\contentsline {chapter}{\numberline {7}Fuel Consumption and Emission Models}{61}{}%
-\contentsline {chapter}{\numberline {8}Planning for New Transport Organization}{63}{}%
+\contentsline {subsection}{\numberline {5.2.1}A Hypothetical Case Study}{56}{}%
+\contentsline {section}{\numberline {5.3}Passenger Flows in Public Transportation}{58}{}%
+\contentsline {section}{\numberline {5.4}Passenger Flows Along a Transit Line}{59}{}%
+\contentsline {section}{\numberline {5.5}Service Frequency and Headways}{61}{}%
+\contentsline {subsection}{\numberline {5.5.1}The Maximum Service Frequency}{62}{}%
+\contentsline {subsection}{\numberline {5.5.2}Passenger Waiting Time}{63}{}%
+\contentsline {subsection}{\numberline {5.5.3}Headway Determination by "Square Root Formula" }{64}{}%
+\contentsline {subsection}{\numberline {5.5.4}Headway Determination by Maximum Load Method}{66}{}%
+\contentsline {section}{\numberline {5.6}Time Table}{67}{}%
+\contentsline {section}{\numberline {5.7}Transit Line Capacity}{69}{}%
+\contentsline {subsection}{\numberline {5.7.1}Transit Line Capacity Utilization}{71}{}%
+\contentsline {section}{\numberline {5.8}Optimal Paths in Transportation Networks}{73}{}%
+\contentsline {subsection}{\numberline {5.8.1}Dijkstra's Shortest Path Algorithm}{73}{}%
+\contentsline {section}{\numberline {5.9}Review Problems}{76}{}%
+\contentsline {chapter}{\numberline {6}Freight Transport Operation}{79}{}%
+\contentsline {chapter}{\numberline {7}Fuel Consumption and Emission Models}{81}{}%
+\contentsline {chapter}{\numberline {8}Planning for New Transport Organization}{83}{}%

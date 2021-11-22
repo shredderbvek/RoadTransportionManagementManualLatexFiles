@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  21 NOV 2021 22:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  22 NOV 2021 18:16
 entering extended mode
 **./main.tex
 (main.tex
@@ -115,9 +115,10 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))) (C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.
-sty
+))
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
 Package: mathtools 2021/04/12 v1.27 mathematical typesetting tools
+
 (C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count270
@@ -149,12 +150,25 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \l_MT_below_shortintertext_sep=\dimen158
 \xmathstrut@box=\box52
 \xmathstrut@dim=\dimen159
+)) (C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks22
+\footnotemargin=\dimen160
+\c@pp@next@reset=\count274
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
 )
 (frontmatter/title.tex)
 (C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
 ex.def
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count274
+\l__color_backend_stack_int=\count275
 \l__pdf_internal_box=\box53
 ) (main.aux (mainmatter/ch1.aux) (mainmatter/ch2.aux) (mainmatter/ch3.aux) (mai
 nmatter/ch4.aux) (mainmatter/ch5.aux) (mainmatter/ch6.aux)
@@ -179,23 +193,59 @@ LaTeX Font Info:    ... okay on input line 4.
 (C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
 i
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count275
-\scratchdimen=\dimen160
+\scratchcounter=\count276
+\scratchdimen=\dimen161
 \scratchbox=\box54
-\nofMPsegments=\count276
-\nofMParguments=\count277
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count278
-\MPscratchDim=\dimen161
-\MPnumerator=\count279
-\makeMPintoPDFobject=\count280
-\everyMPtoPDFconversion=\toks23
+\nofMPsegments=\count277
+\nofMParguments=\count278
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count279
+\MPscratchDim=\dimen162
+\MPnumerator=\count280
+\makeMPintoPDFobject=\count281
+\everyMPtoPDFconversion=\toks24
 )
 (C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
 se.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.st
+y
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinek
+eys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.st
+y
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.
+sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+ (C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cf
 g
@@ -217,11 +267,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {C:/Users/Dell/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2
 
 ] (main.toc
-[3])
+[3] [4])
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [4]
+ [5] [6
+
+]
 \openout2 = `mainmatter/ch1.aux'.
 
  (mainmatter/ch1.tex
@@ -233,7 +285,6 @@ Overfull \hbox (4.57166pt too wide) in paragraph at lines 12--13
  []
 
 [1
-
 
 
 ]
@@ -275,7 +326,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--53
 
  []
 
-<gfx/fig1.png, id=31, 357.58594pt x 182.93344pt>
+<gfx/fig1.png, id=37, 357.58594pt x 182.93344pt>
 File: gfx/fig1.png Graphic file (type png)
 <use gfx/fig1.png>
 Package pdftex.def Info: gfx/fig1.png  used on input line 62.
@@ -286,7 +337,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--63
  []
 
 [4]
-<gfx/fig2.png, id=36, 350.81062pt x 179.16937pt>
+<gfx/fig2.png, id=42, 350.81062pt x 179.16937pt>
 File: gfx/fig2.png Graphic file (type png)
 <use gfx/fig2.png>
 Package pdftex.def Info: gfx/fig2.png  used on input line 68.
@@ -331,7 +382,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--84
  []
 
 [6]
-<gfx/fig3.png, id=45, 753.81625pt x 230.8625pt>
+<gfx/fig3.png, id=51, 753.81625pt x 230.8625pt>
 File: gfx/fig3.png Graphic file (type png)
 <use gfx/fig3.png>
 Package pdftex.def Info: gfx/fig3.png  used on input line 95.
@@ -396,7 +447,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
-<gfx/fig4.png, id=57, 380.17032pt x 212.29312pt>
+<gfx/fig4.png, id=64, 380.17032pt x 212.29312pt>
 File: gfx/fig4.png Graphic file (type png)
 <use gfx/fig4.png>
 Package pdftex.def Info: gfx/fig4.png  used on input line 139.
@@ -430,7 +481,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--146
 Underfull \vbox (badness 1824) has occurred while \output is active []
 
  [10 <./gfx/fig4.png>]
-<gfx/fig5.png, id=66, 385.44pt x 229.60782pt>
+<gfx/fig5.png, id=72, 385.44pt x 229.60782pt>
 File: gfx/fig5.png Graphic file (type png)
 <use gfx/fig5.png>
 Package pdftex.def Info: gfx/fig5.png  used on input line 149.
@@ -460,7 +511,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--162
 
  []
 
-<gfx/fig6.png, id=72, 384.6872pt x 308.65312pt>
+<gfx/fig6.png, id=78, 384.6872pt x 308.65312pt>
 File: gfx/fig6.png Graphic file (type png)
 <use gfx/fig6.png>
 Package pdftex.def Info: gfx/fig6.png  used on input line 176.
@@ -529,7 +580,7 @@ mm/m/it/10.95 t \OMS/cmsy/m/n/10.95   []\OT1/cmr/m/n/10.95 (1 \OMS/cmsy/m/n/10.
 OML/cmm/m/it/10.95 e[]\OT1/cmr/m/n/10.95 )
  []
 
-<gfx/fig7.png, id=86, 724.7075pt x 803.0pt>
+<gfx/fig7.png, id=93, 724.7075pt x 803.0pt>
 File: gfx/fig7.png Graphic file (type png)
 <use gfx/fig7.png>
 Package pdftex.def Info: gfx/fig7.png  used on input line 246.
@@ -545,7 +596,7 @@ Overfull \hbox (2.35286pt too wide) in paragraph at lines 244--247
  []
 
 [15 <./gfx/fig7.png (PNG copy)>]
-<gfx/fig8.png, id=92, 469.755pt x 328.22626pt>
+<gfx/fig8.png, id=98, 469.755pt x 328.22626pt>
 File: gfx/fig8.png Graphic file (type png)
 <use gfx/fig8.png>
 Package pdftex.def Info: gfx/fig8.png  used on input line 264.
@@ -583,13 +634,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 282--290
 
  []
 
-<gfx/fig9.png, id=100, 389.95688pt x 153.57375pt>
+<gfx/fig9.png, id=106, 389.95688pt x 153.57375pt>
 File: gfx/fig9.png Graphic file (type png)
 <use gfx/fig9.png>
 Package pdftex.def Info: gfx/fig9.png  used on input line 303.
 (pdftex.def)             Requested size: 350.95793pt x 138.21509pt.
 [18]
-<gfx/fig10.png, id=104, 614.295pt x 645.41125pt>
+<gfx/fig10.png, id=110, 614.295pt x 645.41125pt>
 File: gfx/fig10.png Graphic file (type png)
 <use gfx/fig10.png>
 Package pdftex.def Info: gfx/fig10.png  used on input line 313.
@@ -682,7 +733,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-<gfx/fig11.png, id=132, 387.69844pt x 289.83281pt>
+<gfx/fig11.png, id=139, 387.69844pt x 289.83281pt>
 File: gfx/fig11.png Graphic file (type png)
 <use gfx/fig11.png>
 Package pdftex.def Info: gfx/fig11.png  used on input line 31.
@@ -714,7 +765,7 @@ ng the rolling stock/vehicle
  []
 
 [28 <./gfx/fig11.png>]
-<gfx/fig12.png, id=141, 319.94531pt x 157.33781pt>
+<gfx/fig12.png, id=147, 319.94531pt x 157.33781pt>
 File: gfx/fig12.png Graphic file (type png)
 <use gfx/fig12.png>
 Package pdftex.def Info: gfx/fig12.png  used on input line 48.
@@ -764,7 +815,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--78
 
  []
 
-<gfx/fig13.png, id=146, 287.57437pt x 187.45032pt>
+<gfx/fig13.png, id=152, 287.57437pt x 187.45032pt>
 File: gfx/fig13.png Graphic file (type png)
 <use gfx/fig13.png>
 Package pdftex.def Info: gfx/fig13.png  used on input line 79.
@@ -1102,41 +1153,59 @@ Overfull \hbox (11.28311pt too wide) in paragraph at lines 53--53
 []\OT1/cmr/bx/n/14.4 Number of Pas-sen-gers Ver-sus Num-ber of Served
  []
 
-<gfx/fig15.png, id=231, 307.1475pt x 225.09094pt>
+<gfx/fig15.png, id=238, 307.1475pt x 225.09094pt>
 File: gfx/fig15.png Graphic file (type png)
 <use gfx/fig15.png>
-Package pdftex.def Info: gfx/fig15.png  used on input line 57.
-(pdftex.def)             Requested size: 307.14674pt x 225.09038pt.
+Package pdftex.def Info: gfx/fig15.png  used on input line 58.
+(pdftex.def)             Requested size: 245.71832pt x 180.07298pt.
+<gfx/fig16.png, id=239, 439.6425pt x 95.6072pt>
+File: gfx/fig16.png Graphic file (type png)
+<use gfx/fig16.png>
+Package pdftex.def Info: gfx/fig16.png  used on input line 62.
+(pdftex.def)             Requested size: 351.71446pt x 76.48584pt.
+<gfx/fig17.png, id=240, 317.68687pt x 162.6075pt>
+File: gfx/fig17.png Graphic file (type png)
+<use gfx/fig17.png>
+Package pdftex.def Info: gfx/fig17.png  used on input line 63.
+(pdftex.def)             Requested size: 254.14983pt x 130.08617pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--59
+Underfull \hbox (badness 10000) in paragraph at lines 57--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--67
+
+ []
+
+[56]
+<gfx/fig18.png, id=244, 316.93407pt x 173.14688pt>
+File: gfx/fig18.png Graphic file (type png)
+<use gfx/fig18.png>
+Package pdftex.def Info: gfx/fig18.png  used on input line 69.
+(pdftex.def)             Requested size: 316.93329pt x 173.14645pt.
+<gfx/fig19.png, id=245, 322.20375pt x 186.6975pt>
+File: gfx/fig19.png Graphic file (type png)
+<use gfx/fig19.png>
+Package pdftex.def Info: gfx/fig19.png  used on input line 71.
+(pdftex.def)             Requested size: 322.20296pt x 186.69704pt.
+<gfx/fig20.png, id=246, 360.59718pt x 219.82124pt>
+File: gfx/fig20.png Graphic file (type png)
+<use gfx/fig20.png>
+Package pdftex.def Info: gfx/fig20.png  used on input line 73.
+(pdftex.def)             Requested size: 360.5963pt x 219.8207pt.
+
+Overfull \hbox (0.5963pt too wide) in paragraph at lines 68--75
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--75
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [56]
-Underfull \hbox (badness 10000) in paragraph at lines 60--62
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--62
-
- []
-
-<gfx/fig16.png, id=235, 439.6425pt x 95.6072pt>
-File: gfx/fig16.png Graphic file (type png)
-<use gfx/fig16.png>
-Package pdftex.def Info: gfx/fig16.png  used on input line 64.
-(pdftex.def)             Requested size: 351.71446pt x 76.48584pt.
-<gfx/fig17.png, id=236, 317.68687pt x 162.6075pt>
-File: gfx/fig17.png Graphic file (type png)
-<use gfx/fig17.png>
-Package pdftex.def Info: gfx/fig17.png  used on input line 65.
-(pdftex.def)             Requested size: 317.68608pt x 162.6071pt.
-)
-Underfull \vbox (badness 2343) has occurred while \output is active []
 
 
 Overfull \hbox (40.09795pt too wide) has occurred while \output is active
@@ -1144,48 +1213,508 @@ Overfull \hbox (40.09795pt too wide) has occurred while \output is active
  \OT1/cmr/m/n/10.95 57
  []
 
-[57 <./gfx/fig15.png> <./gfx/fig16.png>] [58 <./gfx/fig17.png>]
+[57 <./gfx/fig15.png> <./gfx/fig16.png> <./gfx/fig17.png>] [58 <./gfx/fig18.png
+> <./gfx/fig19.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+<gfx/fig21.png, id=258, 283.81032pt x 189.70876pt>
+File: gfx/fig21.png Graphic file (type png)
+<use gfx/fig21.png>
+Package pdftex.def Info: gfx/fig21.png  used on input line 81.
+(pdftex.def)             Requested size: 283.80962pt x 189.70828pt.
+<gfx/fig23.png, id=259, 370.38374pt x 115.93312pt>
+File: gfx/fig23.png Graphic file (type png)
+<use gfx/fig23.png>
+Package pdftex.def Info: gfx/fig23.png  used on input line 82.
+(pdftex.def)             Requested size: 370.38283pt x 115.93283pt.
+<gfx/fig22.png, id=260, 241.65282pt x 185.94469pt>
+File: gfx/fig22.png Graphic file (type png)
+<use gfx/fig22.png>
+Package pdftex.def Info: gfx/fig22.png  used on input line 87.
+(pdftex.def)             Requested size: 241.65222pt x 185.94421pt.
+
+Overfull \hbox (10.38283pt too wide) in paragraph at lines 80--89
+[] 
+ []
+
+
+Overfull \hbox (24.39592pt too wide) in paragraph at lines 80--89
+\OT1/cmr/m/n/10.95 24, 21, 11, and 5. The max-i-mum pas-sen-ger vol-ume equals 
+max $[] =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--89
+
+ []
+
+[59 <./gfx/fig20.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60 <./gfx/fig21.png> <./gfx/fig23.png>]
+<gfx/fig24.png, id=270, 302.63063pt x 170.13562pt>
+File: gfx/fig24.png Graphic file (type png)
+<use gfx/fig24.png>
+Package pdftex.def Info: gfx/fig24.png  used on input line 91.
+(pdftex.def)             Requested size: 302.62988pt x 170.1352pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--94
+
+ []
+
+[61 <./gfx/fig22.png> <./gfx/fig24.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 108--113
+
+ []
+
+[62]
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
+
+ []
+
+[63]
+<gfx/fig25.png, id=283, 347.04657pt x 199.49532pt>
+File: gfx/fig25.png Graphic file (type png)
+<use gfx/fig25.png>
+Package pdftex.def Info: gfx/fig25.png  used on input line 144.
+(pdftex.def)             Requested size: 347.04572pt x 199.49481pt.
+ [64 <./gfx/fig25.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 165--168
+
+ []
+
+<gfx/fig26.png, id=288, 322.95656pt x 191.9672pt>
+File: gfx/fig26.png Graphic file (type png)
+<use gfx/fig26.png>
+Package pdftex.def Info: gfx/fig26.png  used on input line 172.
+(pdftex.def)             Requested size: 322.95576pt x 191.96672pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--178
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--178
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--178
+
+ []
+
+[65 <./gfx/fig26.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 179--182
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--182
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--191
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--191
+
+ []
+
+[66]
+<gfx/fig27.png, id=296, 321.45094pt x 259.7203pt>
+File: gfx/fig27.png Graphic file (type png)
+<use gfx/fig27.png>
+Package pdftex.def Info: gfx/fig27.png  used on input line 198.
+(pdftex.def)             Requested size: 321.45015pt x 259.71967pt.
+<gfx/fig28.png, id=297, 325.96782pt x 261.22594pt>
+File: gfx/fig28.png Graphic file (type png)
+<use gfx/fig28.png>
+Package pdftex.def Info: gfx/fig28.png  used on input line 201.
+(pdftex.def)             Requested size: 325.96701pt x 261.22528pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--206
+
+ []
+
+
+Overfull \hbox (2.35425pt too wide) in paragraph at lines 196--206
+\OT1/cmr/m/n/10.95 ansit op-er-a-tor's timetable con-tains in-for-ma-tion about
+ ve-hi-cle de-par-ture times
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--206
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--206
+
+ []
+
+[67 <./gfx/fig27.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [68 <./gfx/fig28.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 207--211
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--211
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--229
+
+ []
+
+[69]
+Underfull \hbox (badness 10000) in paragraph at lines 233--251
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--251
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--251
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--251
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--251
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--251
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--251
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--251
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--251
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--251
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--251
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--251
+
+ []
+
+[70]
+<gfx/fig29.png, id=314, 314.67563pt x 180.675pt>
+File: gfx/fig29.png Graphic file (type png)
+<use gfx/fig29.png>
+Package pdftex.def Info: gfx/fig29.png  used on input line 253.
+(pdftex.def)             Requested size: 314.67485pt x 180.67455pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--255
+
+ []
+
+<gfx/fig30.png, id=315, 355.3275pt x 259.7203pt>
+File: gfx/fig30.png Graphic file (type png)
+<use gfx/fig30.png>
+Package pdftex.def Info: gfx/fig30.png  used on input line 266.
+(pdftex.def)             Requested size: 355.32661pt x 259.71967pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--283
+
+ []
+
+[71 <./gfx/fig29.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [72 <./gfx/fig30.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 284--287
+
+ []
+
+[73]
+<gfx/fig31.png, id=329, 478.03593pt x 228.855pt>
+File: gfx/fig31.png Graphic file (type png)
+<use gfx/fig31.png>
+Package pdftex.def Info: gfx/fig31.png  used on input line 299.
+(pdftex.def)             Requested size: 334.62286pt x 160.1974pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--392
+
+ []
+
+
+Overfull \hbox (10.22224pt too wide) in paragraph at lines 297--392
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--392
+
+ []
+
+[74 <./gfx/fig31.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [75]
+[76]) [77]
 \openout2 = `mainmatter/ch6.aux'.
 
-
-(mainmatter/ch6.tex
-Chapter 6.
-) [59
+ (mainmatter/ch6.tex [78
 
 
 
 
 ]
+Chapter 6.
+) [79]
 \openout2 = `mainmatter/ch7.aux'.
 
- (mainmatter/ch7.tex [60
+ (mainmatter/ch7.tex [80
 
 
 
 
 ]
 Chapter 7.
-) [61]
+) [81]
 \openout2 = `mainmatter/ch8.aux'.
 
- (mainmatter/ch8.tex [62
+ (mainmatter/ch8.tex [82
 
 
 
 
 ]
 Chapter 8.
-) [63] (main.aux (mainmatter/ch1.aux) (mainmatter/ch2.aux) (mainmatter/ch3.aux)
+) [83] (main.aux (mainmatter/ch1.aux) (mainmatter/ch2.aux) (mainmatter/ch3.aux)
 (mainmatter/ch4.aux) (mainmatter/ch5.aux) (mainmatter/ch6.aux)
 (mainmatter/ch7.aux) (mainmatter/ch8.aux)) ) 
 Here is how much of TeX's memory you used:
- 3513 strings out of 478699
- 59194 string characters out of 2847435
- 353904 words of memory out of 3000000
- 21502 multiletter control sequences out of 15000+600000
+ 4322 strings out of 478699
+ 75214 string characters out of 2847435
+ 397735 words of memory out of 3000000
+ 22261 multiletter control sequences out of 15000+600000
  414112 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,10n,65p,2365b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,10n,67p,2365b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\Dell\AppData\Local\MiKTe
 X\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/Dell/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Dell/AppData
@@ -1193,23 +1722,25 @@ rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Dell/AppData
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/
 Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.
 pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmmi10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi8.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmr10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Dell/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Dell/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Dell/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/Dell/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/D
-ell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/
-Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.
-pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/sy
-mbols/msam10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (67 pages, 896227 bytes).
+extra/cmex8.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmmi10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Dell/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Dell/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Dell/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Dell/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Dell
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/User
+s/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb>
+<C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
+y10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmsy8.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmti10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/symbols/msam10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (89 pages, 1336257 bytes).
 PDF statistics:
- 342 PDF objects out of 1000 (max. 8388607)
+ 450 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 151 words of extra memory for PDF output out of 10000 (max. 10000000)
 
