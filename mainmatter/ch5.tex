@@ -302,16 +302,16 @@ Assign cost value of $\infty$ for all nodes which are not directly connected to 
 \begin{tabular}{c | c| c| c| c| c| c| c| c}
 	from/To & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\
 	\hline
-	0 & 4 & $\infty$ & $\infty$& $\infty$& $\infty$& $\infty$ & 8 & $\infty$\\
+	0 & 4* & $\infty$ & $\infty$& $\infty$& $\infty$& $\infty$ & 8 & $\infty$\\
 \end{tabular}\\\\
-Since 4 < 8, we will assign node "7" as our next vertex, then:\\\\
+Since $ 4 < 8 $, we will assign node "7" as our next vertex, then:\\\\
 \begin{tabular}{c | c| c| c| c| c| c| c| c}
 	from/To & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\
 	\hline
 	0 & 4* & $\infty$ & $\infty$& $\infty$& $\infty$& $\infty$ & 8 & $\infty$\\
 	1 & - & 12 & $\infty$& $\infty$& $\infty$& $\infty$ & 8* ($\because 8 < 15$) & $\infty$\\
 \end{tabular}\\\\
-In the above step, we assigned the value 8 for node "7", because 8 < 15(computed value from node "1"). Also, in this step, since 8 < 12, we will assign node "7" as our next vertex, then:\\\\
+In the above step, we assigned the value 8 for node "7", because $ 8 < 15 $(computed value from node "1"). Also, in this step, since $ 8 < 12 $, we will assign node "7" as our next vertex, then:\\\\
 \begin{tabular}{c | c| c| c| c| c| c| c| c}
 	from/To & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\
 	\hline
@@ -319,7 +319,7 @@ In the above step, we assigned the value 8 for node "7", because 8 < 15(computed
 	1 & - & 12 & $\infty$& $\infty$& $\infty$& $\infty$ & 8* & $\infty$\\
 	7 & - & 12 & $\infty$& $\infty$& $\infty$& 9* & - & 15\\
 \end{tabular}\\\\
-In the above step, node "7" is not directly connected to node "2" and the node is not solved yet, so the value remains as it is. Since, 9 < 12 < 15, we assign node "6" as our next vertex, then:\\\\
+In the above step, node "7" is not directly connected to node "2" and the node is not solved yet, so the value remains as it is. Since, $ 9 < 12 < 15 $, we assign node "6" as our next vertex, then:\\\\
 \begin{tabular}{c | c| c| c| c| c| c| c| c}
 	from/To & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\
 	\hline
@@ -328,7 +328,7 @@ In the above step, node "7" is not directly connected to node "2" and the node i
 	7 & - & 12 & $\infty$& $\infty$& $\infty$& 9* & - & 15\\
 	6 & - & 12 & $\infty$& $\infty$& 11* & - & - & 15 \\
 \end{tabular}\\\\
-In the above step, the computed value for node "8" from node "6" was 15, since the value didn't change we set the value as it is, that is, 15. Also, 11 < 12 < 15, so we assign node "5" as our next vertex, then:\\\\
+In the above step, the computed value for node "8" from node "6" was 15, since the value didn't change we set the value as it is, that is, 15. Also, $ 11 < 12 < 15 $, so we assign node "5" as our next vertex, then:\\\\
 \begin{tabular}{c | c| c| c| c| c| c| c| c}
 	from/To & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\
 	\hline
@@ -338,7 +338,7 @@ In the above step, the computed value for node "8" from node "6" was 15, since t
 	6 & - & 12 & $\infty$& $\infty$& 11* & - & - & 15 \\
 	5 & - & 12* ($\because 12 < 15$) & 25 & 21 & - & - & - & 15 \\
 \end{tabular}\\\\
-In the above step, the computed value for node "2" from node "5" was 15, and since 12 < 15, we retain the earlier value, that is, 12. Also, 12 < 15 < 21 < 25, we assign node "2" as our next vertex, then:\\\\
+In the above step, the computed value for node "2" from node "5" was 15, and since $ 12 < 15 $, we retain the earlier value, that is, 12. Also, $ 12 < 15 < 21 < 25 $, we assign node "2" as our next vertex, then:\\\\
 \begin{tabular}{c | c| c| c| c| c| c| c| c}
 	from/To & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\
 	\hline
@@ -349,7 +349,7 @@ In the above step, the computed value for node "2" from node "5" was 15, and sin
 	5 & - & 12* & 25 & 21 & - & - & - & 15 \\
 	2 & - & - & 19 ($\because 19 < 25$)& 21 & - & - & - & 14* ($\because 14 < 15$)\\
 \end{tabular}\\\\
-in the above step, since 14 < 19 < 21, we assign node "8" as our next vertex, then:\\\\
+in the above step, since $ 14 < 19 < 21 $, we assign node "8" as our next vertex, then:\\\\
 \begin{tabular}{c | c| c| c| c| c| c| c| c}
 	from/To & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\
 	\hline
@@ -361,7 +361,7 @@ in the above step, since 14 < 19 < 21, we assign node "8" as our next vertex, th
 	2 & - & - & 19 & 21 & - & - & - & 14*\\
 	8 & - & - & 19* & 21 & - & - & - & -\\
 \end{tabular}\\\\
-In the above step, node "8" had no direct connection with either of the unsolved nodes, "3" and "4", so we resolve to assign node "3" as our next vertex as 19 < 21, then:\\\\
+In the above step, node "8" had no direct connection with either of the unsolved nodes, "3" and "4", so we resolve to assign node "3" as our next vertex as $ 19 < 21 $, then:\\\\
 \begin{tabular}{c | c| c| c| c| c| c| c| c}
 	from/To & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\
 	\hline
@@ -395,4 +395,26 @@ Hence the shortest route to reach node "4" from node "0" is 0-7-6-5-4.
 	\item List out the factors which are good and bad for transit.
 	\item Derive the expression for headway determination by "Square Root Formula".
 	\item Derive the expression for Transit Line Capacity, and use the expression to determine the average transit line utilization($\alpha$).
+	\item Let us assume that transit line parameters are respectively equal: $ c = 120\$ $ per hour, $\nu$ = 12\$ per passenger hour, $r$ = 1400 passengers per hour, and $T$ = 120 min = 2hr. Calculate the optimal headway by using the “square root formula.”
+	\item The transit operator monitored during 10 days period the daily number of passengers that departed from the station \#5. The following 10 values were recorded: 1160, 1245, 1440, 1280, 1180, 1380, 1220, 1358, 1178 and 1382. The maximum number of passengers per car is equal to 100. The transit operator would like to achieve the load factor that is equal to 0.75. Calculate the average value of the maximum daily passenger volumes. Determine the service frequency f that should be offered in order to satisfy maximum passenger volume and the desired vehicle occupancy.
+	\item The public transit line length equals 12 km in one direction. The average bus speed on a city heavy traffic equals 25 km/h. The total of 14 buses is assigned to the line. The capacity of every vehicle equals 60. Calculate the line capacity, frequency, and headway.
+	\item Calculate the shortest path from node "A" to all other nodes, and also determine the shortest route from node "A" to node "G".
+	\begin{center}
+		\includegraphics{gfx/fig32.png}
+	\end{center}
+	\item The number of boarding passengers, number of alighting passengers and the number of passengers in the vehicle are given in the following table:\\\\
+	\begin{tabular}{c | c | c}
+		\textbf{Bus stop} & \textbf{\# of boarding passengers} & \textbf{\# of alighting passengers} \\
+		\hline
+		Terminal A & 9 & 0\\
+		1 & 10 & 6\\
+		2 & 14 & 4\\
+		3 & 9 & 11\\
+		4 & 7 & 17\\
+		5 & 0 & 7\\
+		Terminal B & 0 & 4\\
+		\hline
+	\end{tabular}\\\\
+	Graphically illustrate the number of boarding passengers, number of alighting passengers and the number of passengers in the vehicle for all line sections. Also, graphically show the passenger load profile and identify the Maximum Load Section (MLS).
+	\item A public transit operator wants to provide service frequency between 6:00 and 7:00 that is equal to 4. Between 7:00 am and 8:00 am the operator wants to offer service frequency equals to 6. The operator provides service frequency that is equal to 8 in the time interval between 8:00 am and 9:00 am. Generate vehicles timetable that will provide constant vehicle headways within time interval from 6:00 am to 9:00 am. Show the solution graphically.
 \end{enumerate}
