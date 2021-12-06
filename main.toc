@@ -122,5 +122,25 @@
 \contentsline {paragraph}{}{82}{}%
 \contentsline {paragraph}{}{83}{}%
 \contentsline {paragraph}{}{83}{}%
-\contentsline {chapter}{\numberline {7}Fuel Consumption and Emission Models}{85}{}%
-\contentsline {chapter}{\numberline {8}Planning for New Transport Organization}{87}{}%
+\contentsline {subsection}{\numberline {6.2.3}Air}{84}{}%
+\contentsline {paragraph}{}{84}{}%
+\contentsline {subsection}{\numberline {6.2.4}Sea}{84}{}%
+\contentsline {paragraph}{}{84}{}%
+\contentsline {paragraph}{}{84}{}%
+\contentsline {paragraph}{}{85}{}%
+\contentsline {paragraph}{}{85}{}%
+\contentsline {subsection}{\numberline {6.2.5}Intermodal Transportation}{85}{}%
+\contentsline {paragraph}{}{85}{}%
+\contentsline {subsubsection}{Intermodal Terminals}{86}{}%
+\contentsline {subsubsection}{Containerized Transport}{87}{}%
+\contentsline {section}{\numberline {6.3}Choice of Carrier and Transportation Mode}{88}{}%
+\contentsline {paragraph}{}{88}{}%
+\contentsline {section}{\numberline {6.4}Shipment Options}{88}{}%
+\contentsline {subsection}{\numberline {6.4.1}Direct or Customized Shipments }{88}{}%
+\contentsline {subsection}{\numberline {6.4.2}Consolidated Shipments}{89}{}%
+\contentsline {section}{\numberline {6.5}Distribution Structures}{89}{}%
+\contentsline {subsection}{\numberline {6.5.1}Single-echelon }{90}{}%
+\contentsline {subsection}{\numberline {6.5.2}Multi-echelon}{91}{}%
+\contentsline {paragraph}{}{91}{}%
+\contentsline {chapter}{\numberline {7}Fuel Consumption and Emission Models}{93}{}%
+\contentsline {chapter}{\numberline {8}Planning for New Transport Organization}{95}{}%

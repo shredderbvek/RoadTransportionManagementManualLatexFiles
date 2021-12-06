@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  6 DEC 2021 11:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  7 DEC 2021 00:18
 entering extended mode
 **./main.tex
 (main.tex
@@ -1711,12 +1711,60 @@ File: gfx/fig33.png Graphic file (type png)
 <use gfx/fig33.png>
 Package pdftex.def Info: gfx/fig33.png  used on input line 61.
 (pdftex.def)             Requested size: 205.5164pt x 60.074pt.
-) [83 <./gfx/fig33.png>] [84]
+ [83 <./gfx/fig33.png>] [84]
+Underfull \hbox (badness 10000) in paragraph at lines 93--97
+
+ []
+
+[85]
+<gfx/fig34.png, id=373, 335.00156pt x 115.93312pt>
+File: gfx/fig34.png Graphic file (type png)
+<use gfx/fig34.png>
+Package pdftex.def Info: gfx/fig34.png  used on input line 98.
+(pdftex.def)             Requested size: 335.00073pt x 115.93283pt.
+ [86 <./gfx/fig34.png>] [87]
+Overfull \hbox (6.67337pt too wide) in paragraph at lines 128--129
+[]\OT1/cmr/m/n/10.95 Carrier con-sid-er-a-tions (avail-abil-ity, ca-pa-bil-ity,
+ rep-u-ta-tion, spe-cial equip-
+ []
+
+
+Overfull \hbox (3.90546pt too wide) in paragraph at lines 130--131
+\OT1/cmr/m/n/10.95 tic-u-lar in-dus-tries, and that fac-tors such as in-ter-na-
+tional di-men-sion, economies
+ []
+
+[88] [89]
+<gfx/fig35.png, id=387, 207.02344pt x 176.91093pt>
+File: gfx/fig35.png Graphic file (type png)
+<use gfx/fig35.png>
+Package pdftex.def Info: gfx/fig35.png  used on input line 149.
+(pdftex.def)             Requested size: 207.02292pt x 176.91049pt.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 152.
+
+<gfx/fig36.png, id=388, 207.77625pt x 175.40532pt>
+File: gfx/fig36.png Graphic file (type png)
+<use gfx/fig36.png>
+Package pdftex.def Info: gfx/fig36.png  used on input line 154.
+(pdftex.def)             Requested size: 207.77573pt x 175.40488pt.
+[90 <./gfx/fig35.png> <./gfx/fig36.png>]
+<gfx/fig37.png, id=394, 281.55188pt x 180.675pt>
+File: gfx/fig37.png Graphic file (type png)
+<use gfx/fig37.png>
+Package pdftex.def Info: gfx/fig37.png  used on input line 160.
+(pdftex.def)             Requested size: 281.55118pt x 180.67455pt.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 162.
+
+) [91 <./gfx/fig37.png>] [92]
 \openout2 = `mainmatter/ch7.aux'.
 
  (mainmatter/ch7.tex
 Chapter 7.
-) [85
+) [93
 
 
 
@@ -1724,21 +1772,21 @@ Chapter 7.
 ]
 \openout2 = `mainmatter/ch8.aux'.
 
- (mainmatter/ch8.tex [86
+ (mainmatter/ch8.tex [94
 
 
 
 
 ]
 Chapter 8.
-) [87] (main.aux (mainmatter/ch1.aux) (mainmatter/ch2.aux) (mainmatter/ch3.aux)
+) [95] (main.aux (mainmatter/ch1.aux) (mainmatter/ch2.aux) (mainmatter/ch3.aux)
 (mainmatter/ch4.aux) (mainmatter/ch5.aux) (mainmatter/ch6.aux)
 (mainmatter/ch7.aux) (mainmatter/ch8.aux)) ) 
 Here is how much of TeX's memory you used:
- 4337 strings out of 478699
- 75459 string characters out of 2847435
- 397736 words of memory out of 3000000
- 22274 multiletter control sequences out of 15000+600000
+ 4365 strings out of 478699
+ 75931 string characters out of 2847435
+ 397738 words of memory out of 3000000
+ 22298 multiletter control sequences out of 15000+600000
  414112 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,10n,67p,2365b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1765,9 +1813,9 @@ s/cm/cmsy8.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmti10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/symbols/msam10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (93 pages, 1392206 bytes).
+Output written on main.pdf (101 pages, 1462363 bytes).
 PDF statistics:
- 467 PDF objects out of 1000 (max. 8388607)
+ 500 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 
