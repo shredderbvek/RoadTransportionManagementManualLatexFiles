@@ -32,115 +32,122 @@
 \contentsline {paragraph}{\emph {2. Passing Sight Distance}}{21}{}%
 \contentsline {section}{\numberline {1.5}Review Problems}{21}{}%
 \contentsline {chapter}{\numberline {2}Motor Vehicle Act}{23}{}%
-\contentsline {chapter}{\numberline {3}Transport Economics}{25}{}%
+\contentsline {chapter}{\numberline {3}Transportation Economics}{25}{}%
 \contentsline {section}{\numberline {3.1}Introduction}{25}{}%
-\contentsline {section}{\numberline {3.2}Some Important Terminologies}{27}{}%
-\contentsline {subsection}{\numberline {3.2.1}Transport Industry/Sector}{27}{}%
-\contentsline {subsection}{\numberline {3.2.2}Fixed and Variable Costs}{27}{}%
-\contentsline {subsection}{\numberline {3.2.3}Economies of Scale and Economies of Scope}{29}{}%
-\contentsline {subsection}{\numberline {3.2.4}Revenue}{30}{}%
-\contentsline {subsection}{\numberline {3.2.5}Relationship Between Demand and Supply}{31}{}%
-\contentsline {section}{\numberline {3.3}Transportation Projects Evaluation}{32}{}%
-\contentsline {section}{\numberline {3.4}Cost-Benefit Analysis}{33}{}%
-\contentsline {section}{\numberline {3.5}\emph {Numerical Examples:}}{35}{}%
-\contentsline {section}{\numberline {3.6}Review Problems}{37}{}%
-\contentsline {chapter}{\numberline {4}Insurance}{39}{}%
-\contentsline {section}{\numberline {4.1}Introduction}{39}{}%
-\contentsline {section}{\numberline {4.2}Basic Characteristics of Insurance}{39}{}%
-\contentsline {subsection}{\numberline {4.2.1}Pooling of Losses}{39}{}%
-\contentsline {subsection}{\numberline {4.2.2}Payment of Fortuitous Losses}{41}{}%
-\contentsline {subsection}{\numberline {4.2.3}Risk Transfer}{41}{}%
-\contentsline {subsection}{\numberline {4.2.4}Indemnification}{42}{}%
-\contentsline {section}{\numberline {4.3}Characteristics of an Ideally Insurable Risk}{42}{}%
-\contentsline {subsection}{\numberline {4.3.1}Large Number of Exposure Units}{42}{}%
-\contentsline {subsection}{\numberline {4.3.2}Accidental and Unintentional Loss}{42}{}%
-\contentsline {subsection}{\numberline {4.3.3}Determinable and Measurable Loss}{43}{}%
-\contentsline {subsection}{\numberline {4.3.4}No Catastrophic Loss}{44}{}%
-\contentsline {subsection}{\numberline {4.3.5}Calculable Chance of Loss}{44}{}%
-\contentsline {subsection}{\numberline {4.3.6}Economically Feasible Premium}{45}{}%
-\contentsline {section}{\numberline {4.4}Types of Insurance}{45}{}%
-\contentsline {subsection}{\numberline {4.4.1}Private Insurance}{46}{}%
-\contentsline {subsubsection}{Life Insurance}{46}{}%
-\contentsline {subsubsection}{Health Insurance}{46}{}%
-\contentsline {subsubsection}{Property and Liability Insurance}{46}{}%
-\contentsline {subsection}{\numberline {4.4.2}Government Insurance}{46}{}%
-\contentsline {subsubsection}{Social Insurance}{47}{}%
-\contentsline {section}{\numberline {4.5}Readings from Insurance Regulation, 2049 (1993)}{47}{}%
-\contentsline {subsection}{\numberline {4.5.1}Definitions}{47}{}%
-\contentsline {subsection}{\numberline {4.5.2}Categories of Insurance Business}{47}{}%
-\contentsline {subsubsection}{Life Insurance Business}{48}{}%
-\contentsline {subsubsection}{Non-Life Insurance Business}{48}{}%
-\contentsline {subsubsection}{Re-Insurance Business}{49}{}%
-\contentsline {subsection}{\numberline {4.5.3}Provisions Relating to a Surveyor}{49}{}%
-\contentsline {subsubsection}{Application to be submitted for surveyor's license}{49}{}%
-\contentsline {subsubsection}{Surveyor's License to be provided}{49}{}%
-\contentsline {subsubsection}{Qualifications of a Surveyor}{49}{}%
-\contentsline {subsubsection}{Classification of the Surveyor}{50}{}%
-\contentsline {subsubsection}{Provisions relating to the renewal of Surveyor's License}{50}{}%
-\contentsline {subsubsection}{Limitation of Survey}{51}{}%
-\contentsline {subsubsection}{In the case of cancellation of Surveyor's License}{51}{}%
-\contentsline {subsection}{\numberline {4.5.4}Provisions relating to payment against Insurance Claim}{51}{}%
-\contentsline {subsubsection}{Process against the payment of Life Insurance Claim}{51}{}%
-\contentsline {subsubsection}{Process of payment against Non-Life Insurance Claim}{52}{}%
-\contentsline {section}{\numberline {4.6}Review Problems}{52}{}%
-\contentsline {chapter}{\numberline {5}Passenger Transport Operation}{53}{}%
-\contentsline {section}{\numberline {5.1}Public Transportation}{53}{}%
-\contentsline {subsection}{\numberline {5.1.1}Transit Modes}{53}{}%
-\contentsline {subsection}{\numberline {5.1.2}Transit Capacity and Level of Service}{53}{}%
-\contentsline {subsection}{\numberline {5.1.3}The Role and Future of Public Transportation}{55}{}%
-\contentsline {subsubsection}{Factors Bad for Transit}{55}{}%
-\contentsline {subsubsection}{Factors Good for Transit}{56}{}%
-\contentsline {section}{\numberline {5.2}Number of Passengers Versus Number of Served Vehicles}{56}{}%
-\contentsline {subsection}{\numberline {5.2.1}A Hypothetical Case Study}{56}{}%
-\contentsline {section}{\numberline {5.3}Passenger Flows in Public Transportation}{58}{}%
-\contentsline {section}{\numberline {5.4}Passenger Flows Along a Transit Line}{59}{}%
-\contentsline {section}{\numberline {5.5}Service Frequency and Headways}{61}{}%
-\contentsline {subsection}{\numberline {5.5.1}The Maximum Service Frequency}{62}{}%
-\contentsline {subsection}{\numberline {5.5.2}Passenger Waiting Time}{63}{}%
-\contentsline {subsection}{\numberline {5.5.3}Headway Determination by "Square Root Formula" }{64}{}%
-\contentsline {subsection}{\numberline {5.5.4}Headway Determination by Maximum Load Method}{66}{}%
-\contentsline {section}{\numberline {5.6}Time Table}{67}{}%
-\contentsline {section}{\numberline {5.7}Transit Line Capacity}{69}{}%
-\contentsline {subsection}{\numberline {5.7.1}Transit Line Capacity Utilization}{71}{}%
-\contentsline {section}{\numberline {5.8}Optimal Paths in Transportation Networks}{73}{}%
-\contentsline {subsection}{\numberline {5.8.1}Dijkstra's Shortest Path Algorithm}{73}{}%
-\contentsline {section}{\numberline {5.9}Review Problems}{76}{}%
-\contentsline {chapter}{\numberline {6}Freight Transport Operation}{79}{}%
-\contentsline {section}{\numberline {6.1}Main Actors of Freight Transport and Distribution}{79}{}%
-\contentsline {subsection}{\numberline {6.1.1}Shippers}{79}{}%
-\contentsline {subsection}{\numberline {6.1.2}Carriers}{80}{}%
-\contentsline {subsection}{\numberline {6.1.3}Intermediaries}{80}{}%
-\contentsline {paragraph}{}{80}{}%
-\contentsline {section}{\numberline {6.2}Modes of Transportation}{80}{}%
-\contentsline {paragraph}{}{81}{}%
-\contentsline {subsection}{\numberline {6.2.1}Road}{81}{}%
-\contentsline {paragraph}{}{81}{}%
-\contentsline {paragraph}{}{81}{}%
-\contentsline {paragraph}{}{82}{}%
-\contentsline {subsection}{\numberline {6.2.2}Rail}{82}{}%
-\contentsline {paragraph}{}{82}{}%
-\contentsline {paragraph}{}{82}{}%
-\contentsline {paragraph}{}{83}{}%
-\contentsline {paragraph}{}{83}{}%
-\contentsline {subsection}{\numberline {6.2.3}Air}{84}{}%
+\contentsline {section}{\numberline {3.2}Scope of Transportation Economics}{27}{}%
+\contentsline {section}{\numberline {3.3}Transportation Demand}{27}{}%
+\contentsline {paragraph}{}{27}{}%
+\contentsline {subsection}{\numberline {3.3.1}Causes of Shift in Transportation Demand Curve}{29}{}%
+\contentsline {subsection}{\numberline {3.3.2}Transportation Demand Functions}{29}{}%
+\contentsline {subsubsection}{Linear Demand Function}{30}{}%
+\contentsline {paragraph}{}{31}{}%
+\contentsline {section}{\numberline {3.4}Transportation Supply}{31}{}%
+\contentsline {subsection}{\numberline {3.4.1}Causes of Shift in Transportation Supply Curve}{32}{}%
+\contentsline {section}{\numberline {3.5}Equilibrium of Transportation Demand and Supply}{33}{}%
+\contentsline {section}{\numberline {3.6}Sensitivity of Travel Demand}{34}{}%
+\contentsline {paragraph}{}{35}{}%
+\contentsline {subsection}{\numberline {3.6.1}Elasticity and Revenue Along a Linear Demand Curve}{35}{}%
+\contentsline {section}{\numberline {3.7}Transportation Projects Evaluation}{36}{}%
+\contentsline {section}{\numberline {3.8}Cost-Benefit Analysis}{38}{}%
+\contentsline {section}{\numberline {3.9}\emph {Numerical Examples:}}{40}{}%
+\contentsline {section}{\numberline {3.10}Review Problems}{42}{}%
+\contentsline {chapter}{\numberline {4}Insurance}{43}{}%
+\contentsline {section}{\numberline {4.1}Introduction}{43}{}%
+\contentsline {section}{\numberline {4.2}Basic Characteristics of Insurance}{43}{}%
+\contentsline {subsection}{\numberline {4.2.1}Pooling of Losses}{43}{}%
+\contentsline {subsection}{\numberline {4.2.2}Payment of Fortuitous Losses}{45}{}%
+\contentsline {subsection}{\numberline {4.2.3}Risk Transfer}{45}{}%
+\contentsline {subsection}{\numberline {4.2.4}Indemnification}{46}{}%
+\contentsline {section}{\numberline {4.3}Characteristics of an Ideally Insurable Risk}{46}{}%
+\contentsline {subsection}{\numberline {4.3.1}Large Number of Exposure Units}{46}{}%
+\contentsline {subsection}{\numberline {4.3.2}Accidental and Unintentional Loss}{46}{}%
+\contentsline {subsection}{\numberline {4.3.3}Determinable and Measurable Loss}{47}{}%
+\contentsline {subsection}{\numberline {4.3.4}No Catastrophic Loss}{48}{}%
+\contentsline {subsection}{\numberline {4.3.5}Calculable Chance of Loss}{48}{}%
+\contentsline {subsection}{\numberline {4.3.6}Economically Feasible Premium}{49}{}%
+\contentsline {section}{\numberline {4.4}Types of Insurance}{49}{}%
+\contentsline {subsection}{\numberline {4.4.1}Private Insurance}{50}{}%
+\contentsline {subsubsection}{Life Insurance}{50}{}%
+\contentsline {subsubsection}{Health Insurance}{50}{}%
+\contentsline {subsubsection}{Property and Liability Insurance}{50}{}%
+\contentsline {subsection}{\numberline {4.4.2}Government Insurance}{50}{}%
+\contentsline {subsubsection}{Social Insurance}{51}{}%
+\contentsline {section}{\numberline {4.5}Readings from Insurance Regulation, 2049 (1993)}{51}{}%
+\contentsline {subsection}{\numberline {4.5.1}Definitions}{51}{}%
+\contentsline {subsection}{\numberline {4.5.2}Categories of Insurance Business}{51}{}%
+\contentsline {subsubsection}{Life Insurance Business}{52}{}%
+\contentsline {subsubsection}{Non-Life Insurance Business}{52}{}%
+\contentsline {subsubsection}{Re-Insurance Business}{53}{}%
+\contentsline {subsection}{\numberline {4.5.3}Provisions Relating to a Surveyor}{53}{}%
+\contentsline {subsubsection}{Application to be submitted for surveyor's license}{53}{}%
+\contentsline {subsubsection}{Surveyor's License to be provided}{53}{}%
+\contentsline {subsubsection}{Qualifications of a Surveyor}{53}{}%
+\contentsline {subsubsection}{Classification of the Surveyor}{54}{}%
+\contentsline {subsubsection}{Provisions relating to the renewal of Surveyor's License}{54}{}%
+\contentsline {subsubsection}{Limitation of Survey}{55}{}%
+\contentsline {subsubsection}{In the case of cancellation of Surveyor's License}{55}{}%
+\contentsline {subsection}{\numberline {4.5.4}Provisions relating to payment against Insurance Claim}{55}{}%
+\contentsline {subsubsection}{Process against the payment of Life Insurance Claim}{55}{}%
+\contentsline {subsubsection}{Process of payment against Non-Life Insurance Claim}{56}{}%
+\contentsline {section}{\numberline {4.6}Review Problems}{56}{}%
+\contentsline {chapter}{\numberline {5}Passenger Transport Operation}{57}{}%
+\contentsline {section}{\numberline {5.1}Public Transportation}{57}{}%
+\contentsline {subsection}{\numberline {5.1.1}Transit Modes}{57}{}%
+\contentsline {subsection}{\numberline {5.1.2}Transit Capacity and Level of Service}{57}{}%
+\contentsline {subsection}{\numberline {5.1.3}The Role and Future of Public Transportation}{59}{}%
+\contentsline {subsubsection}{Factors Bad for Transit}{59}{}%
+\contentsline {subsubsection}{Factors Good for Transit}{60}{}%
+\contentsline {section}{\numberline {5.2}Number of Passengers Versus Number of Served Vehicles}{60}{}%
+\contentsline {subsection}{\numberline {5.2.1}A Hypothetical Case Study}{60}{}%
+\contentsline {section}{\numberline {5.3}Passenger Flows in Public Transportation}{62}{}%
+\contentsline {section}{\numberline {5.4}Passenger Flows Along a Transit Line}{63}{}%
+\contentsline {section}{\numberline {5.5}Service Frequency and Headways}{65}{}%
+\contentsline {subsection}{\numberline {5.5.1}The Maximum Service Frequency}{66}{}%
+\contentsline {subsection}{\numberline {5.5.2}Passenger Waiting Time}{67}{}%
+\contentsline {subsection}{\numberline {5.5.3}Headway Determination by "Square Root Formula" }{68}{}%
+\contentsline {subsection}{\numberline {5.5.4}Headway Determination by Maximum Load Method}{70}{}%
+\contentsline {section}{\numberline {5.6}Time Table}{71}{}%
+\contentsline {section}{\numberline {5.7}Transit Line Capacity}{73}{}%
+\contentsline {subsection}{\numberline {5.7.1}Transit Line Capacity Utilization}{75}{}%
+\contentsline {section}{\numberline {5.8}Optimal Paths in Transportation Networks}{77}{}%
+\contentsline {subsection}{\numberline {5.8.1}Dijkstra's Shortest Path Algorithm}{77}{}%
+\contentsline {section}{\numberline {5.9}Review Problems}{80}{}%
+\contentsline {chapter}{\numberline {6}Freight Transport Operation}{83}{}%
+\contentsline {section}{\numberline {6.1}Main Actors of Freight Transport and Distribution}{83}{}%
+\contentsline {subsection}{\numberline {6.1.1}Shippers}{83}{}%
+\contentsline {subsection}{\numberline {6.1.2}Carriers}{84}{}%
+\contentsline {subsection}{\numberline {6.1.3}Intermediaries}{84}{}%
 \contentsline {paragraph}{}{84}{}%
-\contentsline {subsection}{\numberline {6.2.4}Sea}{84}{}%
-\contentsline {paragraph}{}{84}{}%
-\contentsline {paragraph}{}{84}{}%
+\contentsline {section}{\numberline {6.2}Modes of Transportation}{84}{}%
+\contentsline {paragraph}{}{85}{}%
+\contentsline {subsection}{\numberline {6.2.1}Road}{85}{}%
 \contentsline {paragraph}{}{85}{}%
 \contentsline {paragraph}{}{85}{}%
-\contentsline {subsection}{\numberline {6.2.5}Intermodal Transportation}{85}{}%
-\contentsline {paragraph}{}{85}{}%
-\contentsline {subsubsection}{Intermodal Terminals}{86}{}%
-\contentsline {subsubsection}{Containerized Transport}{87}{}%
-\contentsline {section}{\numberline {6.3}Choice of Carrier and Transportation Mode}{88}{}%
+\contentsline {paragraph}{}{86}{}%
+\contentsline {subsection}{\numberline {6.2.2}Rail}{86}{}%
+\contentsline {paragraph}{}{86}{}%
+\contentsline {paragraph}{}{86}{}%
+\contentsline {paragraph}{}{87}{}%
+\contentsline {paragraph}{}{87}{}%
+\contentsline {subsection}{\numberline {6.2.3}Air}{88}{}%
 \contentsline {paragraph}{}{88}{}%
-\contentsline {section}{\numberline {6.4}Shipment Options}{88}{}%
-\contentsline {subsection}{\numberline {6.4.1}Direct or Customized Shipments }{88}{}%
-\contentsline {subsection}{\numberline {6.4.2}Consolidated Shipments}{89}{}%
-\contentsline {section}{\numberline {6.5}Distribution Structures}{89}{}%
-\contentsline {subsection}{\numberline {6.5.1}Single-echelon }{90}{}%
-\contentsline {subsection}{\numberline {6.5.2}Multi-echelon}{91}{}%
-\contentsline {paragraph}{}{91}{}%
-\contentsline {chapter}{\numberline {7}Fuel Consumption and Emission Models}{93}{}%
-\contentsline {chapter}{\numberline {8}Planning for New Transport Organization}{95}{}%
+\contentsline {subsection}{\numberline {6.2.4}Sea}{88}{}%
+\contentsline {paragraph}{}{88}{}%
+\contentsline {paragraph}{}{88}{}%
+\contentsline {paragraph}{}{89}{}%
+\contentsline {paragraph}{}{89}{}%
+\contentsline {subsection}{\numberline {6.2.5}Intermodal Transportation}{89}{}%
+\contentsline {paragraph}{}{89}{}%
+\contentsline {subsubsection}{Intermodal Terminals}{90}{}%
+\contentsline {subsubsection}{Containerized Transport}{91}{}%
+\contentsline {section}{\numberline {6.3}Choice of Carrier and Transportation Mode}{92}{}%
+\contentsline {paragraph}{}{92}{}%
+\contentsline {section}{\numberline {6.4}Shipment Options}{92}{}%
+\contentsline {subsection}{\numberline {6.4.1}Direct or Customized Shipments }{92}{}%
+\contentsline {subsection}{\numberline {6.4.2}Consolidated Shipments}{93}{}%
+\contentsline {section}{\numberline {6.5}Distribution Structures}{93}{}%
+\contentsline {subsection}{\numberline {6.5.1}Single-echelon }{94}{}%
+\contentsline {subsection}{\numberline {6.5.2}Multi-echelon}{95}{}%
+\contentsline {paragraph}{}{95}{}%
+\contentsline {chapter}{\numberline {7}Fuel Consumption and Emission Models}{97}{}%
+\contentsline {chapter}{\numberline {8}Planning for New Transport Organization}{99}{}%
