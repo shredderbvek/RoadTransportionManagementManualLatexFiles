@@ -22,8 +22,7 @@ We describe in this chapter the main elements of economics of transportation sys
 from the engineering perspective. The chapter analyzes direct costs and revenues of the providers of transport infrastructure and transport operators. Costs and revenues could be analyzed at the level of the individual component (infrastructure, rolling stock) and/or of the entire company.
 %
 \section{Scope of Transportation Economics}
-The study of economics is divided into macro-economics and micro-economics. Micro-economics is
-associated with the wealth of society on a regional scale, and deals with the behavior of aggregate concepts. On the other hand, micro-economics involves the behavior of relatively smaller entities such as firms and individuals. Transportation economics, while considered a branch of applied micro-economics, is associated with certain unique issues such as:
+The study of economics is divided into macro-economics and micro-economics. Macro-economics is associated with the wealth of society on a regional scale, and deals with the behavior of aggregate concepts. On the other hand, micro-economics involves the behavior of relatively smaller entities such as firms and individuals. Transportation economics, while considered a branch of applied micro-economics, is associated with certain unique issues such as:
 \begin{enumerate}
 	\item the demand for transportation is not direct, but is derived
 	\item the consumption of each transportation facility (i.e., each trip) is unique in time and space
@@ -131,6 +130,7 @@ Transportation demand elasticity may be defined as the degree of responsiveness 
 $$ e_p =  \frac{percentage\; change\; in\; quantity\; demanded}{percentage\; change\; in\; price}$$
 \begin{equation}
 	e_p = \frac{\frac{\partial q}{q}}{\frac{\partial p}{p}} = \frac{\partial q}{\partial p} \times \frac{p}{q}
+	\label{elasticity}
 \end{equation}
 Arc elasticity can be calculated as:
 \begin{equation}
@@ -162,6 +162,43 @@ A linear demand curve has several interesting properties. Notice, as one moves d
 	$ e = 1 $ & unit elasticity & none & remains the same\\
 	\hline
 \end{tabular}
+%
+\section{Kraft Demand Function}
+We occasionally come across a demand function where the elasticity of demand for travel with respect to its price is essentially constant. The demand function for such a situation corresponds to the equation.
+\begin{equation}
+	Q = \alpha (p)^\beta
+	\label{kraftModel}
+\end{equation}
+Where $\alpha$ and $\beta$ are constant parameters of the demand function. To prove that this function is has a constant elasticity, we differentiate this function with respect to price, we get:
+$$ \frac{dQ}{dp} = \alpha \: \beta \: p^{\beta - 1}$$
+Now substituting this value in standard elasticity equation \ref{elasticity},
+$$ e_p = \frac{dQ}{dp} \times \frac{p}{Q}$$
+$$= \alpha \: \beta \: p^{\beta - 1} \times \frac{p}{Q}$$
+$$= \alpha \: \beta \: p^{\beta - 1} \times \frac{p}{\alpha (p)^\beta} \: \: [from \: equation \: \ref{kraftModel}]$$
+\begin{equation}
+	\therefore e_p = \beta
+\end{equation}
+Thus, $\beta$, the exponent of price (a constant parameter), is the price elasticity.\\\\
+\textit{Numerical Example:}\\
+The elasticity of transit demand with respect to price has been found to be equal to -2.75, which means that a 1\% increase in transit fare will result in 2.75 decrease in the number of passengers using the system. A transit line on this system carries 12,500 passengers per day, charging 50 cents per ride. The management wants to raise the fare to 70 cents per ride. What advice would you offer to the management?\\
+\textit{Solution}:\\
+Since the elasticity of the demand is a constant, the demand function is a Kraft Demand Model,\\\\
+$Q_1$ = 12500\\
+$p_1$ = 50\\
+$p_2$ = 70\\
+$\beta$ = -2.75\\\\
+We have,\\
+$ Q_1 = \alpha (p_1)^\beta$\\
+$ 12500 = \alpha \times 50^{-2.75}$\\
+$\therefore \alpha = 5.876 \times 10^{8}$\\\\
+An increase in fare from 50 to 70 cents will attract a demand of,\\\\
+$ Q_2 = \alpha (p_2)^\beta$\\
+$ \therefore Q_2 = 5.876 \times 10^{8} \times 70^{-2.75} \: = 4955 \: passengers$\\\\
+Therefore, the increase in fare from 50 to 70 cents (40\% increase) is likely to reduce the patronage on this line from 12500 passengers per day to 4955 (60 \% decrease). In terms of revenue, the results are as follows:\\\\
+Revenue before increase in fare ($R_1$) = 50 $\times$ 12500 = \$6250\\
+Revenue after increase in fare ($R_2$) = 70 $\times$ 4955 = \$3468.50\\
+$\therefore$ Loss in revenue = $ R_1 - R_2$ = \$6250 - \$3468.50 = \$3406\\\\
+Hence, the management is not advised to increase the fare.
 %
 \section{Transportation Projects Evaluation}
 Construction of highways along with the other associated infrastructures, construction of a new freight center, acquisition of new vehicles for the transit e.t.c. represent transportation projects faced by transportation experts. In the initial stage of these projects, it is necessary to perform their evaluation, that is, as precise as possible, analyze and review economic, environmental, equity, as well as other project impacts. The planners and engineers must properly answer the following questions: (a) Are the transportation project’s benefits greater than the projects’ costs?; (b) What is the best project’s alternative in the case when project has few mutually exclusive alternatives?; (c) How to allocate available funds among competitive transportation projects?; (d) When to start the considered project?\\
