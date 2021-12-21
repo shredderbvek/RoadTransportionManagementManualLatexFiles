@@ -264,7 +264,82 @@ In economic theory, three types of costs are encountered: fixed costs (which are
 	\item \textit{Law of Increasing Returns to Scale}: States that in practice, the production of units is often likely to increase at a faster rate than the increase in the factors of production. This may be due to technological features, specialization.
 \end{itemize}
 \subsection{Average Cost}
-
+The Average Cost is the per unit cost of production obtained by dividing the total cost by the total output. By per unit cost of production, we mean that all the fixed and variable cost is taken into the consideration for calculating the average cost. Thus, it is also called as Per Unit Total Cost. Mathematically,
+\begin{equation}
+	C = cq = \alpha + \beta (q)
+\end{equation}
+where,\\
+\hspace*{10mm}$C$ = total cost of a product\\
+\hspace*{10mm}$c$ = unit cost\\
+\hspace*{10mm}$q$ = magnitude of output\\
+\hspace*{10mm}$\alpha$ = fixed cost of production\\
+\hspace*{10mm}$\beta(q)$ = variable cost of production\\
+Therefore, Average cost:
+\begin{equation}
+	\overline{c} = \frac{C}{q} = \frac{\alpha + \beta (q)}{q} = \frac{\alpha}{q} + \frac{\beta (q)}{q}
+\end{equation}
+The relationships of the total and average cost functions are shown the figure below. It can be seen that as output q increases, the average cost of production decreases and then increase at higher levels of production. When the production level reaches q' , the average cost is a minimum $\overline{c'}$. The decrease in average cost with increasing output is referred to as economies of scale. In the figure, there is obviously there is economy of scale for production levels between 0 and q' . However, there is no economy of scale beyond q' because the average cost increases. This concept is useful to engineers in deciding whether additional capacity or growth would yield higher profits, and is important in the economic evaluation of transportation system improvements.
+\begin{center}
+	\includegraphics[scale=0.8]{gfx/fig49.png}
+\end{center}
+\subsection{Marginal Costs}
+The marginal costs of a transportation good or service is the additional cost associated with the production of an additional unit of output. The following example illustrates the concepts of average and marginal costs.
+\paragraph{\textit{Case Study}}
+\begin{center}
+	\includegraphics[scale=0.7]{gfx/fig50.png}
+\end{center}
+\begin{center}
+	\includegraphics[scale=0.7]{gfx/fig51.png}
+\end{center}
+The table above presents the cost of running a train system with variable number of wagons. For each system size, the fixed and variable costs are provided in the first three columns. The total, average and marginal costs are then computed and presented in the next three columns.\\
+The various costs are computed as follows:
+$$ Total \: cost = TC(x) = FC + VC(x)$$
+$$ Average \: Total \: Cost = AC(x) =  \frac{TC(x)}{x} = \frac{FC}{x} + \frac{VC(x)}{x}$$
+$$Marginal \: Cost = MC(x) = TX(x) - TC(x-1)$$
+The second graph in the figure above presents the curves corresponding to average cost, marginal cost and total costs for the train system. It can be seen that the point of minimum cost (\$40) occurs at the intersection of the average cost (AC) and marginal cost (MC) curves. It is also observed that the projection of this point to the first graph in the figure above corresponds to the point where the gradient of the tangent drawn from the origin has the minimum slope.
+\paragraph{}
+When the output is a continuous function, the differential form of the marginal cost is used, in which the marginal cost is the rate of change of total cost with respect to a change in output. In this form the equation is:
+\begin{equation}
+	MC(x) = \frac{dTC(x)}{dx} = \frac{dVC(x)}{dx}
+\end{equation}
+From the geometry of the AC and MC curves, it is also seen that the average costs is proportional to the
+slope of a line connecting the origin of the total cost curve with a point on that curve corresponding to he total output. In our example, the slope of such a line begins at infinity at zero output and then decreases to its lowest point, when x = 4. Beyond this point, the slope increases again. On the other hand, the marginal cost curve is the slope of the tangent drawn at any point on the total cost curve.
+\subsection{Costs and Production}
+In general, a private company will continue to produce and market a good or service as long as it is returning a profit. The net profit (P) is equal to the total revenue (R) minus the total costs (C).
+\begin{equation}
+	P = R - C = pq -cq
+\end{equation}
+Where p is the selling price of one unit of product q, and c is the production cost of one unit.\\\\
+The necessary condition for profit maximization is:
+$$ \frac{dP}{dq} = \frac{dR}{dq} - \frac{dC}{dq} = 0$$
+$$or, \: \frac{dP}{dq} = \frac{d(pq)}{dq} - \frac{d(cq)}{dq} = 0$$
+$$ \therefore \frac{d(pq)}{dq} = \frac{d(cq)}{dq}$$
+Let,\\
+Marginal Revenue (MR) = $\frac{dR}{dq} = \frac{d(pq)}{dq}$\\
+Marginal Cost (MC) = $ \frac{dC}{dq} = \frac{d(cq)}{dq}$\\\\
+$\therefore MR = MC$\\\\
+This equation implies that the firm seeking to maximize profits should produce at the point where marginal revenue equals marginal costs.
+\subsection{Cost Elasticity}
+The cost elasticity of a good or service is defined as the ratio of percentage change in cost C to a unit percentage change in supply q. The difference between cost elasticity and price elasticity is obvious.
+\begin{equation}
+	e_c = \frac{\% change \: cost}{\% change \: in \: supply} = \frac{\Delta C/C}{\Delta q/q} = \frac{q}{C} \times \frac{\Delta C}{\Delta q}
+\end{equation}
+In the limit when $\Delta q = 0, \frac{\Delta C}{\Delta q} = \frac{dC}{dq}$, then,\\\\
+\begin{equation}
+	e_c = \frac{dC/dq}{C/q} = \frac{MC}{AC}
+\end{equation}
+\textit{Numerical Example}:\\
+A transport company hauling goods by truck has cost function $ C = 1.5q^1.25$ , where C is the total costs of supply, q.
+\begin{itemize}
+	\item Determine the average cost and the marginal cost of production
+	\item Prove that the cost elasticity is 1.25
+	\item Is there an economy of scale?
+\end{itemize}
+\textit{Solution}:\\\\
+$ \overline{c} = \frac{C}{q} = \frac{1.5q^1.25}{q} = 15q^0.25$\\\\
+$ MC = \frac{dC}{dq} = 15 \times 1.25 \times q^0.25 = 18.75q^0.25$\\\\
+$ e = \frac{MC}{AC} = \frac{18.75q^0.25}{15q^0.25} = 1.25$\\\\
+$\therefore$ Economy of scale does not exist because the average cost increases with increases q.
 %
 \section{Transportation Projects Evaluation}
 Construction of highways along with the other associated infrastructures, construction of a new freight center, acquisition of new vehicles for the transit e.t.c. represent transportation projects faced by transportation experts. In the initial stage of these projects, it is necessary to perform their evaluation, that is, as precise as possible, analyze and review economic, environmental, equity, as well as other project impacts. The planners and engineers must properly answer the following questions: (a) Are the transportation project’s benefits greater than the projects’ costs?; (b) What is the best project’s alternative in the case when project has few mutually exclusive alternatives?; (c) How to allocate available funds among competitive transportation projects?; (d) When to start the considered project?\\
