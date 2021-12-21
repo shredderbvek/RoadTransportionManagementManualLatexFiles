@@ -252,10 +252,26 @@ After the price drop and supply increase:\\
 After the price change, the company gains \$4104 - \$3600 = \$ 504 per hour.\\\\
 Change in consumer surplus = (1.00 – 0.90) × (3600 + 4560)/2 = \$408/hr\\\\
 Also, Price elasticity of demand,
-$ e_p = \frac{Q_1 - Q_0 \times (P_1 + P_0)/2}{P_1 - P_0 \times (Q_1 + Q_0)/2} = \frac{960 \times 0.95}{0.1 \times 4080} = -2.235$
+$ e_p = \frac{Q_1 - Q_0 \times (P_1 + P_0)/2}{P_1 - P_0 \times (Q_1 + Q_0)/2} = \frac{960 \times 0.95}{0.1 \times 4080} = -2.235$\\\\
+\textit{Numerical Example}:\\
+The Demand for a transit service between a city and its largest suburb during an off-peak hour V, is given by 2500 -350t where t is the travel time in minutes. At the current time, the transit trip takes an average of 5 minutes. Determine the time elasticity of demand and the latent demand at this travel.\\
+\textit{Solution}:\\
+$V = 2500 - 350t$\\\\
+Diff the above equation with respect to t we get,\\
+$ \frac{dV}{dt} = -350$\\\\
+Time elasticity of demand,\\
+$e_t = \frac{dV/V}{dT/t}$\\
+$or, e_t = -350 \times \frac{5}{(2500 - 350 \times 5)}$\\
+$ \therefore e_t = -2.3$\\\\
+Also, at e = 5 minutes,\\
+$ V = 2500 - 350 \times 5  = 750$\\
+$\therefore Latent \: demand = 2500 -750 = 1750$
+\begin{center}
+	\includegraphics[scale=0.7]{gfx/fig52.png}
+\end{center}
 %
 \section{Cost Analysis in the Evaluation of Transportation Systems}
-A complete and balanced evaluation of alternative investment options is possible only by giving due consideration to both benefits and costs associated with each alternative. For this reason, it is essential to have knowledge of the costs of each aspect of the provision of a transportation good or service. This way, he future costs of such aspects can be determined using average cost values or better still, cost models that estimate cost as a function of investment and facility attributes.
+A complete and balanced evaluation of alternative investment options is possible only by giving due consideration to both benefits and costs associated with each alternative. For this reason, it is essential to have knowledge of the costs of each aspect of the provision of a transportation good or service. This way, the future costs of such aspects can be determined using average cost values or better still, cost models that estimate cost as a function of investment and facility attributes.
 \paragraph{}
 In economic theory, three types of costs are encountered: fixed costs (which are independent of the volume of goods produced), variable costs (which depend on the volume of good produced), and total costs (the sum of fixed and variable costs). For each of these costs, it is possible to find the average cost (dividing the total production cost by the number of goods produced) and marginal cost (the incremental cost of producing an additional unit). It is therefore possible to determine average fixed costs, marginal fixed costs, average total costs, etc.
 \subsection{Economic Laws Related to Cost}
@@ -380,7 +396,7 @@ Where,\\
 \hspace*{10mm}$r$: interest rate\\
 \hspace*{10mm}$t$: year index\\\\
 %
-Project’sbenefits andcostsare forecast over the project duration.For example,benefits from road investment could be shorter traveling distance, shorter travel time, reduced number of traffic accidents, etc. The road improvement costs could be project design costs, labor costs equipment costs, material costs, etc.\\
+Project’s benefits and costs are forecast over the project duration.For example,benefits from road investment could be shorter traveling distance, shorter travel time, reduced number of traffic accidents, etc. The road improvement costs could be project design costs, labor costs equipment costs, material costs, etc.\\
 \par
 The analysts use a $NPV$ to express a project’s worth for its complete life cycle in today’s money value. We see that the $NPV$ decreases in $r$ (interest rate) increases. In case when $NPV > 0$, the project may be accepted. However, when $NPV < 0$, the considered project should be rejected.Finally, when $NPV = 0$, we conclude that the considered project adds no monetary value. The final decision about such transportation project should be based on some additional criteria.\\
 \par
@@ -446,12 +462,54 @@ The new toll is the current toll plus the toll increase.\\
 Toll for maximum revenue = $150 +50 = 200cents$\\
 The additional revenue, AR
 \begin{gather*}
-	= V_max *  T_max - V_current * T_current\\
+	= V_{max} *  T_{max} - V_{current} * T_{current}\\
 	= {5000 - 50/25 * 500} * 2 - 5000 * 1.5\\
 	= 4000 *2 - 7500\\
 	= 8000 - 7500\\
 	\therefore AR = =\$500
-\end{gather*}
+\end{gather*}\\\\
+Example \#3:\\
+The demand function for transportation from the suburbs to downtown in a large city is as follows:
+$$ Q = T^{-0.3}\: C^{-0.2} \: A^{0.1} \: I^{-0.25} $$
+Where,\\
+\hspace*{10mm} $Q$ = number of transit trips\\
+\hspace*{10mm} $T$ = travel time on transit(hours)\\
+\hspace*{10mm} $C$ = fare on transit (dollars)\\
+\hspace*{10mm} $A$ = cost of automobile trip (dollars)\\
+\hspace*{10mm} $I$ = average income (dollars)
+\begin{enumerate}
+	\item There are currently 10,000 persons per hour riding the transit system, at a flat fare of \$1 per ride. What would be the change in ridership with a 90 cent fare? What would be company gain/lose per hour?
+	\item By auto, the trip costs \$ (including parking). If the parking charge were raised by 30 cents, how would it affect the transit ridership?
+	\item The average income of auto riders is \$15,000 per year. What raise in salary will rider require to cover their costs in view of the change in parking charge noted in the second question?
+\end{enumerate}
+\textit{Solution}:\\\\
+Part 1:\\
+This is essentially a Kraft model. The price elasticity of demand for transit trips,\\
+$e_p = -0.2$\\
+\% Reduction in fare $(\frac{dC}{C}) = \frac{100 - 90}{100} = 10\%$\\\\
+\% Increase of Patronage $(\frac{dQ}{Q}) = e_p \times \frac{dC}{C} = 0.2 \times 0.1 = 0.02 = 2\%$\\
+Now,\\
+Initial Patronage ($Q_1$) = 10000\\
+Final Patronage ($ Q_2 $) = 10000 + 0.02 $\times$ 10000 = 10200\\\\
+Also,\\
+Revenue before increment of patronage ($R_1$) = $Q_1 \times$ 1 = 10000\\
+Revenue after increment of patronage ($R_2$) = $Q_2 \times$ 0.9 = 9180\\\\
+$\therefore$ The company will lose \$820 per hour.\\\\
+Part 2:\\
+Similarly, the automobile price cross-elasticity of demand,
+$e_{cp} = 0.1$\\
+\% rise in auto costs ($\frac{dA}{A}$) = $\frac{3.3 - 3}{3} = 10\%$\\\\
+\% increase of patronage $(\frac{dQ}{Q}) = e_{cp} \times \frac{dA}{A} = 0.1 \times 0.1 = 1\% $\\
+Now,\\
+Final patronage = 10000 + 0.01 $times$ 10000 = 10100\\\\
+$\therefore$ The transit patronage increases from 10000 riders to 10100 riders.\\\\
+Part 3:\\
+Similarly, the income elasticity of demand,
+$e_i$ = -0.25\\
+$\frac{dQ}{Q}$ = 1\% = 0.01\\\\
+We have,\\
+$\frac{dI}{I} = \frac{\frac{dQ}{Q}}{e_i} = \frac{0.01}{0.25} = 0.04 = 4\%$\\\\
+So, a 4\% increase in income would cover a 30 cent increase in auto cost. If a the average income is \% 15000, \$600 raise in salary would change the minds of those auto drivers who were planning to ride the transit system.
 \section{Review Problems}
 
 
