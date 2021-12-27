@@ -163,3 +163,39 @@ A two-echelon network distribution structure is shown in the figure above, where
 \paragraph{}
 Structures such as those shown in the figure above have been suggested for use
 within urban areas, where the first layer of depots consists of those that are located outside the boundaries of the urban zone and the second layer consists of intermediate points located on the boundaries. The expectation is that bulk deliveries are made from the first to the second layer using heavy goods vehicles, which would stop here. The distribution activities within the urban zone would then be carried out using smaller vehicles that would operate between the second layer of intermediate points and the third layer of demand points. Such a strategy prevents large and heavy vehicles from entering urban zones.
+%
+\section{Transportation Model}
+The transportation model deals with a special class of linear programming problem in which the objective is to transport a homogeneous commodity from various origins or factories to different destinations or markets at a total minimum cost.
+%
+\subsection{Definition of the Transportation Model}
+The problem is represented by the network in the figure below. There are $ m $ sources and $ n $ destinations, each represented by a node. The arcs represent the routes linking the sources and the destinations. Arc $ (i, j) $ joining source $ i $ to destination $ j $ carries two pieces of information: the transportation cost per unit, $ c_{ij} $, and the amount shipped, $ x_{ij} $. The amount of supply at source $ i $ is $ a_i $, and the amount of demand at destination $ j $ is $ b_j $. The objective of the model is to minimize the total transportation cost while satisfying all the supply and demand restrictions.
+\begin{center}
+	\includegraphics{gfx/fig53.png}
+\end{center}
+\textit{Example \#1:}\\\\
+MG Auto has three plants in Los Angeles, Detroit, and New Orleans and two major distribution centers in Denver and Miami. The quarterly capacities of the three plants are 1000, 1500, and 1200 cars, and the demands at the two distribution centers for the same period are 2300 and 1400 cars. The transportation costs per car on the different routes, rounded to the closest dollar is given in the table below. Determine the amount of cars to distributed to each distribution center such that the cost transportation cost is minimum, satisfying all demand and supply constraints.
+\begin{center}
+	\begin{tabular}{|c |}
+		Transportation cost per car\\
+		\hline
+		\begin{tabular}{c | c | c}
+			From/To & Denver(1) & Miami(2)\\
+			\hline
+			LA (1) & \$80 & \$215\\
+			\hline
+			Detroit (2) & \$100 & \$108\\
+			\hline
+			New Orleans (1) & \$102 & \$68\\
+		\end{tabular}
+	\end{tabular}
+\end{center}
+\textit{Solution:}\\\\
+The linear Programming model of the problem is:\\\\
+Minimize, $ z = 80x_{11} + 215x_{12} + 100x_{21} + 108x_{22} + 102x_{31} + 68x_{32} $\\\\
+Subject to:\\
+\hspace*{10mm}$x_{11}$ + $x_{12}$ + 0 + 0 + 0 + 0 = 1000 (LA)\\
+\hspace*{10mm}0 + 0 + $x_{21}$ + $x_{22}$ + 0 + 0 = 1500 (Detroit)\\
+\hspace*{10mm}0 + 0 + 0 + 0 + $x_{31}$ +$x_{32}$ = 1200 (New Orleans)\\
+\hspace*{10mm}$x_{11}$ + 0 + $x_{21}$ + 0 + $x_{31}$ + 0 = 2300 (Denver)\\
+\hspace*{10mm}0 + $x_{12}$ + 0 + $x_{22}$ + 0 + $x_{32}$ = 1400 (Miami)\\
+\hspace*{10mm}$x_{ij} \geq 0$, $i$ = 1, 2, 3 and $j$ = 1, 2
