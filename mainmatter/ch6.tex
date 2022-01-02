@@ -198,4 +198,162 @@ Subject to:\\
 \hspace*{10mm}0 + 0 + 0 + 0 + $x_{31}$ +$x_{32}$ = 1200 (New Orleans)\\
 \hspace*{10mm}$x_{11}$ + 0 + $x_{21}$ + 0 + $x_{31}$ + 0 = 2300 (Denver)\\
 \hspace*{10mm}0 + $x_{12}$ + 0 + $x_{22}$ + 0 + $x_{32}$ = 1400 (Miami)\\
-\hspace*{10mm}$x_{ij} \geq 0$, $i$ = 1, 2, 3 and $j$ = 1, 2
+\hspace*{10mm}$x_{ij} \geq 0$, $i$ = 1, 2, 3 and $j$ = 1, 2\\\\
+All the constraints are equations because the total supply ( = 1000+ 1500 + 1200 = 3700) equals the total demand ( = 2300 + 1400 = 3700).
+\begin{center}
+	\begin{tabular}{c | c | c | c}
+		From / To & Denver & Miami & \textbf{Supply}\\
+		\hline
+		LA & \innerbox{80}{$ x_{11} $} & \innerbox{215}{$ x_{12} $} & 1000\\
+		\hline
+		Detroit & \innerbox{100}{$ x_{21} $} & \innerbox{108}{$ x_{22} $} & 1500\\
+		\hline
+		New Orleans & \innerbox{102}{$ x_{31} $} & \innerbox{68}{$ x_{32} $} & 1200\\
+		\hline
+		\textbf{Demand} & 2300 & 1400 & 	
+	\end{tabular}
+\end{center}
+The special structure of the transportation problem allows a compact representation of the problem using the transportation tableau format in shown above.\\\\
+The optimal solution of the given transportation problem ships 1000 cars from LA to Denver ( $ x_{11} = 1000 $), 1300 from Detroit to Denver ( $ x_{21} = 1300 $), 200 from Detroit to Miami ( $ x_{22} = 200 $), and 1200 from New Orleans to Miami ( $ x_{31} = 1200 $). The associated minimum transportation cost is computed as $ 100 \times \$80 + 1300 \times \$100 + 200 \times \$108 + 1200 \times \$68 = \$313,200$.\\\\
+A transportation problem is said to be balanced if the total supply equals to the total demand. However, if the problem is not balanced then it can be balanced by introducing a dummy row or column having cost value of zero, i.e:
+\begin{itemize}
+	 \item \textbf{\textit{If Total Supply $<$ Total Demand:}} A dummy row, whose each cell have zero cost value, is added to the table with a corresponding supply value = Total Demand - Total Supply.
+	 \item \textbf{\textit{If Total Supply $ > $ Total Demand:}} A dummy column, whose each cell have zero cost value, is added to the table with a corresponding demand value = Total Supply - Total Demand.
+\end{itemize}
+%
+\subsection{The Transportation Algorithm}
+The special transportation algorithm that will be presented in this section was developed early on when hand computations were the norm and shortcuts were warranted. Today, powerful computer codes can solve transportation models of any size as a regular LP. But there is more to the transportation model than the hand computations. First, its historical significance in the evolution of OR techniques is important and must be preserved. Second, the special transportation tableau format can facilitate modeling a number of situations that do not deal directly with transporting goods. Third, the algorithmic hand computations boast such (almost intuitive) simplicity that a beginner can get a “feel” of what optimization is about. Lastly, the transportation algorithm does provide insight into the use of the theoretical primal–dual relationships to achieve a practical end result—that of developing simple rules for hand computations. The exercise is theoretically intriguing.\\\\
+The basic steps of the Transportation Algorithm are as follows:
+\begin{itemize}
+	\item \textbf{Step 1}: Balance the given transportation problem.
+	\item \textbf{Step 2}: Compute the starting basic feasible solution. A basic feasible solution can be computed using either of these methods:
+	\begin{enumerate}
+		\item North - west corner method.
+		\item Least - cost cell method. (Or Inspection method Or Matrix minimum - row minimum - column minimum method).
+		\item Vogel's Approximation Method, generally known as VAM.
+	\end{enumerate}
+	\item \textbf{Step 3}: After getting the basic feasible solution conduct a optimality test to check whether the solution is optimal or not. There are two methods of computing optimality test, they are:
+	\begin{enumerate}
+		\item Stepping Stone Method.
+		\item Modified Distribution Method, generally known as MODI method.
+	\end{enumerate}
+\end{itemize}
+For this subject, we will be only computing up to the basic feasible solution of the transportation problem since solving for optimality test is a cumbersome task on its own and doing so causes to deviate away from the course domain of the subject. These topics are only introduced for the sake of familiarizing students with the scope of transportation engineering. For an in-depth study about these topics, students are highly encouraged to peruse books related to Operation Research.
+%
+\subsection{Determining the Basic Feasible Solution}
+Properties of a basic feasible solution:
+\begin{enumerate}
+	\item The allocation made must satisfy the rim requirements, i.e., it must satisfy availability constraints and requirement constraints.
+	\item It should satisfy non negativity constraint.
+	\item Total number of allocations must be equal to (m + n – 1), where 'm' is the number of rows and 'n' is the number of columns. Consider a value of m = 4 and n = 3, i.e. 4 $\times$ 3 matrix. This will have four constraints of $\leq$ type and three constraints of $\geq$ type. Totally it will have 4 + 3 (i.e m + n) inequalities. If we consider them as equations, for solution purpose, we will have 7 equations. In case, if we use simplex method to solve the problem, only six rather than seen structural constraints need to be specified. In view of the fact that the sum of the origin capacities (availability constraint) equals to the destination requirements (requirement constraint), any solution satisfying six of the seven constraints will automatically satisfy the last constraint. In general, therefore, if there are 'm' rows and 'n' columns, in a given transportation problem, we can state the problem completely with m + n – 1 equations. This means that one of the rows of the simplex tableau represents a redundant constraint and, hence, can be deleted. This also means that a basic feasible solution of a transportation problem has only m + n – 1 positive components. If total supply = total demand, it is always possible to get a basic feasible solution by North-west corner method, Least Cost cell method or by VAM.
+\end{enumerate}
+\subsubsection{a. North-West Corner Method}
+The following are the steps used for determining the basic feasible solution of a transportation problem using the North-West Corner Method:
+\begin{itemize}
+	\item Balance the problem, that is, check whether the total demand is equal to the total demand or not. If not, open a dummy column or dummy row as the case may be and balance the problem.
+	\item Start from the left hand side top corner or cell and make allocations depending on the availability and requirement constraint. If the availability constraint is less than the requirement constraint, then for that cell make allocation in units which is equal to the availability constraint. In general, verify which is the smallest among the availability and requirement and allocate the smallest one to the cell under question. Then proceed allocating either side ways or downward to satisfy the rim requirement. Continue this until all the allocations are over.
+	\item Once all the allocations are over, i.e., both rim requirement (column and row i.e., availability and requirement constraints) are satisfied, write allocations and calculate the cost of transportation.
+\end{itemize}
+\textbf{\textit{Numerical Example:(Sunray Transport Problem)}}\\
+SunRay Transport Company ships truckloads of grain from three silos to four mills. The supply (in truckloads) and the demand (also in truckloads) together with the unit transportation costs per truckload on the different routes are summarized in the table below. The unit transportation costs are in hundreds of dollars. The model seeks the minimum cost shipping schedule between the silos and the mills.
+\begin{center}
+	\begin{tabular}{c}
+		Transportation Cost\\
+		 \hline
+		\begin{tabular}{c | c | c | c | c | c}
+			Silo / Mill \cellcolor{cyan} & 1 \cellcolor{cyan} & 2 \cellcolor{cyan} & 3 \cellcolor{cyan} & 4 \cellcolor{cyan} & Supply \cellcolor{cyan}\\
+			\hline
+			1 \cellcolor{cyan} & \$10 & \$2 & \$20 & \$11 & 15\\
+			\hline
+			2 \cellcolor{cyan} & \$12 & \$7 & \$9 & \$20 & 25\\
+			\hline
+			3 \cellcolor{cyan} & \$4 & \$14 & \$16 & \$18 & 10\\
+			\hline
+			Demand \cellcolor{cyan} & 5 & 15 & 15 & 15 & 
+		\end{tabular}
+	\end{tabular}
+\end{center}
+\textit{Solution:}
+At first, we choose the cell that is in the extreme north-west position, that is, cell corresponding to transport operation from silo 1 to mill 1. For that cell, we have supply of 15 and demand of 5. $ \because 5 < 15$, we allocate the value of 5 this cell. Allocating 5 truckloads from silo 1 to mill 1 leaves silo 1 with a remainder of 10 truckloads of supply. Also demand for mill 1 has been satisfied so we gray out the column corresponding to mill 1 indicating it requires no further action. This is shown in the transportation tableau below:
+\begin{center}
+	\begin{tabular}{c | c | c | c | c | c}
+		Silo / Mill & 1 & 2 & 3 & 4 & \textbf{Supply}\\ 
+		\hline
+		1 & \innerbox{\$10}{5} \cellcolor[gray]{0.8} & \$2 & \$20 & \$11 & $ \cancel{15} $ 10\\
+		\hline
+		2 & \$12 \cellcolor[gray]{0.8} & \$7 & \$9 & \$20 & 25\\
+		\hline
+		3 & \$4 \cellcolor[gray]{0.8} & \$14 & \$16 & \$18 & 10\\
+		\hline
+		Demand & $ \cancel{5} $ & 15 & 15 & 15 & \\
+		 & 0 & & & & 
+	\end{tabular}
+\end{center}
+Similarly, cell corresponding to transport operation from silo 1 to mill 2 is in the north-west position considering the remaining table (Table excludes the grayed out region). For this cell, supply is 10 and demand is 15. $\because 10 < 15$, we allocate value of 10 for this cell. Allocating 10 truckloads from silo 1 leaves the supply capacity of silo 1 to 0 and demand of mill 2 is reduced to 5 truckloads. Since silo 1 can no longer supply any truckloads, we gray out the corresponding row.
+\begin{center}
+	\begin{tabular}{c | c | c | c | c | c}
+		Silo / Mill & 1 & 2 & 3 & 4 & \textbf{Supply}\\ 
+		\hline
+		1 & \innerbox{\$10}{5} \cellcolor[gray]{0.8} & \innerbox{\$2}{10} \cellcolor[gray]{0.8} & \$20 \cellcolor[gray]{0.8} & \$11 \cellcolor[gray]{0.8} & $ \cancel{15} $ $ \cancel{10} $ 0\\
+		\hline
+		2 & \$12 \cellcolor[gray]{0.8} & \$7 & \$9 & \$20 & 25\\
+		\hline
+		3 & \$4 \cellcolor[gray]{0.8} & \$14 & \$16 & \$18 & 10\\
+		\hline
+		Demand & $ \cancel{5} $ & $ \cancel{15} $ & 15 & 15 & \\
+		& 0 & 5 & & & 
+	\end{tabular}
+\end{center}
+Similarly, cell corresponding to transport operation from silo 2 to mill 2 is in the north-west position considering the remaining table. For this cell, supply is 25 and demand is 5. $\because 5 < 25$, we allocate value of 5 for this cell. Allocating 5 truckloads from silo 2 reduces the supply capacity of silo 2 to 20 and demand of mill 2 is reduced to 0 truckloads. Since mill 2 can no longer receive truckloads, we gray out the corresponding column.
+\begin{center}
+	\begin{tabular}{c | c | c | c | c | c}
+		Silo / Mill & 1 & 2 & 3 & 4 & \textbf{Supply}\\ 
+		\hline
+		1 & \innerbox{\$10}{5} \cellcolor[gray]{0.8} & \innerbox{\$2}{10} \cellcolor[gray]{0.8} & \$20 \cellcolor[gray]{0.8} & \$11 \cellcolor[gray]{0.8} & $ \cancel{15} $ $ \cancel{10} $ 0\\
+		\hline
+		2 & \$12 \cellcolor[gray]{0.8} & \innerbox{\$7}{5} \cellcolor[gray]{0.8} & \$9 & \$20 & $ \cancel{25} $ 20\\
+		\hline
+		3 & \$4 \cellcolor[gray]{0.8} & \$14 \cellcolor[gray]{0.8} & \$16 & \$18 & 10\\
+		\hline
+		Demand & $ \cancel{5} $ & $ \cancel{15} $ & 15 & 15 & \\
+		& 0 & $ \cancel{5}$ & & & \\ 
+		&  & 0 & & & \\
+	\end{tabular}
+\end{center}
+Similarly, cell corresponding to transport operation from silo 2 to mill 3 is in the north-west position considering the remaining table. For this cell, supply is 20 and demand is 15. $\because 15 < 20$, we allocate value of 15 for this cell. Allocating 15 truckloads from silo 2 reduces the supply capacity of silo 2 to 5 and demand of mill 3 is reduced to 0 truckloads. Since mill 3 can no longer receive truckloads, we gray out the corresponding column.
+\begin{center}
+	\begin{tabular}{c | c | c | c | c | c}
+		Silo / Mill & 1 & 2 & 3 & 4 & \textbf{Supply}\\ 
+		\hline
+		1 & \innerbox{\$10}{5} \cellcolor[gray]{0.8} & \innerbox{\$2}{10} \cellcolor[gray]{0.8} & \$20 \cellcolor[gray]{0.8} & \$11 \cellcolor[gray]{0.8} & $ \cancel{15} $ $ \cancel{10} $ 0\\
+		\hline
+		2 & \$12 \cellcolor[gray]{0.8} & \innerbox{\$7}{5} \cellcolor[gray]{0.8} & \innerbox{\$9}{15} \cellcolor[gray]{0.8} & \$20 & $ \cancel{25} $ $ \cancel{20} $ 5\\
+		\hline
+		3 & \$4 \cellcolor[gray]{0.8} & \$14 \cellcolor[gray]{0.8} & \$16 \cellcolor[gray]{0.8} & \$18 & 10\\
+		\hline
+		Demand & $ \cancel{5} $ & $ \cancel{15} $ & $ \cancel{15} $ & 15 & \\
+		& 0 & $ \cancel{5}$ & 0 & & \\ 
+		&  & 0 & & & \\
+	\end{tabular}
+\end{center}
+Similarly, cell corresponding to transport operation from silo 2 to mill 4 is in the north-west position considering the remaining table.  For this cell, supply is 5 and demand is 15. $\because 5 < 15$, we allocate value of 5 for this cell. Allocating 5 truckloads from silo 2 reduces the supply capacity of silo 2 to 0 and demand of mill 3 is reduced to 10 truckloads. Since, silo 2 can no longer supply any truckloads, we gray out the corresponding row.
+\begin{center}
+	\begin{tabular}{c | c | c | c | c | c}
+		Silo / Mill & 1 & 2 & 3 & 4 & \textbf{Supply}\\ 
+		\hline
+		1 & \innerbox{\$10}{5} \cellcolor[gray]{0.8} & \innerbox{\$2}{10} \cellcolor[gray]{0.8} & \$20 \cellcolor[gray]{0.8} & \$11 \cellcolor[gray]{0.8} & $ \cancel{15} $ $ \cancel{10} $ 0\\
+		\hline
+		2 & \$12 \cellcolor[gray]{0.8} & \innerbox{\$7}{5} \cellcolor[gray]{0.8} & \innerbox{\$9}{15} \cellcolor[gray]{0.8} & \innerbox{\$20}{5} \cellcolor[gray]{0.8} & $ \cancel{25} $ $ \cancel{20} $ $ \cancel{5} $ 0\\
+		\hline
+		3 & \$4 \cellcolor[gray]{0.8} & \$14 \cellcolor[gray]{0.8} & \$16 \cellcolor[gray]{0.8} & \$18 & 10\\
+		\hline
+		Demand & $ \cancel{5} $ & $ \cancel{15} $ & $ \cancel{15} $ & $ \cancel{15} $ & \\
+		& 0 & $ \cancel{5}$ & 0 & 10 & \\ 
+		&  & 0 & & & \\
+	\end{tabular}
+\end{center}
+Finally, there is only one cell left, cell corresponding to transport operation from silo 3 to mill 4, so we assign the remaining 10 truckloads to this cell and the transportation supply and demand constraints are also met.\\\\
+From the basic feasible solution obtained using the North-West Corner method, following assignments are obtained: $ x_{11} = 5$, $ x_{12} = 10$, $ x_{22} = 5$, $ x_{23} = 15$, $ x_{24} = 5$, and $ x_{34} = 10$.\\\\
+Also, the associated cost of the schedule is,\\
+$ z = 5 \times \$10 + 10 \times \$2 + 5 \times \$7 + 15 \times \$9 + 5 \times \$20 + 10 \times \$18 = \$520$
+\subsubsection{b. Least-Cost Cell Method}

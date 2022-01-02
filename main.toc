@@ -50,22 +50,22 @@
 \contentsline {section}{\numberline {3.7}Kraft Demand Function}{36}{}%
 \contentsline {section}{\numberline {3.8}Factors Affecting Elasticity}{38}{}%
 \contentsline {subsection}{\numberline {3.8.1}Income Elasticity}{38}{}%
-\contentsline {subsection}{\numberline {3.8.2}Price Elasticity}{38}{}%
+\contentsline {subsection}{\numberline {3.8.2}Price Elasticity}{39}{}%
 \contentsline {section}{\numberline {3.9}Elasticity and Total Revenue}{39}{}%
-\contentsline {section}{\numberline {3.10}Application of Price Elasticity: Consumer Surplus and Latent Demand}{39}{}%
+\contentsline {section}{\numberline {3.10}Application of Price Elasticity: Consumer Surplus and Latent Demand}{40}{}%
 \contentsline {paragraph}{}{41}{}%
 \contentsline {section}{\numberline {3.11}Cost Analysis in the Evaluation of Transportation Systems}{43}{}%
 \contentsline {paragraph}{}{43}{}%
 \contentsline {subsection}{\numberline {3.11.1}Economic Laws Related to Cost}{43}{}%
-\contentsline {subsection}{\numberline {3.11.2}Average Cost}{43}{}%
-\contentsline {subsection}{\numberline {3.11.3}Marginal Costs}{44}{}%
-\contentsline {paragraph}{\textit {Case Study}}{44}{}%
+\contentsline {subsection}{\numberline {3.11.2}Average Cost}{44}{}%
+\contentsline {subsection}{\numberline {3.11.3}Marginal Costs}{45}{}%
+\contentsline {paragraph}{\textit {Case Study}}{45}{}%
 \contentsline {paragraph}{}{46}{}%
-\contentsline {subsection}{\numberline {3.11.4}Costs and Production}{46}{}%
+\contentsline {subsection}{\numberline {3.11.4}Costs and Production}{47}{}%
 \contentsline {subsection}{\numberline {3.11.5}Cost Elasticity}{47}{}%
-\contentsline {section}{\numberline {3.12}Transportation Projects Evaluation}{47}{}%
+\contentsline {section}{\numberline {3.12}Transportation Projects Evaluation}{48}{}%
 \contentsline {section}{\numberline {3.13}Cost-Benefit Analysis}{49}{}%
-\contentsline {section}{\numberline {3.14}\emph {Numerical Examples:}}{51}{}%
+\contentsline {section}{\numberline {3.14}\emph {Numerical Examples:}}{52}{}%
 \contentsline {section}{\numberline {3.15}Review Problems}{55}{}%
 \contentsline {chapter}{\numberline {4}Insurance}{57}{}%
 \contentsline {section}{\numberline {4.1}Introduction}{57}{}%
@@ -127,7 +127,7 @@
 \contentsline {subsection}{\numberline {5.7.1}Transit Line Capacity Utilization}{89}{}%
 \contentsline {section}{\numberline {5.8}Optimal Paths in Transportation Networks}{91}{}%
 \contentsline {subsection}{\numberline {5.8.1}Dijkstra's Shortest Path Algorithm}{91}{}%
-\contentsline {section}{\numberline {5.9}Review Problems}{94}{}%
+\contentsline {section}{\numberline {5.9}Review Problems}{95}{}%
 \contentsline {chapter}{\numberline {6}Freight Transport Operation}{97}{}%
 \contentsline {section}{\numberline {6.1}Main Actors of Freight Transport and Distribution}{97}{}%
 \contentsline {subsection}{\numberline {6.1.1}Shippers}{97}{}%
@@ -167,5 +167,9 @@
 \contentsline {paragraph}{}{109}{}%
 \contentsline {section}{\numberline {6.6}Transportation Model}{110}{}%
 \contentsline {subsection}{\numberline {6.6.1}Definition of the Transportation Model}{110}{}%
-\contentsline {chapter}{\numberline {7}Fuel Consumption and Emission Models}{113}{}%
-\contentsline {chapter}{\numberline {8}Planning for New Transport Organization}{115}{}%
+\contentsline {subsection}{\numberline {6.6.2}The Transportation Algorithm}{112}{}%
+\contentsline {subsection}{\numberline {6.6.3}Determining the Basic Feasible Solution}{113}{}%
+\contentsline {subsubsection}{a. North-West Corner Method}{114}{}%
+\contentsline {subsubsection}{b. Least-Cost Cell Method}{117}{}%
+\contentsline {chapter}{\numberline {7}Fuel Consumption and Emission Models}{119}{}%
+\contentsline {chapter}{\numberline {8}Planning for New Transport Organization}{121}{}%

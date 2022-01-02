@@ -4,3 +4,27 @@
 \usepackage{amssymb}
 \usepackage{mathtools}
 \usepackage[bottom]{footmisc}
+\usepackage{colortbl}
+\usepackage{ulem}
+\usepackage{cancel}
+\usepackage{array}
+\usepackage{tikz}
+\newcommand\diag[4]{%
+	\multicolumn{1}{p{#2}|}{\hskip-\tabcolsep
+		$\vcenter{\begin{tikzpicture}[baseline=0,anchor=south west,inner sep=#1]
+				\path[use as bounding box] (0,0) rectangle (#2+2\tabcolsep,\baselineskip);
+				\node[minimum width={#2+2\tabcolsep},minimum height=\baselineskip+\extrarowheight] (box) {};
+				\draw (box.north west) -- (box.south east);
+				\node[anchor=south west] at (box.south west) {#3};
+				\node[anchor=north east] at (box.north east) {#4};
+		\end{tikzpicture}}$\hskip-\tabcolsep}}
+
+
+\newcolumntype{C}{@{}c@{}}
+\newcommand{\bottombox}[1]{\makebox[2em][r]{#1}\hspace*{\tabcolsep}\hspace*{2em}}%
+\newcommand{\innerbox}[2]{%
+	\begin{tabular}[b]{c|c}
+		\rule{2em}{0pt}\rule[-2ex]{0pt}{5ex} & \makebox[2em]{#2} \\\cline{2-2}
+		\multicolumn{2}{r}{{#1}\hspace*{1.5\tabcolsep}\hspace*{2em}\rule[-2ex]{0pt}{5ex}}
+\end{tabular}}
+\renewcommand{\arraystretch}{1.25}
