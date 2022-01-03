@@ -169,7 +169,9 @@
 \contentsline {subsection}{\numberline {6.6.1}Definition of the Transportation Model}{110}{}%
 \contentsline {subsection}{\numberline {6.6.2}The Transportation Algorithm}{112}{}%
 \contentsline {subsection}{\numberline {6.6.3}Determining the Basic Feasible Solution}{113}{}%
-\contentsline {subsubsection}{a. North-West Corner Method}{114}{}%
+\contentsline {subsubsection}{a. North-West Corner Method}{113}{}%
 \contentsline {subsubsection}{b. Least-Cost Cell Method}{117}{}%
-\contentsline {chapter}{\numberline {7}Fuel Consumption and Emission Models}{119}{}%
-\contentsline {chapter}{\numberline {8}Planning for New Transport Organization}{121}{}%
+\contentsline {subsubsection}{c. Vogel's Approximation Method (Opportunity Cost Method)}{120}{}%
+\contentsline {section}{\numberline {6.7}Assignment Model}{124}{}%
+\contentsline {chapter}{\numberline {7}Fuel Consumption and Emission Models}{125}{}%
+\contentsline {chapter}{\numberline {8}Planning for New Transport Organization}{127}{}%

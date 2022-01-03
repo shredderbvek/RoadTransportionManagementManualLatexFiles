@@ -241,12 +241,7 @@ The basic steps of the Transportation Algorithm are as follows:
 For this subject, we will be only computing up to the basic feasible solution of the transportation problem since solving for optimality test is a cumbersome task on its own and doing so causes to deviate away from the course domain of the subject. These topics are only introduced for the sake of familiarizing students with the scope of transportation engineering. For an in-depth study about these topics, students are highly encouraged to peruse books related to Operation Research.
 %
 \subsection{Determining the Basic Feasible Solution}
-Properties of a basic feasible solution:
-\begin{enumerate}
-	\item The allocation made must satisfy the rim requirements, i.e., it must satisfy availability constraints and requirement constraints.
-	\item It should satisfy non negativity constraint.
-	\item Total number of allocations must be equal to (m + n – 1), where 'm' is the number of rows and 'n' is the number of columns. Consider a value of m = 4 and n = 3, i.e. 4 $\times$ 3 matrix. This will have four constraints of $\leq$ type and three constraints of $\geq$ type. Totally it will have 4 + 3 (i.e m + n) inequalities. If we consider them as equations, for solution purpose, we will have 7 equations. In case, if we use simplex method to solve the problem, only six rather than seen structural constraints need to be specified. In view of the fact that the sum of the origin capacities (availability constraint) equals to the destination requirements (requirement constraint), any solution satisfying six of the seven constraints will automatically satisfy the last constraint. In general, therefore, if there are 'm' rows and 'n' columns, in a given transportation problem, we can state the problem completely with m + n – 1 equations. This means that one of the rows of the simplex tableau represents a redundant constraint and, hence, can be deleted. This also means that a basic feasible solution of a transportation problem has only m + n – 1 positive components. If total supply = total demand, it is always possible to get a basic feasible solution by North-west corner method, Least Cost cell method or by VAM.
-\end{enumerate}
+%
 \subsubsection{a. North-West Corner Method}
 The following are the steps used for determining the basic feasible solution of a transportation problem using the North-West Corner Method:
 \begin{itemize}
@@ -273,7 +268,10 @@ SunRay Transport Company ships truckloads of grain from three silos to four mill
 		\end{tabular}
 	\end{tabular}
 \end{center}
-\textit{Solution:}
+\textit{Solution:}\\
+Total Supply = 15 + 25 + 10 = 50\\
+Total Demand = 5 + 15 + 15 + 15 = 50\\\\
+$\because$ Total Supply = Total Demand, the transportation model is balanced.\\\\
 At first, we choose the cell that is in the extreme north-west position, that is, cell corresponding to transport operation from silo 1 to mill 1. For that cell, we have supply of 15 and demand of 5. $ \because 5 < 15$, we allocate the value of 5 this cell. Allocating 5 truckloads from silo 1 to mill 1 leaves silo 1 with a remainder of 10 truckloads of supply. Also demand for mill 1 has been satisfied so we gray out the column corresponding to mill 1 indicating it requires no further action. This is shown in the transportation tableau below:
 \begin{center}
 	\begin{tabular}{c | c | c | c | c | c}
@@ -357,3 +355,213 @@ From the basic feasible solution obtained using the North-West Corner method, fo
 Also, the associated cost of the schedule is,\\
 $ z = 5 \times \$10 + 10 \times \$2 + 5 \times \$7 + 15 \times \$9 + 5 \times \$20 + 10 \times \$18 = \$520$
 \subsubsection{b. Least-Cost Cell Method}
+The least-cost method finds a better starting solution by targeting the cheapest routes. It assigns as much as possible to the cell with the smallest unit cost (ties are broken arbitrarily). Next, the satisfied row or column is crossed out and the amounts of supply and demand are adjusted accordingly. If both a row and a column are satisfied simultaneously, only one is crossed out, the same as in the northwest-corner method. Next, select the uncrossed-out cell with the smallest unit cost and repeat the process until exactly one row or column is left uncrossed out.\\\\
+The following are the steps used for determining the basic feasible solution of a transportation problem using the Least-Cost Cell Method:
+\begin{itemize}
+	\item \textit{Step 1:} Identify the lowest cost cell in the given matrix. When more than one cell has the same cost, then both the cells are competing for allocation. This situation in transportation problem is known as tie. To break the tie, select any one cell of your choice for allocation. Make allocations to this cell either to satisfy availability constraint or requirement constraint. Once one of these is satisfied, then mark crosses (×) in all the cells in the row or column which ever has completely allocated.
+	\item \textit{Step 2:} Are all allocations completed? If yes the basic solution has been obtained, else go to the \textit{Step 1.}
+\end{itemize}
+\textbf{\textit{Numerical Example: Determine the basic feasible solution for the Sunray Transport Problem using the Least-Cost Cell method.}}\\
+\textit{Solution:}\\
+Total Supply = 15 + 25 + 10 = 50\\
+Total Demand = 5 + 15 + 15 + 15 = 50\\\\
+$\because$ Total Supply = Total Demand, the transportation model is balanced.\\\\
+First, we have to choose the cell having the least cost, in this problem the cell corresponding to transport operation from silo 1 to mill 2 has the least cost (\$2). For this cell, the supply is 15 and demand is also 15. So we assign the value of 15 for this cell, which reduces the supply of silo 1 to 0 and demand of mill 2 to 0. Since silo 1 can no longer supply and mill 2 can no longer receive truckloads, we gray out the corresponding row and column.
+\begin{center}
+	\begin{tabular}{c | c | c | c | c | c}
+		Silo / Mill & 1 & 2 & 3 & 4 & \textbf{Supply}\\ 
+		\hline
+		1 & \$10 \cellcolor[gray]{0.8} & \innerbox{\$2}{15} \cellcolor[gray]{0.8} & \$20 \cellcolor[gray]{0.8} & \$11 \cellcolor[gray]{0.8} & $ \cancel{15} $ 0\\
+		\hline
+		2 & \$12 & \$7 \cellcolor[gray]{0.8} & \$9 & \$20 & 25\\
+		\hline
+		3 & \$4 & \$14 \cellcolor[gray]{0.8} & \$16 & \$18 & 10\\
+		\hline
+		Demand & 5 & $ \cancel{15} $ & 15 & 15 & \\
+		&  & 0 & & & 
+	\end{tabular}
+\end{center}
+Similarly for the remaining active cells, the cell corresponding to transport operation from silo 3 to mill 1 has the least cost (\$4) among other active cells. For this cell, the supply is 10 and demand is 5. Since $ 5 < 10 $ we assign the value of 5 for this cell, which reduces the supply of silo 3 to 5 and demand of mill 1 to 0. Since mill 1 can no longer receive truckloads, we gray out the corresponding column.
+\begin{center}
+	\begin{tabular}{c | c | c | c | c | c}
+		Silo / Mill & 1 & 2 & 3 & 4 & \textbf{Supply}\\ 
+		\hline
+		1 & \$10 \cellcolor[gray]{0.8} & \innerbox{\$2}{15} \cellcolor[gray]{0.8} & \$20 \cellcolor[gray]{0.8} & \$11 \cellcolor[gray]{0.8} & $ \cancel{15} $ 0\\
+		\hline
+		2 & \$12 \cellcolor[gray]{0.8} & \$7 \cellcolor[gray]{0.8} & \$9 & \$20 & 25\\
+		\hline
+		3 & \innerbox{\$4}{5} \cellcolor[gray]{0.8} & \$14 \cellcolor[gray]{0.8} & \$16 & \$18 & $ \cancel{10} $ 5\\
+		\hline
+		Demand & $ \cancel{5} $ & $ \cancel{15} $ & 15 & 15 & \\
+		& 0 & 0 & & & 
+	\end{tabular}
+\end{center}
+Similarly for the remaining active cells, the cell corresponding to transport operation from silo 2 to mill 3 has the least cost (\$9) among other active cells. For this cell, the supply is 25 and demand is 15. Since $ 15 < 25 $ we assign the value of 15 for this cell, which reduces the supply of silo 2 to 10 and demand of mill 3 to 0. Since mill 3 can no longer receive truckloads, we gray out the corresponding column.
+\begin{center}
+	\begin{tabular}{c | c | c | c | c | c}
+		Silo / Mill & 1 & 2 & 3 & 4 & \textbf{Supply}\\ 
+		\hline
+		1 & \$10 \cellcolor[gray]{0.8} & \innerbox{\$2}{15} \cellcolor[gray]{0.8} & \$20 \cellcolor[gray]{0.8} & \$11 \cellcolor[gray]{0.8} & $ \cancel{15} $ 0\\
+		\hline
+		2 & \$12 \cellcolor[gray]{0.8} & \$7 \cellcolor[gray]{0.8} & \innerbox{\$9}{15} \cellcolor[gray]{0.8} & \$20 & $ \cancel{25} $ 10\\
+		\hline
+		3 & \innerbox{\$4}{5} \cellcolor[gray]{0.8} & \$14 \cellcolor[gray]{0.8} & \$16 \cellcolor[gray]{0.8} & \$18 & $ \cancel{10} $ 5\\
+		\hline
+		Demand & $ \cancel{5} $ & $ \cancel{15} $ & $ \cancel{15} $ & 15 & \\
+		& 0 & 0 & 0 & & 
+	\end{tabular}
+\end{center}
+Similarly for the remaining active cells, the cell corresponding to transport operation from silo 3 to mill 4 has the least cost (\$18) among other active cells. For this cell, the supply is 5 and demand is 15. Since $ 5 < 15 $ we assign the value of 5 for this cell, which reduces the supply of silo 3 to 0 and demand of mill 4 to 10. Since silo 3 can no longer supply truckloads, we gray out the corresponding row.
+\begin{center}
+	\begin{tabular}{c | c | c | c | c | c}
+		Silo / Mill & 1 & 2 & 3 & 4 & \textbf{Supply}\\ 
+		\hline
+		1 & \$10 \cellcolor[gray]{0.8} & \innerbox{\$2}{15} \cellcolor[gray]{0.8} & \$20 \cellcolor[gray]{0.8} & \$11 \cellcolor[gray]{0.8} & $ \cancel{15} $ 0\\
+		\hline
+		2 & \$12 \cellcolor[gray]{0.8} & \$7 \cellcolor[gray]{0.8} & \innerbox{\$9}{15} \cellcolor[gray]{0.8} & \$20 & $ \cancel{25} $ 10\\
+		\hline
+		3 & \innerbox{\$4}{5} \cellcolor[gray]{0.8} & \$14 \cellcolor[gray]{0.8} & \$16 \cellcolor[gray]{0.8} & \innerbox{\$18}{5} \cellcolor[gray]{0.8} & $ \cancel{10} $ $ \cancel{5} $ 0\\
+		\hline
+		Demand & $ \cancel{5} $ & $ \cancel{15} $ & $ \cancel{15} $ & $ \cancel{15} $ & \\
+		& 0 & 0 & 0 & 10 & 
+	\end{tabular}
+\end{center}
+Finally the cell corresponding to transport operation from silo 2 to mill 4 is only left which has a both demand and supply value of 10. Hence we assign the value of 10 to this cell.\\\\
+From the basic feasible solution obtained using the North-West Corner method, following assignments are obtained: $ x_{13} = 5, x_{12} = 15, x_{23} = 15, x_{24} = 10, and \: x_{34} = 5$.\\\\
+Also, the associated cost of the schedule is,\\
+$ z = 15 \times \$2 + 5 \times \$4 + 15 \times \$9 + 10 \times \$20 + 5 \times \$18 = \: \$475$.
+%
+\subsubsection{c. Vogel's Approximation Method (Opportunity Cost Method)}
+VAM is an improved version of the least-cost method that generally, but not always, produces better starting solutions. In this method, we use concept of opportunity cost. Opportunity cost is the penalty for not taking correct decision. This is the penalty for not taking correct decision and hence the opportunity cost.
+The following are the steps used for determining the basic feasible solution of a transportation problem using the Least-Cost Cell Method:
+\begin{itemize}
+	\item Step 1: For each row (column), determine a penalty measure by subtracting the smallest unit cost in the row (column) from the next smallest unit cost in the same row (column). This penalty is actually a measure of lost opportunity one forgoes if the smallest unit cost cell is not chosen.
+	\item Identify the row or column with the largest penalty, breaking ties arbitrarily. Allocate as much as possible to the variable with the least unit cost in the selected row or column. Adjust the supply and demand, and cross out the satisfied row or column. If a row and a column are satisfied simultaneously, only one of the two is crossed out, and the remaining row (column) is assigned zero supply (demand).
+	\item \begin{enumerate}
+		\item If exactly one row or column with zero supply or demand remains uncrossed out, stop.
+		\item If one row (column) with positive supply (demand) remains uncrossed out, determine the basic variables in the row (column) by the least-cost method. Stop.
+		\item If all the uncrossed-out rows and columns have (remaining) zero supply and demand, determine the zero basic variables by the least-cost method. Stop.
+		\item Otherwise, go to step 1.
+	\end{enumerate}
+\end{itemize}
+\textbf{\textit{Numerical Example: Determine the basic feasible solution for the Sunray Transport Problem using the Vogel's Approximation method.}}\\
+\textit{Solution:}\\
+Total Supply = 15 + 25 + 10 = 50\\
+Total Demand = 5 + 15 + 15 + 15 = 50\\\\
+$\because$ Total Supply = Total Demand, the transportation model is balanced.\\\\
+At first, we compute the values of penalties for each row and column of the transportation model. For first row (supply row of silo 1), 10 and 2 are the two minimum values. Thus, the value of penalty for the corresponding row is 8. For first column (demand column of mill 1), 10 and 4 are the two minimum value. Thus, the value of penalty for the corresponding column is 6. Similarly the value of penalty for all rows and columns are computed as shown in the table below. Comparing the values of penalty of all rows and column, it is found that the value of penalty corresponding to the third row, that is 10, is the maximum value. Since 10 is the max value, we determine the cell to be assigned for the corresponding row using least-cost cell method.
+\begin{center}
+	\begin{tabular}{c | c | c | c | c | c | c}
+		S/M & 1 & 2 & 3 & 4 & Supply & $P_1$ \\
+		\hline
+		1 & \$10 \cellcolor[gray]{0.8} & \$2 & \$20 & \$11 & 15 & 10 - 2 = 8\\
+		\hline
+		2 & \$12 \cellcolor[gray]{0.8} & \$7 & \$9 & \$20 & 25 & 9 - 7 = 2\\
+		\hline
+		3 & \innerbox{\$4}{5} \cellcolor[gray]{0.8} & \$14 & \$16 & \$18 & $ \cancel{10} $ 5 & 14 - 4 = 10 $\leftarrow$\\
+		\hline
+		Demand & $ \cancel{5} $ & 15 & 15 & 15 & & \\
+		 & $ 0 $ &  &  &  & & \\
+		 \hline
+		 $P_1$ & 10 - 4 = 6 & 5 & 7 & 7 & & \\
+	\end{tabular}
+\end{center}
+Similarly, we compute the value of penalty for all active rows and columns. Since 9, which is the penalty value for row 1, is the maximum value among all values of penalty, we determine the cell to be assigned for the corresponding row using least-cost cell method.
+\begin{center}
+	\begin{tabular}{c | c | c | c | c | c | c | c}
+		S/M & 1 & 2 & 3 & 4 & Sup & $P_1$ & $P_2$ \\
+		\hline
+		1 & \$10 \cellcolor[gray]{0.8} & \innerbox{\$2}{15} \cellcolor[gray]{0.8} & \$20 \cellcolor[gray]{0.8} & \$11 \cellcolor[gray]{0.8} & $ \cancel{15} $ 0 & 8 & 9 $\leftarrow$\\
+		\hline
+		2 & \$12 \cellcolor[gray]{0.8} & \$7 \cellcolor[gray]{0.8} & \$9 & \$20 & 25 & 2 & 2\\
+		\hline
+		3 & \innerbox{\$4}{5} \cellcolor[gray]{0.8} & \$14 \cellcolor[gray]{0.8} & \$16 & \$18 & $ \cancel{10} $ 5 & 10 $\leftarrow$ & 2\\
+		\hline
+		Dem & $ \cancel{5} $ & $ \cancel{15} $ & 15 & 15 & & &\\
+		& $ 0 $ & 0 &  &  & & &\\
+		\hline
+		$P_1$ & 6 & 5 & 7 & 7 & & &\\
+		\hline
+		$P_2$ & - & 5 & 7 & 7 & & &\\
+	\end{tabular}
+\end{center}
+Similarly,
+\begin{center}
+	\begin{tabular}{c | >{\small} c | >{\small} c | >{\small} c | >{\small} c | >{\small} c | >{\small} c | >{\small} c | >{\small} c}
+		S/M & 1 & 2 & 3 & 4 & Sup & $P_1$ & $P_2$ & $P_3$\\
+		\hline
+		1 & \$10 \cellcolor[gray]{0.8} & \innerbox{\$2}{15} \cellcolor[gray]{0.8} & \$20 \cellcolor[gray]{0.8} & \$11 \cellcolor[gray]{0.8} & $ \cancel{15} $ 0 & 8 & 9 $\leftarrow$ & -\\
+		\hline
+		2 & \$12 \cellcolor[gray]{0.8} & \$7 \cellcolor[gray]{0.8} & \innerbox{\$9}{15} \cellcolor[gray]{0.8} & \$20 & $ \cancel{25} $ 10 & 2 & 2 & 11 $\leftarrow$\\
+		\hline
+		3 & \innerbox{\$4}{5} \cellcolor[gray]{0.8} & \$14 \cellcolor[gray]{0.8} & \$16 \cellcolor[gray]{0.8} & \$18 & $ \cancel{10} $ 5 & 10 $\leftarrow$ & 2 & 2\\
+		\hline
+		Dem & $ \cancel{5} $ & $ \cancel{15} $ & $ \cancel{15} $ & 15 & & & &\\
+		& $ 0 $ & 0 & 0 &  & & & &\\
+		\hline
+		$P_1$ & 6 & 5 & 7 & 7 & & & &\\
+		\hline
+		$P_2$ & - & 5 & 7 & 7 & & & &\\
+		\hline
+		$P_3$ & - & - & 7 & 2 & & & &\\
+	\end{tabular}
+\end{center}
+Similarly,
+\begin{center}
+	\begin{tabular}{ >{\tiny}c | >{\tiny} c | >{\tiny} c | >{\tiny} c | >{\tiny} c |>{\tiny} c | >{\tiny} c | >{\tiny} c | >{\tiny} c | >{\tiny} c}
+		S/M & 1 & 2 & 3 & 4 & Sup & $P_1$ & $P_2$ & $P_3$ & $P_4$\\
+		\hline
+		1 & \$10 \cellcolor[gray]{0.8} & \innerbox{\$2}{15} \cellcolor[gray]{0.8} & \$20 \cellcolor[gray]{0.8} & \$11 \cellcolor[gray]{0.8} & $ \cancel{15} $ 0 & 8 & 9 $\leftarrow$ & - & -\\
+		\hline
+		2 & \$12 \cellcolor[gray]{0.8} & \$7 \cellcolor[gray]{0.8} & \innerbox{\$9}{15} \cellcolor[gray]{0.8} & \innerbox{\$20}{10} \cellcolor[gray]{0.8} & $ \cancel{25} $ $ \cancel{10} $ 0 & 2 & 2 & 11 $\leftarrow$ & 20 $\leftarrow$\\
+		\hline
+		3 & \innerbox{\$4}{5} \cellcolor[gray]{0.8} & \$14 \cellcolor[gray]{0.8} & \$16 \cellcolor[gray]{0.8} & \$18 & $ \cancel{10} $ 5 & 10 $\leftarrow$ & 2 & 2 & 18\\
+		\hline
+		Dem & $ \cancel{5} $ & $ \cancel{15} $ & $ \cancel{15} $ & $ \cancel{15} $ & & & & &\\
+		& $ 0 $ & 0 & 0 & 5 & & & & &\\
+		\hline
+		$P_1$ & 6 & 5 & 7 & 7 & & & & &\\
+		\hline
+		$P_2$ & - & 5 & 7 & 7 & & & & &\\
+		\hline
+		$P_3$ & - & - & 7 & 2 & & & & &\\
+		\hline
+		$P_4$ & - & - & - & 2 & & & & &\\
+	\end{tabular}
+\end{center}
+The basic feasible solution is shown below:
+\begin{center}
+	\begin{tabular}{c | c | c | c | c | c}
+		Silo / Mill & 1 & 2 & 3 & 4 & Supply \\
+		\hline
+		1 & 10 & \innerbox{\$2}{15} & 20 & 11 & 15 \\
+		\hline
+		2 & 12 & 7 & \innerbox{\$9}{15} & \innerbox{\$20}{10} & 25 \\
+		\hline
+		3 & \innerbox{\$4}{5} & 14 & 16 & \innerbox{\$18}{5} & 10 \\
+		\hline
+		Demand & 5 & 15 & 15 & 15 & 
+	\end{tabular}
+\end{center}
+The associated cost of the schedule is,\\
+$ z = 15 \times \$2 + 5 \times \$4 + 15 \times \$9 + 10 \times \$20 + 5 \times \$18 = \: \$475$.
+\begin{center}
+	\begin{tabular}{| p{4cm} | p{4cm} | p{4cm} |}
+	\hline
+	North-West Corner Method & Least-Cost Cell Method & Vogel's Approximation Method\\ 
+	\hline
+	1. The allocation is made from the left hand side top corner irrespective of the cost of the cell. & The allocations are made depending on the cost of the cell. Lowest cost is first selected and then next highest etc. & The allocations are made depending on the opportunity cost of the cell.\\
+	\hline
+	2. As no consideration is given to the cost of the cell, naturally the total transportation cost will be higher than the other methods. & As the cost of the considered while cell is making allocations, the total cost of transportation will be comparatively less. & As the allocations are made depending on the opportunity cost of the cell, the basic feasible solution obtained will be very nearer to optimal solution.\\
+	\hline
+	3. It takes less time. This method is suitable to get basic feasible solution quickly. & The basic feasible solution, we get will be very
+	nearer to optimal solution. It takes more time than northwest coroner method. & It takes more time for getting basic Feasible solution. But the solution we get will be very nearer to Optimal solution.\\
+	\hline
+	4. When basic feasible solution alone is asked, it is better
+	to go for northwest corner method. & When optimal asked, better
+	solution to go is for least-cost cell method for basic feasible solution and MODI for optimal solution. & VAM and MODI is the best option to get optimal solution.\\
+	\hline
+	\end{tabular}
+\end{center}
+%
+\section{Assignment Model}
