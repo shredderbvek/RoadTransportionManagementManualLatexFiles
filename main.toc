@@ -173,5 +173,7 @@
 \contentsline {subsubsection}{b. Least-Cost Cell Method}{117}{}%
 \contentsline {subsubsection}{c. Vogel's Approximation Method (Opportunity Cost Method)}{120}{}%
 \contentsline {section}{\numberline {6.7}Assignment Model}{124}{}%
-\contentsline {chapter}{\numberline {7}Fuel Consumption and Emission Models}{125}{}%
-\contentsline {chapter}{\numberline {8}Planning for New Transport Organization}{127}{}%
+\contentsline {subsection}{\numberline {6.7.1}Definition of the Assignment Problem}{124}{}%
+\contentsline {subsection}{\numberline {6.7.2}Hungarian Method}{125}{}%
+\contentsline {chapter}{\numberline {7}Fuel Consumption and Emission Models}{133}{}%
+\contentsline {chapter}{\numberline {8}Planning for New Transport Organization}{135}{}%

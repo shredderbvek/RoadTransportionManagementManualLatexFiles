@@ -565,3 +565,231 @@ $ z = 15 \times \$2 + 5 \times \$4 + 15 \times \$9 + 10 \times \$20 + 5 \times \
 \end{center}
 %
 \section{Assignment Model}
+An assignment problem is a particular case of transportation problem where the objective is to assign a number of resources to an equal number of activities so as to minimize total cost or maximize total profit of allocation.\\\\
+The problem of assignment arises because available resources such as men, machines etc. have varying degrees of efficiency for performing different activities, therefore, cost, profit or loss of performing the different activities is different.\\\\
+Thus, the problem is “How should the assignments be made so as to optimize the given objective”. Some of the problem where the assignment technique may be useful are assignment of workers to machines, salesman to different sales areas.
+\subsection{Definition of the Assignment Problem}
+Suppose there are n jobs to be performed and n persons are available for doing these jobs. Assume that each person can do each job at a term, though with varying degree of efficiency, let $ c_{ij} $ be the cost if the i-th person is assigned to the j-th job. The problem is to find an assignment (which job should be assigned to which person one on-one basis) So that the total cost of performing all jobs is minimum, problem of this kind are known as assignment problem.\\\\
+For solving the assignment problem we use Assignment technique or Hungarian method or Flood's technique. All are one and the same. Above, it is mentioned that one origin is to be assigned to one destination. This feature implies the existence of two specific characteristics in linear programming problems, which when present, give rise to an assignment problem. The first one being the pay of matrix for a given problem is a square matrix and the second is the optimum solution (or any solution with given constraints) for the problem is such that there can be one and only one assignment in a given row or column of the given payoff matrix. The transportation model is a special case of linear programming model (Resource allocation model) and assignment problem is a special case of transportation model, therefore it is also a special case of linear programming model. Hence it must have all the properties of linear programming model. That is it must have: (i) an objective function, (ii) it must have structural constraints, (iii) It must have non-negativity constraint and (iv) The relationship between variables and constraints must have linear relationship. In our future discussion, we will see that the assignment problem has all the above properties.\\\\
+There are different types of assignment problems. They are:
+\begin{enumerate}
+	\item Assigning the jobs to machines when the problem has square matrix to minimize the time required to complete the jobs. Here the number of rows i.e. jobs are equals to the number of machines i.e. columns.
+	\item The second type is maximization type of assignment problem. Here we have to assign certain jobs to certain facilities to maximize the returns or maximize the effectiveness.
+	\item Assignment problem having non-square matrix. Here by adding a dummy row or dummy columns as the case may be, we can convert a non-square matrix into a square matrix and proceed further to solve the problem.
+	\item Assignment problem with restrictions. Here restrictions such as a job cannot be done on a certain machine or a job cannot be allocated to a certain facility may be specified. In such cases, we should neglect such cell or give a high penalty to that cell to avoid that cell to enter into the program.
+	\item Traveling sales man problem (cyclic type). Here a salesman must tour certain cities starting from his hometown and come back to his hometown after visiting all cities.
+\end{enumerate}
+\subsection{Hungarian Method}
+The Hungarian method (developed by Hungarian mathematician D. Konig) is
+an efficient method of finding the optimal solution of an assignment problem without making a direct comparison of every solution. The method works on the principle of reducing the given cost matrix to a matrix of opportunity costs. Opportunity costs show the relative penalties associated with assigning a resource to an activity. Hungarian method reduces the cost matrix to the extent of having at least one zero in each row and column so as to make optimal assignments.\\\\
+The Hungarian method (minimization case) can be summarized in the following steps:
+\begin{description}
+	\item [Step A:  Develop the cost matrix from the given problem] If the number of rows are not equal to the number of columns, then add required number of dummy rows or columns. The cost element in dummy rows/columns are always zero.
+	\item [Step B:  Compute the opportunity cost matrix]
+		\begin{enumerate}
+			\item  Identify the smallest element in each row of cost matrix and then subtract it from each element of that row.
+			\item  In the reduced matrix obtained from 2(a), identify the smallest element in each column and then subtract
+			it from each element of that column. Each row and column now have at least one zero element.
+		\end{enumerate}
+	\item [Step C:  Make assignments in the opportunity cost matrix] The procedure of making assignments is as follows:
+		\begin{enumerate}
+			\item First round for making assignments:
+				\begin{enumerate}
+					\item Identify rows successively from top to bottom until a row with exactly one zero element is found. Make an assignment to this single zero by enclosing it with a square bracket ,([]), and then cross off, ($\times$), all
+					other zeros in the corresponding column.
+					\item Identify columns successively from left to right hand with exactly one zero element that has not
+					been assigned. Make an assignment to this single zero by enclosing it with a square bracket ,([ ]), and then cross off, ($\times$), all other zeros in the corresponding row.
+				\end{enumerate}
+			\item Second round for making assignments:
+				\begin{enumerate}
+					\item If a row and/or column has two or more unmarked zeros and one cannot be chosen by inspection, then choose zero element arbitrarily for assignment.
+					\item Repeat sub-steps (1) and (2) successively until one of the following situations arise
+				\end{enumerate}
+		\end{enumerate}
+	\item [Step D: Optimality Critereon] The following are the steps involved in determining the optimality of the solution:
+		\begin{enumerate}
+			\item  If all zero elements in the cost matrix are either marked with square bracket ([ ]) or are crossed off ($\times$) and there is exactly one assignment in each row and column, then it is an optimal solution. The total cost associated with this solution is obtained by adding the original cost elements in the occupied cells.
+			\item  If a zero element in a row or column was chosen arbitrarily for assignment in Step D(1), there exists an alternative optimal solution.
+			\item  If there is no assignment in a row (or column), then this implies that the total number of assignments
+			are less than the number of rows/columns in the square matrix. In such a situation proceed to Step E.
+		\end{enumerate}
+	\item [Step E: Revise the opportunity cost matrix] Draw a set of horizontal and vertical lines to cover all the zeros in the revised cost matrix obtained from Step C, by using the following procedure:
+		\begin{enumerate}
+			\item  For each row in which no assignment was made, mark a tick ($ \checkmark $)
+			\item Examine the marked rows. If any zero element is present in these rows, mark a tick ($ \checkmark $) to the respective
+			columns containing zeros.
+			\item  Examine marked columns. If any assigned zero element is present in these columns, tick ($\checkmark$) the
+			respective rows containing assigned zeros.
+			\item Repeat this process until no more rows or columns can be marked.
+			\item  Draw a straight line through each marked column and each unmarked row.
+		\end{enumerate}
+	\item [Step F:  Develop the new revised opportunity cost matrix] The steps are as follows:
+		\begin{enumerate}
+			\item  Among the elements in the matrix not covered by any line, choose the smallest element. Call this
+			value $ k $.
+			\item Subtract $ k $ from every element in the matrix that is not covered by a line.
+			\item  Add $ k $ to every element in the matrix covered by the two lines, i.e. intersection of two lines.
+			\item Elements in the matrix covered by one line remain unchanged.
+		\end{enumerate}
+	\item [Step G: Repeat] Repeat steps C to F until an optimal solution is obtained.
+\end{description}
+\begin{center}
+	\includegraphics[scale=0.7]{gfx/fig54.png}
+\end{center}
+\textbf{\textit{Numerical Example:}} Time taken by machine A, B, C, D, and E to complete jobs 1, 2, 3 , 4, and 5 are given in the table below and each machine is to be assigned a job. Determine the job assignment for each machine such that the time taken to complete all the jobs is minimum.
+\begin{center}
+	\begin{tabular} {| c | c | c | c | c | c |}
+		\hline
+		Jobs / Machine & A & B & C & D & E\\
+		\hline
+		1 & 13 & 8 & 16 & 18 & 19\\
+		\hline
+		2 & 9 & 15 & 24 & 9 & 12\\
+		\hline
+		3 & 12 & 9 & 4 & 4 & 4\\
+		\hline
+		4 & 6 & 12 & 10 & 8 & 13\\
+		\hline
+		5 & 15 & 17 & 18 & 12 & 20\\
+		\hline
+	\end{tabular}
+\end{center}
+\textit{Solution:}\\\\
+Rows 1, 2, 3, 4, and 5 have minimum value of 8, 9, 4, 6 , and 12 respectively. Using these values we find out the row reduction matrix.
+\begin{center}
+	\[\setlength{\arraycolsep}{0pt}
+	\begin{NiceArray}{>{\rule[-2.8mm]{0pt}{8mm}}ccccccc}%
+		[
+		columns-width=8mm ,
+		corners = {NW,NE} ,
+		hvlines
+		]
+		& A  & B  & C & D & E \\
+		1 & 5 & 0 & 8 & 10 & 11 & \NotEmpty \\
+		2 & 0 & 6 & 15 & 0 & 3 & \NotEmpty    \\
+		3 & 8 & 5 & 0 & 0 & 0 &               \\
+		4 & 0 & 6 & 4 & 2 & 7 & \NotEmpty    \\
+		5 & 3 & 5 & 6 & 0 & 8 & \NotEmpty    \\
+		&  & & &  \\
+		
+	\end{NiceArray}\]
+\end{center}
+Similarly, all the columns have minimum value of 0. Using these values we find out the column reduction matrix.
+\begin{center}
+	\[\setlength{\arraycolsep}{0pt}
+	\begin{NiceArray}{>{\rule[-2.8mm]{0pt}{8mm}}ccccccc}%
+		[
+		columns-width=8mm ,
+		corners = {NW,NE} ,
+		hvlines
+		]
+		& A  & B  & C & D & E \\
+		1 & 5 & 0 & 8 & 10 & 11 & \NotEmpty \\
+		2 & 0 & 6 & 15 & 0 & 3 & \NotEmpty    \\
+		3 & 8 & 5 & 0 & 0 & 0 &               \\
+		4 & 0 & 6 & 4 & 2 & 7 & \NotEmpty    \\
+		5 & 3 & 5 & 6 & 0 & 8 & \NotEmpty    \\
+		&  & & &  \\
+		
+	\end{NiceArray}\]
+\end{center}
+Then, rows 1, 4, and 5 have only one 0, so we assign these cells with square bracket and cross out any other value of 0 in the respective columns which have been assigned. Similarly column wise, column C has got only one 0, so we assign that cell and cross out the remaining 0 values in the row corresponding to this assigned cell.
+\begin{center}
+	\[\setlength{\arraycolsep}{0pt}
+	\begin{NiceArray}{>{\rule[-2.8mm]{0pt}{8mm}}ccccccc}%
+		[
+		columns-width=8mm ,
+		corners = {NW,NE} ,
+		hvlines
+		]
+		& A  & B  & C & D & E \\
+		1 & 5 & [0] & 8 & 10 & 11 & \NotEmpty \\
+		2 & 0 \times & 6 & 15 & 0 \times & 3 & \NotEmpty    \\
+		3 & 8 & 5 & [0] & 0 \times & 0 \times &               \\
+		4 & [0] & 6 & 4 & 2 & 7 & \NotEmpty    \\
+		5 & 3 & 5 & 6 & [0] & 8 & \NotEmpty    \\
+		&  & & &  \\
+		
+	\end{NiceArray}\]
+\end{center}
+Since there are cost matrix is of size 5 $\times$ 5, we require 5 assignments for the solution to be optimal. However, we have only got 4 assignments, so the solution is not optimal. Now, we should draw minimum number of horizontal and vertical lines such that it covers all zeros to revise the cost matrix for optimal solution.\\
+Out of all five rows row 2 is not assigned, so we tick mark this row. In the marked row we have two cells having zero which belongs to column A and D, so we mark these columns. In the marked column A and D we have a cell which consists an assigned 0 for each column, so we mark the rows corresponding to these cells ( row 4 and 5). Now we draw horizontal lines on the rows which has not been marked, and draw vertical lines on the columns which has not been marked.
+\begin{center}
+	\[\setlength{\arraycolsep}{0pt}
+	\begin{NiceArray}{>{\rule[-2.8mm]{0pt}{8mm}}ccccccc}%
+		[
+		columns-width=8mm ,
+		corners = {NW,NE} ,
+		hvlines
+		]
+		& A  & B  & C & D & E \\
+		1 & 5 & [0] & 8 & 10 & 11 & \NotEmpty \\
+		2 & 0 \times & 6 & 15 & 0 \times & 3 & \NotEmpty    \\
+		3 & 8 & 5 & [0] & 0 \times & 0 \times &               \\
+		4 & [0] & 6 & 4 & 2 & 7 & \NotEmpty    \\
+		5 & 3 & 5 & 6 & [0] & 8 & \NotEmpty    \\
+		&  & & &  \\
+		\CodeAfter \tikz \draw (2.5-|2) -- (2.5-|7)
+								(4.5-|2) -- (4.5-|7)
+								(2-|2.5) -- (7-|2.5)
+								(2-|5.5) -- (7-|5.5);
+	\end{NiceArray}\]
+\end{center}
+For the revised cost matrix we require the value of $ k $, which is the minimum value among the cells which remain uncovered by the lines. In this case, the value of $k$ is 3. Then, we add the value of $k$ to the cell values which lies in the intersection of the drawn lines and subtract the value of $k$ from the cell values which remained uncovered by the lines. Now, the cost matrix has been revised.
+\begin{center}
+	\[\setlength{\arraycolsep}{0pt}
+	\begin{NiceArray}{>{\rule[-2.8mm]{0pt}{8mm}}ccccccc}%
+		[
+		columns-width=8mm ,
+		corners = {NW,NE} ,
+		hvlines
+		]
+		& A  & B  & C & D & E \\
+		1 & 8 & 0 & 8 & 13 & 11 & \NotEmpty \\
+		2 & 0  & 3 & 12 & 0 & 0 & \NotEmpty    \\
+		3 & 11 & 5 & 0 & 0  & 0  &               \\
+		4 & 0 & 3 & 1 & 2 & 4 & \NotEmpty    \\
+		5 & 3 & 2 & 3 & 0 & 5 & \NotEmpty    \\
+		&  & & &  \\
+		
+	\end{NiceArray}\]
+\end{center}
+Again rows 1, 4, and 5 have only one cell having the value of 0 (1-B, 4-A,k and 5-D), so we assign these cells with square brackets and cross out the cells having the value of 0 in their respective columns. Similarly column wise column C has only one cell having the value of 0 (3-C), so we assign this cell with square bracket and cross out the cell having the value of 0 in its respective row. 
+\begin{center}
+	\[\setlength{\arraycolsep}{0pt}
+	\begin{NiceArray}{>{\rule[-2.8mm]{0pt}{8mm}}ccccccc}%
+		[
+		columns-width=8mm ,
+		corners = {NW,NE} ,
+		hvlines
+		]
+		& A  & B  & C & D & E \\
+		1 & 8 & [0] & 8 & 13 & 11 & \NotEmpty \\
+		2 & 0  & 3 & 12 & 0 \times & [0] & \NotEmpty    \\
+		3 & 11 & 5 & [0] & 0 \times & 0 \times &               \\
+		4 & [0] & 3 & 1 & 2 & 4 & \NotEmpty    \\
+		5 & 3 & 2 & 3 & [0] & 5 & \NotEmpty    \\
+		&  & & &  \\
+		
+	\end{NiceArray}\]
+\end{center}
+$\because$ the size of the matrix = the number of assignments = 5, the solution obtained is the optimal solution.\\
+The optimum assignment is given below:
+\begin{center}
+	\begin{tabular}{| c | c |}
+		\hline
+		Job & Machine \\
+		\hline
+		1 & B \\
+		\hline
+		2 & E \\
+		\hline
+		3 & C \\
+		\hline
+		4 & A \\
+		\hline
+		5 & D \\
+		\hline
+	\end{tabular}
+\end{center}
+Also, minimum time = 8 + 12 + 4 + 6 + 12 = 42.
