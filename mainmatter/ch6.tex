@@ -636,11 +636,11 @@ The Hungarian method (minimization case) can be summarized in the following step
 \begin{center}
 	\includegraphics[scale=0.7]{gfx/fig54.png}
 \end{center}
-\textbf{\textit{Numerical Example:}} Time taken by machine A, B, C, D, and E to complete jobs 1, 2, 3 , 4, and 5 are given in the table below and each machine is to be assigned a job. Determine the job assignment for each machine such that the time taken to complete all the jobs is minimum.
+\textbf{\textit{Numerical Example:}} Time taken by trucks A, B, C, D, and E to complete jobs 1, 2, 3 , 4, and 5 are given in the table below and each truck is to be assigned a job. Determine the job assignment for each truck such that the time taken to complete all the jobs is minimum.
 \begin{center}
 	\begin{tabular} {| c | c | c | c | c | c |}
 		\hline
-		Jobs / Machine & A & B & C & D & E\\
+		Jobs / Truck & A & B & C & D & E\\
 		\hline
 		1 & 13 & 8 & 16 & 18 & 19\\
 		\hline
@@ -724,11 +724,11 @@ Out of all five rows row 2 is not assigned, so we tick mark this row. In the mar
 		]
 		& A  & B  & C & D & E \\
 		1 & 5 & [0] & 8 & 10 & 11 & \NotEmpty \\
-		2 & 0 \times & 6 & 15 & 0 \times & 3 & \NotEmpty    \\
+		2 & 0 \times & 6 & 15 & 0 \times & 3 & \checkmark    \\
 		3 & 8 & 5 & [0] & 0 \times & 0 \times &               \\
-		4 & [0] & 6 & 4 & 2 & 7 & \NotEmpty    \\
-		5 & 3 & 5 & 6 & [0] & 8 & \NotEmpty    \\
-		&  & & &  \\
+		4 & [0] & 6 & 4 & 2 & 7 & \checkmark    \\
+		5 & 3 & 5 & 6 & [0] & 8 & \checkmark  \\
+		& \checkmark & & & \checkmark \\
 		\CodeAfter \tikz \draw (2.5-|2) -- (2.5-|7)
 								(4.5-|2) -- (4.5-|7)
 								(2-|2.5) -- (7-|2.5)
@@ -778,7 +778,7 @@ The optimum assignment is given below:
 \begin{center}
 	\begin{tabular}{| c | c |}
 		\hline
-		Job & Machine \\
+		Job & Truck \\
 		\hline
 		1 & B \\
 		\hline
