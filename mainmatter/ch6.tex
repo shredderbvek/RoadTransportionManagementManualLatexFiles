@@ -793,3 +793,305 @@ The optimum assignment is given below:
 	\end{tabular}
 \end{center}
 Also, minimum time = 8 + 12 + 4 + 6 + 12 = 42.
+%
+\section{Travelling Salesman Problem}
+The travelling salesman problem asks the following question: "Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city exactly once and returns to the origin city?".\\\\
+Just consider how a postman delivers the post to the addressee. He arranges all the letters in an order and starts from the post office and goes from addressee to addressee and finally back to his post office. If he does not arrange the posts in an order he may have to travel a long distance to clear all the posts. Similarly, a traveling sales man has to plan his visits. Let us say, he starts from his head office and go round the branch offices and come back to his head office. While traveling he will not visit the branch already visited and he will not come back until he visits all the branches.
+\\\\
+There are different types of traveling salesman's problems. One is \textbf{\textit{cyclic}} problem. In this problem, he starts from his head quarters and after visiting all the branches, he will be back to his head quarters. The second one is \textbf{\textit{Acyclic}} problem. In this case, the traveling salesman leaves his head quarters and after visiting the intermediate branches, finally reaches the last branch and stays there. The first type of the problem is solved by Hungarian method or Assignment technique. The second one is solved by Dynamic programming method.\\\\
+\textit{Note: The traveling salesman problem, where we sequence the cities or branches he has to visit is a SEQUENCING PROBLEM. But the solution is solved using the Assignment technique. Hence basically, the traveling salesman problem is a SEQUENCING PROBLEM; the objective is to minimize the total distance traveled.}\\\\
+\textbf{\textit{Numerical Example:\\
+A salesman stationed at city A has to decide his tour plan to visit cities B, C, D, E and back to city A I the order of his choice so that total distance traveled is minimum. No sub touring is permitted. He cannot travel from city A to city A itself. The distance between cities in Kilometers is given below:}}
+\begin{center}
+	\begin{tabular}{c | c | c | c | c | c}
+		Cities & A & B & C & D & E \\
+		\hline
+		A & $\infty$ & 16 & 18 & 13 & 20 \\
+		\hline
+		B & 21 & $\infty$ & 16 & 27 & 14 \\
+		\hline
+		C & 12 & 14 & $\infty$ & 15 & 21 \\
+		\hline
+		D & 11 & 18 & 19 & $\infty$ & 21 \\
+		\hline
+		E & 16 & 14 & 17 & 12 & $\infty$
+	\end{tabular}
+\end{center}
+Solution:\\
+Performing row reduction we get the row opportunity cost matrix (ROCM).
+\begin{center}
+	\[\setlength{\arraycolsep}{0pt}
+	\begin{NiceArray}{>{\rule[-2.8mm]{0pt}{8mm}}ccccccc}%
+		[
+		columns-width=8mm ,
+		corners = {NW,NE} ,
+		hvlines
+		]
+		& A  & B  & C & D & E \\
+		A & \infty & 3 & 5 & 0 & 7 & \NotEmpty \\
+		B & 7  & \infty & 2 & 13 & 0 & \NotEmpty    \\
+		C & 0 & 2 & \infty & 3  & 9  &               \\
+		D & 0 & 7 & 8 & \infty & 10 & \NotEmpty    \\
+		E & 4 & 2 & 5 & 0 & \infty & \NotEmpty    \\
+		&  & & &  \\
+		
+	\end{NiceArray}\]
+\end{center}
+Performing column reduction on the ROCM we get the total opportunity cost matrix (TOCM).
+\begin{center}
+	\[\setlength{\arraycolsep}{0pt}
+	\begin{NiceArray}{>{\rule[-2.8mm]{0pt}{8mm}}ccccccc}%
+		[
+		columns-width=8mm ,
+		corners = {NW,NE} ,
+		hvlines
+		]
+		& A  & B  & C & D & E \\
+		A & \infty & 1 & 3 & 0 & 7 & \NotEmpty \\
+		B & 7  & \infty & 0 & 13 & 0 & \NotEmpty    \\
+		C & 0 & 0 & \infty & 3  & 9  &               \\
+		D & 0 & 5 & 6 & \infty & 10 & \NotEmpty    \\
+		E & 4 & 0 & 3 & 0 & \infty & \NotEmpty    \\
+		&  & & &  \\
+		
+	\end{NiceArray}\]
+\end{center}
+Now we assign using the same technique used in the Assignment Problem.
+\begin{center}
+	\[\setlength{\arraycolsep}{0pt}
+	\begin{NiceArray}{>{\rule[-2.8mm]{0pt}{8mm}}ccccccc}%
+		[
+		columns-width=8mm ,
+		corners = {NW,NE} ,
+		hvlines
+		]
+		& A  & B  & C & D & E \\
+		A & \infty & 1 & 3 & [0] & 7 & \NotEmpty \\
+		B & 7  & \infty & [0] & 13 & 0 \times & \NotEmpty    \\
+		C & 0 \times & 0 \times & \infty & 3  & 9  &               \\
+		D & [0] & 5 & 6 & \infty & 10 & \NotEmpty    \\
+		E & 4 & [0] & 3 & 0 \times & \infty & \NotEmpty    \\
+		&  & & &  \\
+		
+	\end{NiceArray}\]
+\end{center}
+Since we there are only 4 assignments but the matrix is of size 5 $\times$ 5, we need to modify the opportunity cost matrix for optimum solution. Now, we will draw the minimum number of vertical and horizontal lines to cover all the 0's.
+\begin{center}
+	\[\setlength{\arraycolsep}{0pt}
+	\begin{NiceArray}{>{\rule[-2.8mm]{0pt}{8mm}}ccccccc}%
+		[
+		columns-width=8mm ,
+		corners = {NW,NE} ,
+		hvlines
+		]
+		& A  & B  & C & D & E \\
+		A & \infty & 1 & 3 & [0] & 7 & \checkmark \\
+		B & 7  & \infty & [0] & 13 & 0 \times & \NotEmpty    \\
+		C & 0 \times & 0 \times & \infty & 3  & 9  &  \checkmark             \\
+		D & [0] & 5 & 6 & \infty & 10 & \checkmark    \\
+		E & 4 & [0] & 3 & 0 \times & \infty & \checkmark    \\
+		& \checkmark & \checkmark& & \checkmark \\
+		\CodeAfter \tikz \draw (3.5-|2) -- (3.5-|7)
+								(2-|2.5) -- (7-|2.5)
+								(2-|3.5) -- (7-|3.5)
+								(2-|5.5) -- (7-|5.5);
+	\end{NiceArray}\]
+\end{center}
+For new opportunity cost matrix, k = min(3, 6, 7, 9, $\infty$) = 3. The new opportunity cost matrix is:
+\begin{center}
+	\[\setlength{\arraycolsep}{0pt}
+	\begin{NiceArray}{>{\rule[-2.8mm]{0pt}{8mm}}ccccccc}%
+		[
+		columns-width=8mm ,
+		corners = {NW,NE} ,
+		hvlines
+		]
+		& A  & B  & C & D & E \\
+		A & \infty & 1 & 0 & 0 & 4 & \NotEmpty \\
+		B & 10  & \infty & 0 & 16 & 0 & \NotEmpty    \\
+		C & 0  & 0  & \infty & 3  & 6  &               \\
+		D & 0 & 5 & 3 & \infty & 7 & \NotEmpty    \\
+		E & 4 & 0 & 0 & 0 \times & \infty & \NotEmpty    \\
+		&  & & &  \\
+		
+	\end{NiceArray}\]
+\end{center}
+Again we assign the cells for the solution.
+\begin{center}
+	\[\setlength{\arraycolsep}{0pt}
+	\begin{NiceArray}{>{\rule[-2.8mm]{0pt}{8mm}}ccccccc}%
+		[
+		columns-width=8mm ,
+		corners = {NW,NE} ,
+		hvlines
+		]
+		& A  & B  & C & D & E \\
+		A & \infty & 1 & 0 & 0 & 4 & \NotEmpty \\
+		B & 10  & \infty & 0 \times & 16 & [0] \times & \NotEmpty    \\
+		C & 0 \times & [0]  & \infty & 3  & 6  &               \\
+		D & [0] & 5 & 3 & \infty & 7 & \NotEmpty    \\
+		E & 4 & 0 \times & 0 & 0  & \infty & \NotEmpty    \\
+		&  & & &  \\
+		
+	\end{NiceArray}\]
+\end{center}
+Here we have a tie situation, that is, more than one solution can be obtained. At first we assign the cell A-D, we get:
+\begin{center}
+	\[\setlength{\arraycolsep}{0pt}
+	\begin{NiceArray}{>{\rule[-2.8mm]{0pt}{8mm}}ccccccc}%
+		[
+		columns-width=8mm ,
+		corners = {NW,NE} ,
+		hvlines
+		]
+		& A  & B  & C & D & E \\
+		A & \infty & 1 & 0 \times & [0] & 4 & \NotEmpty \\
+		B & 10  & \infty & 0 \times & 16 & [0] \times & \NotEmpty    \\
+		C & 0 \times & [0]  & \infty & 3  & 6  &               \\
+		D & [0] & 5 & 3 & \infty & 7 & \NotEmpty    \\
+		E & 4 & 0 \times & [0] & 0 \times & \infty & \NotEmpty    \\
+		&  & & &  \\
+		
+	\end{NiceArray}\]
+\end{center}
+We have got 5 assignments, however, the solution is not valid for TSP since there are two cycles, that is, (A $\rightarrow$ D, D $\rightarrow$ A) and ( B $\rightarrow$ E, E $\rightarrow$ C, C $\rightarrow$ B ).\\\\
+Now, we assign the cell A-C, we get:
+\begin{center}
+	\[\setlength{\arraycolsep}{0pt}
+	\begin{NiceArray}{>{\rule[-2.8mm]{0pt}{8mm}}ccccccc}%
+		[
+		columns-width=8mm ,
+		corners = {NW,NE} ,
+		hvlines
+		]
+		& A  & B  & C & D & E \\
+		A & \infty & 1 & [0] & 0 \times & 4 & \NotEmpty \\
+		B & 10  & \infty & 0 \times & 16 & [0] \times & \NotEmpty    \\
+		C & 0 \times & [0]  & \infty & 3  & 6  &               \\
+		D & [0] & 5 & 3 & \infty & 7 & \NotEmpty    \\
+		E & 4 & 0 \times & 0 \times  & [0]  & \infty & \NotEmpty    \\
+		&  & & &  \\
+		
+	\end{NiceArray}\]
+\end{center}
+We have 5 assignments, and the solution is valid for TSP since it makes a one complete cycle travelling all cities starting from city A (A $\rightarrow$ C, C $\rightarrow$ B, B $\rightarrow$ E, E $\rightarrow$ D, D $\rightarrow$ A). \\
+The minimum distance = 18 + 14 + 14 + 12 + 11 = 69 Km.\\\\
+\textbf{\textit{Numerical Example: \\
+Given the travel costs below, show how to sequence the travel between the cities so as to minimize the total setup cost per cycle.}}
+\begin{center}
+	\begin{tabular}{c | c | c | c | c | c}
+		Cities & A & B & C & D & E \\
+		\hline
+		A & $\infty$ & 2 & 5 & 7 & 1 \\
+		\hline
+		B & 6 & $\infty$ & 3 & 8 & 2 \\
+		\hline
+		C & 8 & 7 & $\infty$ & 4 & 7 \\
+		\hline
+		D & 12 & 4 & 6 & $\infty$ & 5 \\
+		\hline
+		E & 1 & 3 & 2 & 8 & $\infty$
+	\end{tabular}
+\end{center}
+Solution:\\
+ROCM:
+\begin{center}
+	\[\setlength{\arraycolsep}{0pt}
+	\begin{NiceArray}{>{\rule[-2.8mm]{0pt}{8mm}}ccccccc}%
+		[
+		columns-width=8mm ,
+		corners = {NW,NE} ,
+		hvlines
+		]
+		& A  & B  & C & D & E \\
+		A & \infty & 1 & 4 & 6 & 0 & \NotEmpty \\
+		B & 4  & \infty & 1 & 6 & 0 & \NotEmpty    \\
+		C & 4 & 3 & \infty & 0  & 3  &               \\
+		D & 8 & 0 & 2 & \infty & 1 & \NotEmpty    \\
+		E & 0 & 2 & 1 & 7 & \infty & \NotEmpty    \\
+		&  & & &  \\
+		
+	\end{NiceArray}\]
+\end{center}
+TOCM:
+\begin{center}
+	\[\setlength{\arraycolsep}{0pt}
+	\begin{NiceArray}{>{\rule[-2.8mm]{0pt}{8mm}}ccccccc}%
+		[
+		columns-width=8mm ,
+		corners = {NW,NE} ,
+		hvlines
+		]
+		& A  & B  & C & D & E \\
+		A & \infty & 1 & 3 & 6 & 0 & \NotEmpty \\
+		B & 4  & \infty & 0 & 6 & 0 & \NotEmpty    \\
+		C & 4 & 3 & \infty & 0  & 3  &               \\
+		D & 8 & 0 & 1 & \infty & 1 & \NotEmpty    \\
+		E & 0 & 2 & 0 & 7 & \infty & \NotEmpty    \\
+		&  & & &  \\
+		
+	\end{NiceArray}\]
+\end{center}
+Now, we assign the cells for the solution.
+\begin{center}
+	\[\setlength{\arraycolsep}{0pt}
+	\begin{NiceArray}{>{\rule[-2.8mm]{0pt}{8mm}}ccccccc}%
+		[
+		columns-width=8mm ,
+		corners = {NW,NE} ,
+		hvlines
+		]
+		& A  & B  & C & D & E \\
+		A & \infty & 1 & 3 & 6 & [0] & \NotEmpty \\
+		B & 4  & \infty & [0] & 6 & 0 \times & \NotEmpty    \\
+		C & 4 & 3 & \infty & [0]  & 3  &               \\
+		D & 8 & [0] & 1 & \infty & 1 & \NotEmpty    \\
+		E & [0] & 2 & 0 \times & 7 & \infty & \NotEmpty    \\
+		&  & & &  \\
+		
+	\end{NiceArray}\]
+\end{center}
+We have got 5 assignments, however, the solution is not valid for TSP since there are two cycles, that is, (A $\rightarrow$ E, E $\rightarrow$ A) and ( B $\rightarrow$ C, C $\rightarrow$ D, D $\rightarrow$ B ).\\\\
+The next best solution is obtained by assigning minimum non-zero cell in the matrix ( In this case 1). At first, we have to assign all 1's and then the 0's. Also we have a tie between the cells D-C and D-E. At first, we assign the cell D-C.
+\begin{center}
+	\[\setlength{\arraycolsep}{0pt}
+	\begin{NiceArray}{>{\rule[-2.8mm]{0pt}{8mm}}ccccccc}%
+		[
+		columns-width=8mm ,
+		corners = {NW,NE} ,
+		hvlines
+		]
+		& A  & B  & C & D & E \\
+		A & \infty & [1] & 3 & 6 & 0 \times & \NotEmpty \\
+		B & 4  & \infty & 0 \times & 6 & [0] & \NotEmpty    \\
+		C & 4 & 3 & \infty & [0]  & 3  &               \\
+		D & 8 & 0 \times & [1] & \infty & 1 \times & \NotEmpty    \\
+		E & [0] & 2 & 0 \times & 7 & \infty & \NotEmpty    \\
+		&  & & &  \\
+		
+	\end{NiceArray}\]
+\end{center}
+We have got 5 assignments, however, the solution is not valid for TSP since there are two cycles, that is, (C $\rightarrow$ D, D $\rightarrow$ C) and (A $\rightarrow$ B, B $\rightarrow$ E, E $\rightarrow$ A ).\\\\
+Now, we assign the cell D-E.
+\begin{center}
+	\[\setlength{\arraycolsep}{0pt}
+	\begin{NiceArray}{>{\rule[-2.8mm]{0pt}{8mm}}ccccccc}%
+		[
+		columns-width=8mm ,
+		corners = {NW,NE} ,
+		hvlines
+		]
+		& A  & B  & C & D & E \\
+		A & \infty & [1] & 3 & 6 & 0 \times & \NotEmpty \\
+		B & 4  & \infty & [0] & 6 & 0 \times & \NotEmpty    \\
+		C & 4 & 3 & \infty & [0]  & 3  &               \\
+		D & 8 & 0 \times & 1 \times & \infty & [1] & \NotEmpty    \\
+		E & [0] & 2 & 0 \times & 7 & \infty & \NotEmpty    \\
+		&  & & &  \\
+		
+	\end{NiceArray}\]
+\end{center}
+We have 5 assignments, and the solution is valid for TSP since it makes a one complete cycle travelling all cities starting from city A (A $\rightarrow$ B, B $\rightarrow$ C, C $\rightarrow$ D, D $\rightarrow$ E, E $\rightarrow$ A). \\
+minimum distance = 2 + 3 + 4 + 5 + 1 = 15
+
+However, since we violated the assignment rule by assigning two non-zero values, we have to add those penalties in our minimum distance, that is, minimum distance = 15 + 1 + 1 = 17.
