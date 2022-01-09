@@ -280,6 +280,90 @@ $ \alpha = \frac{\sum_{i = 1}^{n} q_i \times l_i}{C_{line} \times L} $\\\\
 $ \alpha = \frac{260 \times 0.4 + 290 \times 1 + 340 \times 0.4 + 450 \times 1.2 + 420 \times 0.5 + 310 \times 0.5 + 260 \times 1}{1000 \times 5} $\\\\
 $ \therefore \alpha = 0.339$
 %
+\section{Route Development}
+A transit system typically consists of many routes on each of which different number of transit units ( for example, buses, trams, street, cars, and the like) ply. A route is a path that a transit unit follows during its journey from the origin terminus to the destination and back. A route is a path that a transit unit follows during its journey from the origin terminus to the destination terminus and back. Along the route there can be many stops at which the transit units halt to let passengers alight and board. The subject of this section is to discuss what constitutes a good set of routes and how we can determine such a set. The next section how we can determine the location of stops on a route.
+\subsection{Properties of a Good Route Set}
+A transit system's aim or for that matter any public transportation system's aim is to provide transport to a large portion of the population efficiently. In order to achieve this goal, the following properties of a route set are desirable.
+\begin{description}
+	\item [Ridership:] The percentage of the potential transit users who are served by the designed route set should be as high as possible. Given a route set and a statement of the origins and destinations of the potential transit users, we can determine the above quantity easily. An example is shown later to illustrate how this can be done.
+	\item [Riding Time:] The time spent by any passenger on the transit unit should not be more than the time the passenger would have to spend going from his/her origin to his/her destination directly.
+	\item [Transfer:] Often in a transit network, we may have to change routes at some intermediate stops to go from the origin to the destination. This changing of routes is referred to as a transfer. The route set should be designed such that passengers are not required to make too many transfers while transfers while travelling from their origins to their destinations.
+\end{description}
+%
+\section{Stop Location and Stopping Policy}
+In this section, some issues related to then number of stops (and their locations) to be provided on a route and the stopping policy to be followed by the transit units plying on a route are discussed. The first subsection is on stopping policy and the next on stop locations.
+\subsection{Stopping Policy}
+Stopping policy relates to the policy followed by the transit system as regards to stopping on the route. There are different stopping policies of which any one may be used by a transit system. These are: (i) All stop, (ii) On-call stop, and (iii) Demand stop.\\\\
+In the all stop case, the transit stops at all the stops at all the stops on the route irrespective of whether there is any demand for that stop. For a given transit unit, the demand for a stop exists if someone wants to board the transit unit from the stop or someone on the transit unit wants to alight at that stop. In the on-call stop case, the transit unit stops at a stop if and only if there is a demand for that stop. In the demand stop case, the transit unit stops anywhere along the route where it needs to stop to pick up or drop off passengers. In this case, although the route is fixed, the stop locations are not fixed or alternatively all points on the route are viable stop locations (although the transit unit does not stop at most of them).\\\\
+In order to decide which is the best policy for a transit system (or a route in the transit system) a simple analysis, based on the expected number of places at which a transit unit a given route may have to stop, is done. The analysis procedure is shown below.\\\\
+Assume that the transit units are operating on a route with $ n $ stops (i.e. stop locations). Note that n could be infinitely many. Further, assume that a transit unit has to stop at a stop only if someone is waiting at the stop or someone on the transit unit has to stop at a stop only. Also assume that the passenger demand for boarding alighting at any stop follows a Poisson distribution with a rate of $\lambda$. Now if $h$ is the time headway at which transit units operate on the route being analyzed, then the probability that $k$ persons demand to use a stop is given by,
+\begin{equation}
+	Prob. \: (k \: persons \: demand \: to \: use \: a \: stop)\: = P(k) = \frac{(\lambda h)^k exp(- \lambda h)}{k !}
+\end{equation}
+Hence,
+\begin{equation}
+	Prob.\: (transit \: unit \: stops \: at \: a \: STOP) = 1 - P(0) = 1 - exp(- \lambda h)
+\end{equation}
+Therefore, on the entire route of n stops, the probability the transit unit stops s times, $\Pi(s)$, is given by:
+\begin{equation}
+	\Pi(s) = \begin{pmatrix}
+		n\\
+		s
+	\end{pmatrix} [1 - exp(- \lambda h)]^s [exp(- \lambda h)]^{n - s}
+\end{equation}
+Hence, the expected value of s or the average number of times a transit unit stops, $E(s)$, is given by (consult any introductory book on probability theory to see how the following relation can be obtained from the earlier one).
+\begin{equation}
+	E(s) = n[1 - exp(- \lambda h)]
+\end{equation}
+The rate $\lambda$, at which passenger demand for boarding/alighting arises at any stop, can be written in terms of $p$, the total passenger demand per unit time for the entire route. If $p$ is the total passenger demand per unit time, then the total demand for boarding or alighting per unit time is $ 2p $. If $n$ is the total number of stops, then the total passenger demand per unit time for boarding/alighting at a particular stop is $2p/n$ (assuming all stops have, on an average, equal demand). Hence, $\lambda = (2p/n)$. Therefore,
+\begin{equation}
+	E(s) = n[1 - exp(- 2ph/n)]
+\end{equation}
+If the demand is very large, that is, $ph \rightarrow \infty$, then from the above relation,
+\begin{equation}
+	\lim_{ph \to \infty} E(s) = n
+\end{equation}
+The above relation implies that when the demand is large then on an average, a transit unit will have to stop at all the stops. Hence, in this case it is better to use an all-stop stopping policy.\\\\
+If, on the other hand, demand $ph$ is small compared to the total number of stops, $ n $, then by expanding the exponential term and ignoring all higher order terms of ($ph/n$) in the expansion , we can obtain $E(s) = 2ph$. This implies that the average number of places where the transit unit will have to stop is twice the number of passengers who use the transit unit that period $h$. That is, no special benefit is obtained by providing a fixed number of stops and stop locations. Hence, in the low demand case it is better to follow a demand stop stopping policy with no pre-defined stop locations on the route. For the intermediate values of demand, $ E(s) < n$ and therefore following the on-call stop stopping policy  makes sense.\\\\
+The above analysis, in effect, brings out two aspects of stopping policy: (i) it relates demands to stopping policy and (ii) it shows that for the entire range of demand for a route, the expression $n[1 - exp(-2ph/n)]$ describe the average number of times a transit unit will have to stop.
+\begin{center}
+	\begin{tikzpicture}
+		\draw[->] (0,0) -- (11,0) node[right] {$Demand$};
+		\node at (1, -0.5) {low};
+		\node at (9, -0.5) {high};
+		\draw (1,1) rectangle (4,2);
+		\node at (2.5, 1.5) {Demand Stop};
+		\draw (4, 3) rectangle (8, 4);
+		\node at (6, 3.5) {On-call Stop};
+		\draw (8,5) rectangle (12,6);
+		\node at (10, 5.5) {All Stop};
+	\end{tikzpicture}
+\end{center}
+\subsection{Stop Location}
+Decisions on the number of stops to be on a route and where to put those stops effect the efficiency of operation on the route the route as well as the ridership on the route. The number of stops affect the efficiency of operation because every stop adds to the travel time on the route and hence to the round trip time. The number and location of stops also affect the ridership as too few and poorly located stops increase (i) the access time of passengers from their origins to a stop and (ii) the egress time of passengers from a stop to their destination; and too many stops increase the riding time of passengers as the operating speed falls with the increasing number of stops.\\\\
+Hence in deciding the number of stops and stop locations, we have to strike a compromise between the operating efficiency and passenger convenience. Now, one of the simple models for deciding the number of stops is described.\\\\
+A good way of determining the number of stops on a route (or the stop spacing) would be to determine the number of stops (or stop spacing) which minimizes the sum of the passenger travel time cost $C_p$ and the operator cost $C_o$. The passenger travel time should include the access/egress time plus the in-vehicle riding time of the passengers. The operator cost is related to the number of transit units the operator has to operate in order to maintain the required frequency of service (or the required headway between the successive transit units). Mathematically, the total cost per unit time $C_T$ is given by:
+\begin{equation}
+	C_T = C_p + C_o = pT_uk_p + Nk_o
+\end{equation}
+Where,\\
+\hspace*{10mm} $p$ is the number of passengers who use the route per unit time.\\
+\hspace*{10mm} $T_u$ is the average passenger travel time.\\
+\hspace*{10mm} $k_p$ is the cost of unit interval of time to a passenger.\\
+\hspace*{10mm} $N$ is the fleet of transit units running in order to maintain the time headway of $h$.\\
+\hspace*{10mm} $k_o$ is the cost of operating a single transit unit per unit time.\\\\
+However, before attempting to minimize the total cost we need to determine $T_u$ and $N$ as these are functions of the number of stops $n$.
+\subsubsection{Determination of $T_u$}
+Let $l$ be the average distance a passenger (or user) travels on a route and let $L$ be the total one way length of the route. Let $v$ be the operating speed of the transit unit on the route and let $T_v$ be the total travel time of the transit unit over the length $L$.\\\\
+Every time a transit unit stops at a stop location, it needs to decelerate from $v$ to zero speed, remain stopped till all boarding and alighting is over, land then accelerate to $v$ again. In this process, the transit unit loses time due to acceleration and deceleration and information can always be derived once the schedule of arrivals and departures at all stops is known. 
+\subsection{Properties of a Good Schedule}
+A good schedule is one which distributes the available number of transit units in such a way that the following properties are satisfied.
+\begin{description}
+	\item [Initial waiting time:] The time between the arrival of a passenger at its origin stop for a particular route and the arrival of the next transit unit on that route is referred to as the initial waiting time. This should be as small as possible.
+	\item [Transfer time:] The time spent by passengers at an intermediate stop in order to transfer to another route (from the route on which the passenger came to the intermediate stop) is referred to as transfer time. This time should be small. Further, the transfer time of any passenger should not be greater that some allowable maximum value.
+	\item [Policy headway:] The time headway between the transit units of given route should not be greater that pre-specified maximum value, referred to as policy headway.
+\end{description}
+%
 \section{Optimal Paths in Transportation Networks}
 When traveling through the network we are faced with the problem of finding the paths that are “optimal.” In other words, paths that we are looking for must possess optimal properties. The problems of finding optimal paths in transportation networks are known as shortest path problems. Depending of the context of the problem considered, the “shortest path” could be the shortest path, the fastest path, the most reliable path, the path with the greatest capacity, etc. network links are characterized by length. “Link length” could represent distance, travel time, travel cost, link reliability, etc. Link lengths are mostly treated as deterministic quantities.\\\\
 Link lengths are treated in some problems as random variables. Most frequently, these link lengths represent travel times. There are random variations in travel times caused by weather conditions, randomness in traffic flows, traffic accidents, and other factors. In these cases, the shortest paths in probabilistic network should be determined. In some cases, when searching for the optimal path, we simultaneously try to optimize two or more objectives. For example, when searching for the best path, we could try simultaneously to take care of travel time as well as travel costs. In such cases, we are dealing with multicriteria shortest path problems.
@@ -396,6 +480,10 @@ Hence the shortest route to reach node "4" from node "0" is 0-7-6-5-4.
 	\item Derive the expression for headway determination by "Square Root Formula".
 	\item Derive the expression for Transit Line Capacity, and use the expression to determine the average transit line utilization($\alpha$).
 	\item Let us assume that transit line parameters are respectively equal: $ c = 120\$ $ per hour, $\nu$ = 12\$ per passenger hour, $r$ = 1400 passengers per hour, and $T$ = 120 min = 2hr. Calculate the optimal headway by using the “square root formula.”
+	\item Derive an expression for the the average number of times a transit
+	unit stops, $ E(s) $, and use the relation to illustrate the relationship between stopping policy and demand.
+	\item Describe the properties of a good route set.
+	\item Discuss the properties of a good schedule.
 	\item The transit operator monitored during 10 days period the daily number of passengers that departed from the station \#5. The following 10 values were recorded: 1160, 1245, 1440, 1280, 1180, 1380, 1220, 1358, 1178 and 1382. The maximum number of passengers per car is equal to 100. The transit operator would like to achieve the load factor that is equal to 0.75. Calculate the average value of the maximum daily passenger volumes. Determine the service frequency f that should be offered in order to satisfy maximum passenger volume and the desired vehicle occupancy.
 	\item The public transit line length equals 12 km in one direction. The average bus speed on a city heavy traffic equals 25 km/h. The total of 14 buses is assigned to the line. The capacity of every vehicle equals 60. Calculate the line capacity, frequency, and headway.
 	\item Calculate the shortest path from node "A" to all other nodes, and also determine the shortest route from node "A" to node "G".

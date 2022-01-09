@@ -1095,3 +1095,96 @@ We have 5 assignments, and the solution is valid for TSP since it makes a one co
 minimum distance = 2 + 3 + 4 + 5 + 1 = 15
 
 However, since we violated the assignment rule by assigning two non-zero values, we have to add those penalties in our minimum distance, that is, minimum distance = 15 + 1 + 1 = 17.
+%
+\section{Review Problems}
+\begin{enumerate}
+	\item Describe the three main actors involved in freight transportation and distribution.
+	\item List out the factors that influences the decision of shippers regarding the choice of carrier and transportation mode.
+	\item Describe the two ways in which shipments can be made.
+	\item Describe the three distribution structures used in freight transport and distribution.
+	\item Write the differences among the North-West Corner Method, Least-Cost Cell Method, and Vogel's Approximation Method.
+	\item A dairy firm has three plants located in a state. The daily milk production at each plant is as follows: Plant 1 : 6 million litres, Plant 2 : 1 million litres, and Plant 3 : 10 million litres.\\\\
+	Each day, the firm must fulfil the needs of its four distribution centres. The minimum requirement of each centre is as follows: Distribution centre 1 : 7 million litres, Distribution centre 2 : 5 million litres, Distribution centre 3 : 3 million litres, and Distribution centre 4 : 2 million litres.\\\\
+	Cost (in hundreds of rupees) of shipping one million litre from each plant to each distribution centre is given
+	in the following table:
+		\begin{center}
+			\begin{tabular}{c | c | c | c | c}
+				Plant / Distribution Center & $D_1$ & $D_2$ & $D_3$ & $D_4$\\
+				\hline
+				$P_1$ & 2 & 3 & 11 & 7\\
+				\hline
+				$P_2$ & 1 & 0 & 6 & 1 \\
+				\hline
+				$P_3$ & 5 & 8 & 15 & 9
+			\end{tabular}
+		\end{center}
+	Find the initial basic feasible solution for given problem by using following methods:
+		\begin{enumerate}
+			\item North-West Corner Method
+			\item Least-Cost Cell Method
+			\item Vogel's Approximation Method
+		\end{enumerate}
+	\item A  logistics department of a freight company has five trucks with five jobs to be performed. The time (in hours) that each truck takes to perform each job is given in the effectiveness matrix.
+		\begin{center}
+			\begin{tabular}{c | c | c | c | c | c}
+				Job / Truck & 1 & 2 & 3 & 4 & 5\\
+				\hline
+				A & 10 & 5 & 13 & 15 & 16 \\
+				\hline
+				B & 3 & 9 & 18 & 13 & 6 \\
+				\hline
+				C & 10 & 7 & 2 & 2 & 2 \\
+				\hline
+				D & 7 & 11 & 9 & 7 & 12 \\
+				\hline
+				E & 7 & 9 & 10 & 4 & 12
+			\end{tabular}
+		\end{center}
+	How should the jobs be allocated, one per truck, so as to minimize the total truck-hours?
+	\item An Online Delivery organization is planning to deliver packages to 5 cities. Starting from the head office at city A then going round B, C, D and E and then come back to A. Their objective is to minimize the total distance covered. Help them in sequencing the cities. A, B, C, D and E as the shown in the figure. The numbers on the arrows show the distances in Km.
+		\begin{center}
+			\begin{tikzpicture}[node distance={25mm}, thick, main/.style = {draw, circle}]
+				\node[main] (1) {A};
+				\node[main] (2) [right of = 1] {E};
+				\node[main] (3) [above right of = 1] {B};
+				\node[main] (4) [below right of = 1] {D};
+				\node[main] (5) [right of = 2] {C};
+				\draw(1) -- node[midway, above ] {10} (2);
+				\draw(2) -- node[midway, above ] {20} (5);
+				\draw(1) -- node[midway, above, sloped ] {20} (3);
+				\draw(1) -- node[midway, below, sloped ] {10} (4); 
+				\draw(2) -- node[midway, above, sloped ] {10} (3);
+				\draw(2) -- node[midway, above, sloped ] {20} (4);
+				\draw(3) -- node[midway, above, sloped ] {30} (5);
+				\draw(4) -- node[midway, below, sloped ] {15} (5);
+			\end{tikzpicture}
+		\end{center}
+\end{enumerate}
+%
+\subsection{Answers}
+\begin{description}
+	\item [6]. \begin{description}
+		\item [a] $x_{11} = 6$, $x_{21} = 1$, $x_{32} = 5$, $x_{33} = 3$, $x_{34} = 2$, and Total Cost = Rs. 11600
+		\item [b] $x_{11} = 6$, $x_{22} = 1$, $x_{31} = 1$, $x_{32} = 4$, $x_{33} = 3$, $x_{34} = 2$, and Total Cost = Rs. 11200
+		\item [c] $x_{11} = 1$, $x_{12} = 5$, $x_{24} = 1$, $x_{31} = 6$, $x_{33} = 3$, $x_{34} = 1$, and Total Cost = Rs. 10200
+	\end{description}
+	\item [7]. \begin{center}
+		\begin{tabular}{| c | c | c |}
+			\hline
+			Job & Truck & Time\\
+			\hline
+			A & 2 & 5\\
+			\hline
+			B & 1 & 3\\ 
+			\hline
+			C & 5 & 2\\ 
+			\hline
+			D & 3 & 9\\ 
+			\hline
+			E & 4 & 4\\ 
+			\hline
+			& & Total = 23
+		\end{tabular}
+	\end{center}
+	\item [8]. The shortest route is (A $\rightarrow$ E, E $\rightarrow$ D, D $\rightarrow$ C, C $\rightarrow$ B, B $\rightarrow$ A) and the distance travelled = 95 Km.
+\end{description}

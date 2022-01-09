@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  9 JAN 2022 02:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  9 JAN 2022 23:45
 entering extended mode
 **./main.tex
 (main.tex
@@ -660,13 +660,11 @@ LaTeX Warning: No \author given.
 {C:/Users/Dell/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2
 
 ] (main.toc
-[3] [4])
+[3] [4] [5])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [5] [6
-
-]
+ [6]
 \openout2 = `mainmatter/ch1.aux'.
 
  (mainmatter/ch1.tex
@@ -678,6 +676,7 @@ Overfull \hbox (4.57166pt too wide) in paragraph at lines 12--13
  []
 
 [1
+
 
 
 ]
@@ -2205,188 +2204,241 @@ Underfull \hbox (badness 10000) in paragraph at lines 261--283
 [89 <./gfx/fig29.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [90 <./gfx/fig30.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 284--287
-
- []
-
-[91]
-<gfx/fig31.png, id=413, 478.03593pt x 228.855pt>
-File: gfx/fig31.png Graphic file (type png)
-<use gfx/fig31.png>
-Package pdftex.def Info: gfx/fig31.png  used on input line 299.
-(pdftex.def)             Requested size: 334.62286pt x 160.1974pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--392
+ [90 <./gfx/fig30.png>] [91]
+Underfull \hbox (badness 10000) in paragraph at lines 296--300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--392
+Underfull \hbox (badness 10000) in paragraph at lines 296--300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--392
+Underfull \hbox (badness 10000) in paragraph at lines 296--300
+
+ []
+
+[92]
+Underfull \hbox (badness 10000) in paragraph at lines 325--329
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--392
+Underfull \hbox (badness 10000) in paragraph at lines 325--329
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--392
+Overfull \hbox (2.82204pt too wide) in paragraph at lines 340--341
+ [] 
+ []
+
+[93]
+Underfull \hbox (badness 10000) in paragraph at lines 343--346
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--392
+Underfull \hbox (badness 10000) in paragraph at lines 343--346
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--392
+Underfull \hbox (badness 10000) in paragraph at lines 348--356
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--392
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--392
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--392
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--392
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--392
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--392
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--392
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--392
-
- []
-
-
-Overfull \hbox (13.42206pt too wide) in paragraph at lines 297--392
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--392
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--392
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--392
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--392
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--392
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--392
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--392
-
- []
-
-[92 <./gfx/fig31.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [93]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1688) has occurred while \output is active []
 
  [94]
-[95]
-<gfx/fig32.png, id=427, 283.0575pt x 169.38281pt>
-File: gfx/fig32.png Graphic file (type png)
-<use gfx/fig32.png>
-Package pdftex.def Info: gfx/fig32.png  used on input line 403.
-(pdftex.def)             Requested size: 283.0568pt x 169.38239pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 405--419
+Underfull \hbox (badness 10000) in paragraph at lines 357--359
 
  []
 
 
-Overfull \hbox (37.97484pt too wide) in paragraph at lines 405--419
+Underfull \hbox (badness 10000) in paragraph at lines 368--371
+
+ []
+
+[95] [96]
+<gfx/fig31.png, id=428, 478.03593pt x 228.855pt>
+File: gfx/fig31.png Graphic file (type png)
+<use gfx/fig31.png>
+Package pdftex.def Info: gfx/fig31.png  used on input line 383.
+(pdftex.def)             Requested size: 334.62286pt x 160.1974pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--476
+
+ []
+
+
+Overfull \hbox (13.42206pt too wide) in paragraph at lines 381--476
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--419
+Underfull \hbox (badness 10000) in paragraph at lines 381--476
 
  []
 
-) [96 <./gfx/fig32.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--476
+
+ []
+
+[97 <./gfx/fig31.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [98]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [99]
+<gfx/fig32.png, id=440, 283.0575pt x 169.38281pt>
+File: gfx/fig32.png Graphic file (type png)
+<use gfx/fig32.png>
+Package pdftex.def Info: gfx/fig32.png  used on input line 491.
+(pdftex.def)             Requested size: 283.0568pt x 169.38239pt.
+
+[100]
+Underfull \hbox (badness 10000) in paragraph at lines 493--507
+
+ []
+
+
+Overfull \hbox (37.97484pt too wide) in paragraph at lines 493--507
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 493--507
+
+ []
+
+) [101 <./gfx/fig32.png>]
 \openout2 = `mainmatter/ch6.aux'.
 
- (mainmatter/ch6.tex
+ (mainmatter/ch6.tex [102
+
+
+
+
+]
 Chapter 6.
-[97
-
-
-
-
-] [98] [99] [100]
-<gfx/fig33.png, id=445, 293.59688pt x 85.82062pt>
+[103] [104] [105] [106]
+<gfx/fig33.png, id=464, 293.59688pt x 85.82062pt>
 File: gfx/fig33.png Graphic file (type png)
 <use gfx/fig33.png>
 Package pdftex.def Info: gfx/fig33.png  used on input line 61.
 (pdftex.def)             Requested size: 205.5164pt x 60.074pt.
- [101 <./gfx/fig33.png>] [102]
+ [107 <./gfx/fig33.png>] [108]
 Underfull \hbox (badness 10000) in paragraph at lines 93--97
 
  []
 
-[103]
-<gfx/fig34.png, id=457, 335.00156pt x 115.93312pt>
+[109]
+<gfx/fig34.png, id=476, 335.00156pt x 115.93312pt>
 File: gfx/fig34.png Graphic file (type png)
 <use gfx/fig34.png>
 Package pdftex.def Info: gfx/fig34.png  used on input line 98.
 (pdftex.def)             Requested size: 335.00073pt x 115.93283pt.
- [104 <./gfx/fig34.png>] [105]
+ [110 <./gfx/fig34.png>] [111]
 Overfull \hbox (6.67337pt too wide) in paragraph at lines 128--129
 []\OT1/cmr/m/n/10.95 Carrier con-sid-er-a-tions (avail-abil-ity, ca-pa-bil-ity,
  rep-u-ta-tion, spe-cial equip-
@@ -2398,8 +2450,8 @@ Overfull \hbox (3.90546pt too wide) in paragraph at lines 130--131
 tional di-men-sion, economies
  []
 
-[106] [107]
-<gfx/fig35.png, id=471, 207.02344pt x 176.91093pt>
+[112] [113]
+<gfx/fig35.png, id=490, 207.02344pt x 176.91093pt>
 File: gfx/fig35.png Graphic file (type png)
 <use gfx/fig35.png>
 Package pdftex.def Info: gfx/fig35.png  used on input line 149.
@@ -2408,13 +2460,13 @@ Package pdftex.def Info: gfx/fig35.png  used on input line 149.
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 152.
 
-<gfx/fig36.png, id=472, 207.77625pt x 175.40532pt>
+<gfx/fig36.png, id=491, 207.77625pt x 175.40532pt>
 File: gfx/fig36.png Graphic file (type png)
 <use gfx/fig36.png>
 Package pdftex.def Info: gfx/fig36.png  used on input line 154.
 (pdftex.def)             Requested size: 207.77573pt x 175.40488pt.
-[108 <./gfx/fig35.png> <./gfx/fig36.png>]
-<gfx/fig37.png, id=478, 281.55188pt x 180.675pt>
+[114 <./gfx/fig35.png> <./gfx/fig36.png>]
+<gfx/fig37.png, id=497, 281.55188pt x 180.675pt>
 File: gfx/fig37.png Graphic file (type png)
 <use gfx/fig37.png>
 Package pdftex.def Info: gfx/fig37.png  used on input line 160.
@@ -2423,8 +2475,8 @@ Package pdftex.def Info: gfx/fig37.png  used on input line 160.
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 162.
 
-[109 <./gfx/fig37.png>]
-<gfx/fig53.png, id=484, 341.02406pt x 176.91093pt>
+[115 <./gfx/fig37.png>]
+<gfx/fig53.png, id=503, 341.02406pt x 176.91093pt>
 File: gfx/fig53.png Graphic file (type png)
 <use gfx/fig53.png>
 Package pdftex.def Info: gfx/fig53.png  used on input line 173.
@@ -2434,7 +2486,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--177
 
  []
 
-[110 <./gfx/fig53.png>]
+[116 <./gfx/fig53.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 192--203
 
  []
@@ -2464,18 +2516,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 216--219
 
  []
 
-[111]
+[117]
 Underfull \hbox (badness 10000) in paragraph at lines 225--227
 
  []
 
-[112]
+[118]
 Overfull \hbox (3.05269pt too wide) in paragraph at lines 238--239
 []\OT1/cmr/m/n/10.95 Modified Dis-tri-bu-tion Method, gen-er-ally known as MODI
  method. 
  []
 
-[113]
+[119]
 Underfull \hbox (badness 10000) in paragraph at lines 271--276
 
  []
@@ -2488,7 +2540,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 271--276
 
 Underfull \vbox (badness 7326) has occurred while \output is active []
 
- [114]
+ [120]
 Overfull \hbox (37.47537pt too wide) in paragraph at lines 323--336
  [] 
  []
@@ -2496,7 +2548,7 @@ Overfull \hbox (37.47537pt too wide) in paragraph at lines 323--336
 
 Underfull \vbox (badness 7291) has occurred while \output is active []
 
- [115]
+ [121]
 Overfull \hbox (94.7796pt too wide) in paragraph at lines 339--352
  [] 
  []
@@ -2511,7 +2563,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 353--357
 
  []
 
-[116]
+[122]
 Underfull \hbox (badness 10000) in paragraph at lines 358--360
 
  []
@@ -2526,7 +2578,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 364--370
 
  []
 
-[117]
+[123]
 Overfull \hbox (37.47537pt too wide) in paragraph at lines 401--413
  [] 
  []
@@ -2534,7 +2586,7 @@ Overfull \hbox (37.47537pt too wide) in paragraph at lines 401--413
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [118]
+ [124]
 Overfull \hbox (89.28152pt too wide) in paragraph at lines 416--428
  [] 
  []
@@ -2549,7 +2601,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 429--434
 
  []
 
-[119]
+[125]
 Underfull \hbox (badness 10000) in paragraph at lines 447--453
 
  []
@@ -2559,12 +2611,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 447--453
 
  []
 
-[120]
+[126]
 Overfull \hbox (10.6444pt too wide) in paragraph at lines 471--487
  [] 
  []
 
-[121]
+[127]
 Overfull \hbox (83.42201pt too wide) in paragraph at lines 490--508
  [] 
  []
@@ -2579,7 +2631,7 @@ Overfull \hbox (69.53384pt too wide) in paragraph at lines 534--545
  [] 
  []
 
-[122]
+[128]
 Underfull \hbox (badness 10000) in paragraph at lines 551--551
 []|\OT1/cmr/m/n/10.95 North-West Cor-ner
  []
@@ -2664,7 +2716,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 568--571
 
  []
 
-[123]
+[129]
 Underfull \hbox (badness 10000) in paragraph at lines 572--575
 
  []
@@ -2674,7 +2726,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 572--575
 
  []
 
-[124]
+[130]
 Underfull \hbox (badness 10000) in paragraph at lines 583--586
 
  []
@@ -2689,22 +2741,22 @@ Overfull \hbox (10.2088pt too wide) in paragraph at lines 590--591
 []\OT1/cmr/m/n/10.95 Identify the small-
  []
 
-[125]
+[131]
 Overfull \hbox (5.31575pt too wide) in paragraph at lines 594--595
 []\OT1/cmr/m/n/10.95 The pro-
  []
 
-[126]
+[132]
 Overfull \hbox (7.2214pt too wide) in paragraph at lines 626--627
 []\OT1/cmr/m/n/10.95 The steps
  []
 
-<gfx/fig54.png, id=545, 471.26062pt x 398.99063pt>
+<gfx/fig54.png, id=564, 471.26062pt x 398.99063pt>
 File: gfx/fig54.png Graphic file (type png)
 <use gfx/fig54.png>
 Package pdftex.def Info: gfx/fig54.png  used on input line 637.
 (pdftex.def)             Requested size: 329.88019pt x 279.29153pt.
-[127 <./gfx/fig54.png>]
+[133 <./gfx/fig54.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 657--659
 
  []
@@ -2737,8 +2789,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 657--659
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [128]
-[129] [130]
+ [134]
+[135] [136]
 Underfull \hbox (badness 10000) in paragraph at lines 798--805
 
  []
@@ -2758,14 +2810,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 798--805
 
  []
 
-[131]
+[137]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [132]
-[133]
+ [138]
+[139]
 Underfull \vbox (badness 6364) has occurred while \output is active []
 
- [134]
+ [140]
 Underfull \hbox (badness 10000) in paragraph at lines 957--959
 
  []
@@ -2773,7 +2825,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 957--959
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [135]
+ [141]
 Underfull \hbox (badness 10000) in paragraph at lines 977--981
 
  []
@@ -2781,44 +2833,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 977--981
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [136]
+ [142]
 Underfull \hbox (badness 10000) in paragraph at lines 1054--1056
 
  []
 
-[137]
+[143]
 Underfull \hbox (badness 10000) in paragraph at lines 1074--1076
 
  []
 
-) [138] [139]
+[144]
+Underfull \hbox (badness 10000) in paragraph at lines 1106--1110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1106--1110
+
+ []
+
+[145] [146]) [147]
 \openout2 = `mainmatter/ch7.aux'.
 
- (mainmatter/ch7.tex [140
+ (mainmatter/ch7.tex [148
 
 
 
 
 ]
 Chapter 7.
-) [141]
+) [149]
 \openout2 = `mainmatter/ch8.aux'.
 
- (mainmatter/ch8.tex [142
+ (mainmatter/ch8.tex [150
 
 
 
 
 ]
 Chapter 8.
-) [143] (main.aux (mainmatter/ch1.aux) (mainmatter/ch2.aux) (mainmatter/ch3.aux
+) [151] (main.aux (mainmatter/ch1.aux) (mainmatter/ch2.aux) (mainmatter/ch3.aux
 ) (mainmatter/ch4.aux) (mainmatter/ch5.aux) (mainmatter/ch6.aux)
 (mainmatter/ch7.aux) (mainmatter/ch8.aux)) ) 
 Here is how much of TeX's memory you used:
- 29476 strings out of 478699
- 626073 string characters out of 2847435
- 904411 words of memory out of 3000000
- 47177 multiletter control sequences out of 15000+600000
+ 29566 strings out of 478699
+ 627736 string characters out of 2847435
+ 903869 words of memory out of 3000000
+ 47267 multiletter control sequences out of 15000+600000
  416233 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,19n,93p,2365b,1612s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2852,9 +2914,9 @@ l/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Users/Del
 l/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
 <C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbol
 s/msbm10.pfb>
-Output written on main.pdf (149 pages, 1982623 bytes).
+Output written on main.pdf (157 pages, 2004993 bytes).
 PDF statistics:
- 715 PDF objects out of 1000 (max. 8388607)
+ 741 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  263 words of extra memory for PDF output out of 10000 (max. 10000000)
 
