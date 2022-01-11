@@ -135,4 +135,13 @@ The validity of the average-speed model have been estimated from regression anal
 Where,\\
 \hspace*{10mm} $ W $ = vehicle weight (lb)\\
 \hspace*{10mm} $ Wm $ = vehicle weight (kg)\\
-\hspace*{10mm} $ I $ = fuel consumption rate while idling
+\hspace*{10mm} $ I $ = fuel consumption rate while idling\\\\
+Depending on vehicle weight, engine size, and technological features, the -values of $ k_1 $ and $ k_2 $ can vary widely. Data from field tests (1973-1976) on nine passenger cars ranging in weight from 2270 to 5474 lb (1035 to 2488 kg) gave values of $ k_1 $ ranging from 0.0194 to 0.0518 gal/mi (0.0456 to 0.1218 liter/km) and values of $ k_2 $ ranging from 0.418 to 1.031 gal/hr (For use in metric version of the model this would be equivalent to $ k_2 $ ranging from 0.983 to 2.42 in order to yield 1/km). The average values were incorporated into a version of model published by FHWA:
+\begin{equation}
+	F = 0.0362 + \frac{0.746}{v} (gal/veh-mi)
+\end{equation}
+By using the relationship $ k_1 $ = 9.58 $ \times 10^{-6} \:W$, the value of $ k_1 $ = 0.0362 represents a vehicle weighing 3800 lb (1718 kg).\\\\
+Buses operating in an urban environment may present a unique case because of their schedule of frequent stops. In this case, bus fuel consumption may be calculated by using graphs such as the graph given below calibrated with average number of stops per unit distance rather than average speed. The estimate for stops should include both the scheduled stops and the stops resulting from traffic congestion and traffic controls.
+\begin{center}
+	\includegraphics[scale=0.8]{gfx/fig55.png}
+\end{center}
