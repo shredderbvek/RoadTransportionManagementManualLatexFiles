@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  11 JAN 2022 13:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  22 JAN 2022 19:08
 entering extended mode
 **./main.tex
 (main.tex
@@ -3114,24 +3114,30 @@ File: gfx/fig55.png Graphic file (type png)
 <use gfx/fig55.png>
 Package pdftex.def Info: gfx/fig55.png  used on input line 146.
 (pdftex.def)             Requested size: 273.42186pt x 180.07298pt.
-)
+
 Overfull \hbox (335.06265pt too wide) has occurred while \output is active
 \OT1/cmr/m/n/10.95 164 \OT1/cmr/m/sl/10.95 CHAPTER 7.  ENVIRONMENTAL EFFECTS OF
  TRANSPORTATION, FUEL CONSUMPTION MODELS AND EMISSION STANDARDS
  []
 
-[164 <./gfx/fig55.png>]
+[164 <./gfx/fig55.png>]) [165]
 \openout2 = `mainmatter/ch8.aux'.
 
  (mainmatter/ch8.tex
+Overfull \hbox (335.06265pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10.95 166 \OT1/cmr/m/sl/10.95 CHAPTER 7.  ENVIRONMENTAL EFFECTS OF
+ TRANSPORTATION, FUEL CONSUMPTION MODELS AND EMISSION STANDARDS
+ []
+
+[166
+
+
+
+
+]
 Chapter 8.
-) [165
-
-
-
-
-] (main.aux (mainmatter/ch1.aux) (mainmatter/ch2.aux) (mainmatter/ch3.aux) (mai
-nmatter/ch4.aux) (mainmatter/ch5.aux) (mainmatter/ch6.aux)
+) [167] (main.aux (mainmatter/ch1.aux) (mainmatter/ch2.aux) (mainmatter/ch3.aux
+) (mainmatter/ch4.aux) (mainmatter/ch5.aux) (mainmatter/ch6.aux)
 (mainmatter/ch7.aux) (mainmatter/ch8.aux)) ) 
 Here is how much of TeX's memory you used:
  29575 strings out of 478699
@@ -3171,9 +3177,9 @@ l/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Users/Del
 l/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
 <C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbol
 s/msbm10.pfb>
-Output written on main.pdf (171 pages, 2058688 bytes).
+Output written on main.pdf (173 pages, 2061261 bytes).
 PDF statistics:
- 789 PDF objects out of 1000 (max. 8388607)
+ 795 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  268 words of extra memory for PDF output out of 10000 (max. 10000000)
 
