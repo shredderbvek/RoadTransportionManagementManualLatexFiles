@@ -207,4 +207,17 @@
 \contentsline {subsection}{\numberline {7.4.2}Average-Speed Models}{163}{}%
 \contentsline {section}{\numberline {7.5}Emissions Control Programmes}{165}{}%
 \contentsline {subsection}{\numberline {7.5.1}European Union}{165}{}%
-\contentsline {chapter}{\numberline {8}Planning for New Transport Organization}{167}{}%
+\contentsline {chapter}{\numberline {8}Accident Studies}{167}{}%
+\contentsline {section}{\numberline {8.1}Introduction}{167}{}%
+\contentsline {section}{\numberline {8.2}Objectives of Accident Studies}{167}{}%
+\contentsline {section}{\numberline {8.3}Causes of Road Accidents}{168}{}%
+\contentsline {section}{\numberline {8.4}Accident Analysis}{168}{}%
+\contentsline {subsection}{\numberline {8.4.1}Accident Data Collection}{168}{}%
+\contentsline {subsection}{\numberline {8.4.2}Accident Investigation}{169}{}%
+\contentsline {subsection}{\numberline {8.4.3}Accident Data Analysis}{170}{}%
+\contentsline {subsubsection}{Accident Rate per Kilometer:}{170}{}%
+\contentsline {subsubsection}{Accident Involvement Rate:}{170}{}%
+\contentsline {subsubsection}{Death Rate Based on Population:}{171}{}%
+\contentsline {subsubsection}{Death Rate Based on Registration:}{171}{}%
+\contentsline {subsubsection}{Accident Based on Vehicle-Km of Travel:}{171}{}%
+\contentsline {section}{\numberline {8.5}Accident Reconstruction}{172}{}%

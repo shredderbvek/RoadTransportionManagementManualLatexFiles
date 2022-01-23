@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  22 JAN 2022 19:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  23 JAN 2022 22:48
 entering extended mode
 **./main.tex
 (main.tex
@@ -3063,9 +3063,9 @@ Overfull \hbox (335.06265pt too wide) has occurred while \output is active
  []
 
 [160]
-Overfull \hbox (1.61002pt too wide) in paragraph at lines 83--84
-[]\OT1/cmr/m/n/10.95 Thirty-eight in-dus-tri-alised na-tions are re-quired to r
-e-duce their
+Overfull \hbox (2.15752pt too wide) in paragraph at lines 83--84
+[]\OT1/cmr/m/n/10.95 Thirty-eight in-dus-tri-al-ized na-tions are re-quired to 
+re-duce their
  []
 
 [161]
@@ -3120,25 +3120,50 @@ Overfull \hbox (335.06265pt too wide) has occurred while \output is active
  TRANSPORTATION, FUEL CONSUMPTION MODELS AND EMISSION STANDARDS
  []
 
-[164 <./gfx/fig55.png>]) [165]
-\openout2 = `mainmatter/ch8.aux'.
-
- (mainmatter/ch8.tex
+[164 <./gfx/fig55.png>] [165])
 Overfull \hbox (335.06265pt too wide) has occurred while \output is active
 \OT1/cmr/m/n/10.95 166 \OT1/cmr/m/sl/10.95 CHAPTER 7.  ENVIRONMENTAL EFFECTS OF
  TRANSPORTATION, FUEL CONSUMPTION MODELS AND EMISSION STANDARDS
  []
 
-[166
+[166]
+\openout2 = `mainmatter/ch8.aux'.
 
-
-
-
-]
+ (mainmatter/ch8.tex
 Chapter 8.
-) [167] (main.aux (mainmatter/ch1.aux) (mainmatter/ch2.aux) (mainmatter/ch3.aux
-) (mainmatter/ch4.aux) (mainmatter/ch5.aux) (mainmatter/ch6.aux)
-(mainmatter/ch7.aux) (mainmatter/ch8.aux)) ) 
+[167
+
+
+
+
+] [168] [169] [170]
+Underfull \hbox (badness 10000) in paragraph at lines 97--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--110
+
+ []
+
+[171]) [172] (main.aux (mainmatter/ch1.aux) (mainmatter/ch2.aux)
+(mainmatter/ch3.aux) (mainmatter/ch4.aux) (mainmatter/ch5.aux)
+(mainmatter/ch6.aux) (mainmatter/ch7.aux) (mainmatter/ch8.aux)) ) 
 Here is how much of TeX's memory you used:
  29575 strings out of 478699
  627878 string characters out of 2847435
@@ -3147,39 +3172,39 @@ Here is how much of TeX's memory you used:
  416233 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,19n,93p,2365b,1612s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Dell\AppData\Local\MiKTe
-X\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0600.pk> <C:\Users\Dell\AppData\Local\
-MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\Dell\AppData\L
-ocal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/Dell/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/De
-ll/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
-Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti1
-0.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmex10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cmextra/cmex8.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Dell/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Dell/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Dell/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Dell/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/
-Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/
-Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pf
-b><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mr7.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmr8.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmsl10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Dell/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Dell/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Dell/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Users/Del
-l/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-<C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbol
-s/msbm10.pfb>
-Output written on main.pdf (173 pages, 2061261 bytes).
+ <C:\Users\Del
+l\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0600.pk> <C:\User
+s\Dell\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:
+\Users\Dell\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk
+><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+bx10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmbxti10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/Dell/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Dell/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Dell/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/
+Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
+/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.
+pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmr17.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmr5.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmr6.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmr7.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/Dell/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Dell/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Dell/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Dell
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Us
+ers/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/lin
+e10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/symbols/msam10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (178 pages, 2075902 bytes).
 PDF statistics:
- 795 PDF objects out of 1000 (max. 8388607)
+ 811 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  268 words of extra memory for PDF output out of 10000 (max. 10000000)
 
