@@ -114,3 +114,112 @@ Accident reconstruction deals with representing the accidents occurred in schema
 	\item Velocities after collision
 	\item Path of each vehicle as it approaches collision point
 \end{enumerate}
+The collision may be of two types collinear impact or angular collision.
+\subsection{Collinear Impact}
+A collision is said to be a collinear impact/ collision if the colliding bodies are traveling along the same line of action. Collinear impact can be again divided into two types:
+\begin{enumerate}
+	\item Rear end collision
+	\item Head-on collision
+\end{enumerate}
+Collinear impact can be defined by two theories, they are:
+\begin{enumerate}
+	\item Poisson Impact Theory
+	\item Energy Theory
+\end{enumerate}
+\subsubsection{Poisson Impact Theory}
+\begin{center}
+	\includegraphics[scale=0.8]{gfx/fig56.png}
+\end{center}
+Poisson impact theory, divides the impact in two parts - compression and restitution. The Figure above shows two vehicles traveling at an initial speed of $ v_1 $ and $ v_2 $ collide and obtain a uniform speed say u at the compression stage. And after the compression stage is over the final speed is $ u_1 $ and $ u_2 $. The compression phase is cited by the deformation of the cars. From the Newtons law $ F = ma $,
+\begin{equation}
+	m_1 \frac{dv_1}{dt} \:\: and \:\: m_2 \frac{dv_2}{dt}
+\end{equation}
+where, $ m_1 $ and $ m_2 $ are the masses of the cars and $ F $ is the contact force. We know that every reaction has equal and opposite action. So as the rear vehicle pushes the vehicle ahead with force $ F $. The vehicle ahead will also push the rear vehicle with same magnitude of force but has different direction. The action force is represented by $ F $, whereas the reaction force is represented by $ -F $ as shown in the figure below. In the compression phase cars are deformed. The compression phase terminates when the cars have equal velocity. Thus the cars obtain equal velocity which generates the following equation:
+\begin{center}
+	\includegraphics{gfx/fig57.png}
+\end{center}
+\begin{equation}
+	m_1(u - v_1) = -P_c; \:\: m_2(u - v_2) = P_c
+\end{equation}
+Where, $ P_c \equiv \int_{0}^{\tau_c} F dt $ which is the compression impulse and $ \tau_c $ is the compression time. Thus, the velocity after collision is obtained as:
+\begin{equation}
+	u = \frac{m_1 v_1 + m_2 v_2}{m_1 + m_2}
+\end{equation}
+The compression impulse is given by:
+\begin{equation}
+	P_c = \frac{m_1 m_2}{m_1 + m_2} (v_1 - v_2)
+\end{equation}
+In the restitution phase the elastic part of internal energy is released,
+\begin{gather}
+	m_1(u_1 - u) = -P_r\\
+	m_2(u_2 - u) = P_r
+\end{gather}
+Where, $ P_r \equiv \int_{0}^{\tau_r} F dt $ is the restitution impulse and $ \tau_r $ is the restitution time. According to Poisson's hypothesis restitution impulse is proportional to compression impulse.
+\begin{equation}
+	P_r = e \: P_c
+\end{equation}
+Restitution impulse $ e $ is given by:
+\begin{equation}
+	e = \frac{u_2 - u_1}{v_1 - v_2}
+\end{equation}
+The total impulse is $ P = P_1 + P_2 $,
+\begin{equation}
+	P = (1 + e) \frac{m_1 m_2}{m_1 + m_2} \Delta v 
+\end{equation}
+The post impact velocities are given by:
+\begin{gather}
+	u_1 = u - e \frac{m_2}{m_1 + m_2} \Delta v \: = \: v_1 - (1 + e) \frac{m_2}{m_1 + m_2} \Delta v\\
+	u_2 = u + e \frac{m_1}{m_1 + m_2} \Delta v \: = \: v_2 + (1 + e) \frac{m_1}{m_1 + m_2} \Delta v
+\end{gather}
+Where. $ \Delta v = v_1 - v_2 $. But we are required to determine the pre-collision speed according to which the safety on the road can be designed. So we will determine $ v_1 $ and $ v_2 $ from the given value of $ u_1 $ and $ u_2 $ .\\\\
+\textbf{\textit{Numerical Example:}}\\
+Two vehicles traveling in the same lane have masses 3000 kg (following) and 2500 kg (leading). Also the velocity of the vehicles after collision is 25 kmph and 56 kmph respectively. The coefficient of restitution of the two vehicle system is assumed to be 0.6. Determine the pre-collision speed of the two vehicles.\\
+\textit{Solution}:
+mass of the vehicle 1 ($ m_1 $) = 3000 Kg\\
+mass of the vehicle 2 ($ m_2 $) = 2500 Kg\\
+final speed of the vehicle 1 ($ u_1 $) = 25 kmph\\
+final speed of the vehicle 2 ($ u_1 $) = 56 kmph\\
+restitution impulse (e) = 0.6\\\\
+We have,\\\\
+$ 	u_1 = v_1 - (1 + e) \frac{m_2}{m_1 + m_2} (v_1 - v_2) $\\\\
+$ 25 = v_1 - (1 + 0.6) \frac{2.5}{3 + 2.5} (v_1 - v_2) $\\\\
+$ -1.5 v_1 + 4 v_2 =  137.5 $---------(1)\\\\
+Similarly,\\\\
+$ 	u_2 = v_2 + (1 + e) \frac{m_1}{m_1 + m_2} (v_1 - v_2) $\\\\
+$ 	56 = v_2 + (1 + 0.6) \frac{3}{3 + 2.5} (v_1 - v_2) $\\\\
+$ 4.8 v_1 - 0.7 v_2 =  308 $---------(2)\\\\
+Solving eqn (1) and (2) we get,\\
+$ v_1 $ = 73 kmph, and $ v_2 $ = 62 kmph\\\\
+Thus from the result we can infer that the follower vehicle was traveling at quite high speed which may have resulted in the collision. The solution to the problem may be speed restriction in that particular stretch of road where accident occurred.
+\subsubsection{Energy Theory}
+Applying principle of conservation of energy or conservation of momentum also the initial speed of the vehicle can be computed if the skid marks are known. It is based on the concept that there is reduction in kinetic energy with the work done against the skid resistance. So if the vehicle of weight $ W $ slow down from speed $ v_1 $ to $ v_2 $, then the loss in kinetic energy will be equal to the work done against skid resistance, where work done is weight of the vehicle multiplied by the skid distance and the skid resistance coefficient.
+\begin{equation}
+	\frac{W \times (v_1^2 - v_2^2)}{2g} = W \times f \times S
+\end{equation}
+Where, $ f $ is the skid resistance coefficient and $ S $ is the skid distance. It also follows the law of conservation of momentum ($ m_1 $, $ v_1 $ are the mass and velocity of first vehicle colliding with another vehicle of mass and velocity $ m_2 $, $ v_2 $ respectively).
+\begin{equation}
+	 m_1 v_1 = m_2 v_2
+\end{equation}
+\textbf{\textit{Numerical Example}}:\\
+A vehicle of 2000 kg skids a distance of 36 m before colliding with a stationary vehicle of 1500 kg weight. After collision both vehicle skid a distance of 14 m. Assuming coefficient of friction 0.5, determine the initial speed of the vehicle.\\\\
+\textit{Solution}:\\\\
+Let the weight of the moving vehicle is $ W_A $, let the weight of the stationary vehicle is $ W_B $, skid distance before and after collision is $ s_1 $ and $ s_2 $ respectively, initial speed is $ v_1 $, speed after applying brakes before collision is $ v_2 $ and the speed of both the vehicles A and B after collision is $ v_3 $, and the final speed $ v_4 $ is 0. Then:\\\\
+After Collision:\\\\
+Loss in kinetic energy of both cars = Work done against skid resistance\\\\
+$ \frac{(W_A + W_B) \times (v_3^2 - v_4^2)}{2g} = (W_A + W_B) \times f \times s_2 $\\\\
+$ \frac{v_3^2}{2g} = 0.5 \times 14 $\\\\
+$ \therefore v_3 = 11.71 $ m/s \\\\
+During Collision:\\\\
+Momentum before impact = momentum after impact\\\\
+$ \frac{W_A \times v_2}{g} = \frac{(W_A + W_B) \times v_3}{g}$\\\\
+$ v_2 = \frac{(2000 + 1500) \times 11.71}{2000} $\\\\
+$ \therefore v_2 = 20.5 $ m/s\\\\
+Before Collision:\\\\
+Loss in kinetic energy of moving vehicle = work done against braking force in reducing the speed\\\\
+$ \frac{W_A \times (v_1^2 - v_2^2)}{2g} = W_A \times f \times s_1 $\\\\
+$ \frac{(v_1^2 - 20.5^2)}{2 \times 9.81} = 0.5 \times 36 $\\\\
+$ \therefore v_1 = 27.8 $ m/s = 100 kmph\\\\
+$ \therefore $ The pre-collision speed of the moving vehicle is 100 kmph.
+%
+\subsection{Angular Collision}
+
