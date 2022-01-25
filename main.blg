@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: mainmatter/ch1.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: mainmatter/ch2.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: mainmatter/ch3.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: mainmatter/ch4.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: mainmatter/ch5.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: mainmatter/ch6.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: mainmatter/ch7.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: mainmatter/ch8.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: plain.bst
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+Database file #1: ref.bib
+Warning--to sort, need author or key in ira
+Warning--empty author in ira
+You've used 12 entries,
+            2118 wiz_defined-function locations,
+            564 strings with 5086 characters,
+and the built_in function-call counts, 2607 in all, are:
+= -- 239
+> -- 78
+< -- 0
++ -- 34
+- -- 22
+* -- 115
+:= -- 458
+add.period$ -- 35
+call.type$ -- 12
+change.case$ -- 43
+chr.to.int$ -- 0
+cite$ -- 14
+duplicate$ -- 142
+empty$ -- 261
+format.name$ -- 22
+if$ -- 557
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 23
+newline$ -- 62
+num.names$ -- 22
+pop$ -- 85
+preamble$ -- 1
+purify$ -- 35
+quote$ -- 0
+skip$ -- 72
+stack$ -- 0
+substring$ -- 60
+swap$ -- 12
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 26
+warning$ -- 2
+while$ -- 22
+width$ -- 14
+write$ -- 127
+(There were 2 warnings)

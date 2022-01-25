@@ -30,7 +30,6 @@
 \contentsline {subsubsection}{Sight Distance}{21}{}%
 \contentsline {paragraph}{\emph {1. Stopping Sight Distance}}{21}{}%
 \contentsline {paragraph}{\emph {2. Passing Sight Distance}}{21}{}%
-\contentsline {section}{\numberline {1.5}Review Problems}{21}{}%
 \contentsline {chapter}{\numberline {2}Motor Vehicle Act}{23}{}%
 \contentsline {chapter}{\numberline {3}Transportation Economics}{25}{}%
 \contentsline {section}{\numberline {3.1}Introduction}{25}{}%
@@ -105,7 +104,6 @@
 \contentsline {subsection}{\numberline {4.5.4}Provisions relating to payment against Insurance Claim}{69}{}%
 \contentsline {subsubsection}{Process against the payment of Life Insurance Claim}{69}{}%
 \contentsline {subsubsection}{Process of payment against Non-Life Insurance Claim}{70}{}%
-\contentsline {section}{\numberline {4.6}Review Problems}{70}{}%
 \contentsline {chapter}{\numberline {5}Passenger Transport Operation}{71}{}%
 \contentsline {section}{\numberline {5.1}Public Transportation}{71}{}%
 \contentsline {subsection}{\numberline {5.1.1}Transit Modes}{71}{}%
@@ -226,3 +224,15 @@
 \contentsline {subsubsection}{Poisson Impact Theory}{173}{}%
 \contentsline {subsubsection}{Energy Theory}{175}{}%
 \contentsline {subsection}{\numberline {8.5.2}Angular Collision}{177}{}%
+\contentsline {section}{\numberline {8.6}Safety Measures}{180}{}%
+\contentsline {subsection}{\numberline {8.6.1}Road Signs}{180}{}%
+\contentsline {subsection}{\numberline {8.6.2}Street Lighting}{180}{}%
+\contentsline {subsection}{\numberline {8.6.3}Improvement in Skid Resistance}{181}{}%
+\contentsline {subsection}{\numberline {8.6.4}Road Markings}{181}{}%
+\contentsline {subsection}{\numberline {8.6.5}Guide Posts With or Without Reflector}{181}{}%
+\contentsline {subsection}{\numberline {8.6.6}Guard Rail}{181}{}%
+\contentsline {subsection}{\numberline {8.6.7}Driver Reviver Stop}{181}{}%
+\contentsline {subsection}{\numberline {8.6.8}Constructing Flyovers and Bypasses}{182}{}%
+\contentsline {subsection}{\numberline {8.6.9}Regular Accident Studies}{182}{}%
+\contentsline {subsection}{\numberline {8.6.10}Speed Control}{182}{}%
+\contentsline {subsection}{\numberline {8.6.11}Training and Supervision}{182}{}%
