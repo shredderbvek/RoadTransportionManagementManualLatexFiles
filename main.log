@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  28 JAN 2022 16:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  29 JAN 2022 22:58
 entering extended mode
 **./main.tex
 (main.tex
@@ -2047,12 +2047,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 237--247
  []
 
 
-Overfull \hbox (2.35425pt too wide) in paragraph at lines 237--247
-\OT1/cmr/m/n/10.95 ansit op-er-a-tor's timetable con-tains in-for-ma-tion about
- ve-hi-cle de-par-ture times
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 237--247
 
  []
@@ -3495,7 +3489,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 246--272
 Here is how much of TeX's memory you used:
  29643 strings out of 478699
  628891 string characters out of 2847435
- 904150 words of memory out of 3000000
+ 905150 words of memory out of 3000000
  47332 multiletter control sequences out of 15000+600000
  416614 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3531,7 +3525,7 @@ rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Dell/AppData
 s/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10
 .pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/s
 ymbols/msbm10.pfb>
-Output written on main.pdf (189 pages, 2209469 bytes).
+Output written on main.pdf (189 pages, 2209444 bytes).
 PDF statistics:
  866 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
