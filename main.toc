@@ -128,7 +128,7 @@
 \contentsline {subsection}{\numberline {5.8.1}Transit Line Capacity Utilization}{93}{}%
 \contentsline {section}{\numberline {5.9}Route Development}{95}{}%
 \contentsline {subsection}{\numberline {5.9.1}Properties of a Good Route Set}{95}{}%
-\contentsline {section}{\numberline {5.10}Stop Location and Stopping Policy}{96}{}%
+\contentsline {section}{\numberline {5.10}Stop Location and Stopping Policy}{95}{}%
 \contentsline {subsection}{\numberline {5.10.1}Stopping Policy}{96}{}%
 \contentsline {subsection}{\numberline {5.10.2}Stop Location}{98}{}%
 \contentsline {subsubsection}{Determination of $T_u$}{99}{}%
