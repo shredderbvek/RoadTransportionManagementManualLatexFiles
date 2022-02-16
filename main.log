@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  11 FEB 2022 17:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  16 FEB 2022 09:36
 entering extended mode
 **./main.tex
 (main.tex
@@ -3093,27 +3093,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--130
  []
 
 [163]
-Underfull \hbox (badness 10000) in paragraph at lines 134--140
+Underfull \hbox (badness 10000) in paragraph at lines 138--144
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--145
+Underfull \hbox (badness 10000) in paragraph at lines 146--149
 
  []
 
 <gfx/fig55.png, id=666, 341.77687pt x 225.09094pt>
 File: gfx/fig55.png Graphic file (type png)
 <use gfx/fig55.png>
-Package pdftex.def Info: gfx/fig55.png  used on input line 146.
+Package pdftex.def Info: gfx/fig55.png  used on input line 150.
 (pdftex.def)             Requested size: 273.42186pt x 180.07298pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Overfull \hbox (335.06265pt too wide) has occurred while \output is active
 \OT1/cmr/m/n/10.95 164 \OT1/cmr/m/sl/10.95 CHAPTER 7.  ENVIRONMENTAL EFFECTS OF
  TRANSPORTATION, FUEL CONSUMPTION MODELS AND EMISSION STANDARDS
  []
 
-[164 <./gfx/fig55.png>] [165])
+[164] [165 <./gfx/fig55.png>])
 Overfull \hbox (335.06265pt too wide) has occurred while \output is active
 \OT1/cmr/m/n/10.95 166 \OT1/cmr/m/sl/10.95 CHAPTER 7.  ENVIRONMENTAL EFFECTS OF
  TRANSPORTATION, FUEL CONSUMPTION MODELS AND EMISSION STANDARDS
@@ -3528,7 +3531,7 @@ rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Dell/AppData
 s/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10
 .pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/s
 ymbols/msbm10.pfb>
-Output written on main.pdf (189 pages, 2209563 bytes).
+Output written on main.pdf (189 pages, 2210039 bytes).
 PDF statistics:
  866 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

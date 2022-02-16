@@ -126,7 +126,11 @@ Where,\\\\
 \hspace*{10mm} $ F_R $ = fuel consumed while in motion (liters/100 km)\\
 \hspace*{10mm} $ F_0) $ = fuel consumed during stopped time while idling (liters/hr)\\
 \hspace*{10mm} $ v $ = average speed (km/hr)\\\\
-The validity of the average-speed model have been estimated from regression analysis of fuel consumption data in several countries. Data on 37 U.S. passenger cars on 1976 model year were found to be closely correlated with vehicle weight and fuel rate at idle, giving the relationships:
+The validity of the average-speed model was extended to suburban areas for speeds up to 88 km/hr (55 mph) by the introduction of a term involving $ v^2 $.
+\begin{equation}
+	 F = k_1 + \frac{k_2}{v} + k_3 v^2
+\end{equation}
+The parameters $ k_1 $ and $ k_2 $ have been estimated from regression analysis of fuel consumption data in several countries. Data on 37 U.S. passenger cars on 1976 model year were found to be closely correlated with vehicle weight and fuel rate at idle, giving the relationships:
 \begin{gather}
 	\because k_1 = 9.5\times 10^{-6} \: W \: (gal/mi)\\
 	\: \: = 49.57 \times 10^{-6} Wm \: (liter/km)\\
