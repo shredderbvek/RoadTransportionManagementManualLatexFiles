@@ -23,45 +23,45 @@ Reallocating 'name_of_file' (item size: 1) to 8 items.
 Database file #1: ref.bib
 Warning--to sort, need author or key in ira
 Warning--empty author in ira
-You've used 12 entries,
+You've used 13 entries,
             2118 wiz_defined-function locations,
-            564 strings with 5086 characters,
-and the built_in function-call counts, 2607 in all, are:
-= -- 239
-> -- 78
+            569 strings with 5253 characters,
+and the built_in function-call counts, 2822 in all, are:
+= -- 258
+> -- 85
 < -- 0
-+ -- 34
-- -- 22
-* -- 115
-:= -- 458
-add.period$ -- 35
-call.type$ -- 12
-change.case$ -- 43
++ -- 37
+- -- 24
+* -- 123
+:= -- 496
+add.period$ -- 38
+call.type$ -- 13
+change.case$ -- 46
 chr.to.int$ -- 0
-cite$ -- 14
-duplicate$ -- 142
-empty$ -- 261
-format.name$ -- 22
-if$ -- 557
+cite$ -- 15
+duplicate$ -- 154
+empty$ -- 283
+format.name$ -- 24
+if$ -- 603
 int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 23
-newline$ -- 62
-num.names$ -- 22
-pop$ -- 85
+int.to.str$ -- 13
+missing$ -- 25
+newline$ -- 67
+num.names$ -- 24
+pop$ -- 93
 preamble$ -- 1
-purify$ -- 35
+purify$ -- 38
 quote$ -- 0
-skip$ -- 72
+skip$ -- 78
 stack$ -- 0
-substring$ -- 60
-swap$ -- 12
+substring$ -- 65
+swap$ -- 13
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 26
+type$ -- 28
 warning$ -- 2
-while$ -- 22
-width$ -- 14
-write$ -- 127
+while$ -- 24
+width$ -- 15
+write$ -- 137
 (There were 2 warnings)

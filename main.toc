@@ -236,3 +236,20 @@
 \contentsline {subsection}{\numberline {8.6.9}Regular Accident Studies}{182}{}%
 \contentsline {subsection}{\numberline {8.6.10}Speed Control}{182}{}%
 \contentsline {subsection}{\numberline {8.6.11}Training and Supervision}{182}{}%
+\contentsline {chapter}{\numberline {9}Vehicle Operating Cost Impacts}{183}{}%
+\contentsline {section}{\numberline {9.1}Introduction}{183}{}%
+\contentsline {section}{\numberline {9.2}Components of Vehicle Operating Cost}{184}{}%
+\contentsline {subsection}{\numberline {9.2.1}Fuel}{184}{}%
+\contentsline {subsection}{\numberline {9.2.2}Shipping Inventory}{184}{}%
+\contentsline {subsection}{\numberline {9.2.3}Lubricating Oils for Mechanical Working of the Drivetrain}{185}{}%
+\contentsline {subsection}{\numberline {9.2.4}Preservation of the Vehicle-Guideway Contact Surface}{185}{}%
+\contentsline {section}{\numberline {9.3}Vehicle Repair and Maintenance}{185}{}%
+\contentsline {subsection}{\numberline {9.3.1}Depreciation}{186}{}%
+\contentsline {section}{\numberline {9.4}Factors That Affect Vehicle Operating Cost}{187}{}%
+\contentsline {subsection}{\numberline {9.4.1}Vehicle Type}{187}{}%
+\contentsline {subsection}{\numberline {9.4.2}Fuel Type}{188}{}%
+\contentsline {subsection}{\numberline {9.4.3}Longitudinal Grade}{188}{}%
+\contentsline {subsection}{\numberline {9.4.4}Vehicle Speed}{190}{}%
+\contentsline {subsubsection}{a) Inventory Shipping}{190}{}%
+\contentsline {subsubsection}{b) VOC Models and Look-up Table Based on Speed and Vehicle Class}{191}{}%
+\contentsline {subsubsection}{c) VOC model based on speed, grade, and vehicle class}{192}{}%
