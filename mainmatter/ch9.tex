@@ -20,7 +20,7 @@ The lubricating oil cost includes the cost of engine oil, transmission fluids, b
 \subsection{Preservation of the Vehicle-Guideway Contact Surface}
 At their points of contact, both the vehicle and guideway experience deterioration due to wear and tear. For highways and runways, the vehicle contact is a tire; for railways, the contact is typically a steel wheel. Updated tire costs (2005 dollars) from the HERS technical report, are as follows: \$54.71 per tire for small autos, \$86.54 for medium-sized to large autos, \$95.39 for four-tire single-unit trucks, \$95.38 for sixtire single-unit trucks, \$230.10 for single-unit trucks of three or more axles, and \$569.74 for combination trucks. Of the various VOC factors, pavement condition, grade, curvature, and speed changes are those that most influence the rate of wear of contact surfaces.
 %%
-\section{Vehicle Repair and Maintenance}
+\subsection{Vehicle Repair and Maintenance}
 Repair and maintenance costs are incurred on vehicle parts that need replacement or replenishment after some amount of use. For gasoline-powered vehicles, these include the cost of batteries, alternators, fuel pumps, air pump, tire rims, electrical parts such as bulbs and fuses, and so on. These costs also include costs of replacing parts due to crashes, misuse, or other adversarial factors. In some methodologies, the cost of vehicle repair and maintenance is not reported separately but is added to other nonfuel costs. In Year 2005 dollars, the unit cost of vehicle repair and maintenance generally ranged from 4.7 cents per vehicle-mile for small to medium-sized vehicles to 9.3 cents per vehicle-mile for trucks (AAA, 2005). Vehicle repair and maintenance are influenced by pavement condition, curvature, and to a lesser extent, speed, grade, and speed change.
 %%
 \subsection{Depreciation}
@@ -123,3 +123,121 @@ Zaniewski (1982) provided a VOC model as a function of speed, grade, and vehicle
 \begin{center}
 	\includegraphics[scale=0.6]{gfx/fig67.png}
 \end{center}
+%
+\textbf{\textit{Numerical Example:}}\\
+A highway section consists of two segments A and B that have the characteristics listed in table below. Determine the total vehicle operating costs for each segment. Assume that all vehicles are medium sized automobiles, and assume further that the values in the table reflect current fuel consumption rates.
+\begin{center}
+	\begin{tabular}{p{3.5 cm} p{3.5 cm} p{3.5 cm}}
+		\hline
+		 & Segment A & Segment B\\
+		 \hline
+		 Traffic volume (ADT) & 5320 & 8580\\
+		 Average grade (\%) & +4 & +1.5\\
+		 Speed (mph) & 30 & 50\\
+		 length (miles) & 5.7 & 2.6\\
+		 Directional Split & 68\% (upward slope); 32\% (downward slope) & 45\% (upward slope); 55\% (downward slope)\\
+		 \hline
+	\end{tabular}
+\end{center}
+\textit{Solution:}\\
+Segment A:\\\\
+Total Unit VOC = Unit VOC for uphill + unit VOC for downhill\\
+\hspace*{2cm} = uphill grade $ \times $ uphill directional split + downhill grade $ \times $ downhill directional split\\
+\hspace*{2cm} = 319 $ \times $ 0.68 + 227 $ \times $ 0.32 = \$289.56/1000 VMT\\\\
+VMT = section length $ times $ ADT = 5.7 $ \times $ 5320 = 30325 vehicle-miles per day\\\\
+Overall VOC = Total unit VOC $ \times$ VMT = $ \frac{289.56}{1000} \times 30325 $ = \$8781 per day\\\\
+Segment B:\\\\
+Total Unit VOC = Unit VOC for uphill + unit VOC for downhill\\
+\hspace*{2cm} = uphill grade $ \times $ uphill directional split + downhill grade $ \times $ downhill directional split\\
+\hspace*{2cm} = 292 $ \times $ 0.45 + 232 $ \times $ 0.55 = \$259/1000 VMT\\\\
+VMT = section length $ times $ ADT = 2.6 $ \times $ 8580 = 22308 vehicle-miles per day\\\\
+Overall VOC = Total unit VOC $ \times$ VMT = $ \frac{259}{1000} \times 22308 $ = \$5778 per day
+\subsubsection{d) VOC Models Based on Speed, Gradient, Curvature, and Pavement Condition}
+Some VOC models, such as the World Bank’s HDM (Bennett and Greenwood, 2001) and the HERS model (FHWA, 2002), estimate the unit cost of each VOC component as a function of speed, grade, and pavement condition. This is done for basic sections (straight sections with constant speed), and then excess vehicle operating costs due to speed changes and curvature are calculated. The excess VOC is added to the basic costs to yield the overall VOC for the section.
+%%
+\subsection{Delay}
+Nodes and links in the networks of various transportation modes may often experience delay, which translates into higher vehicle operating costs. In evaluating transportation improvements at such facilities, VOC costs, particularly for fuel and inventory, can be expressed as a function of time delay. On highway links, for instance, delay can involve decelerating to a stop, idling, and accelerating from a stopped position. Such stop-and-go traffic leads to additional strain on a vehicle, which is translated into higher use of fuel and oil. All three phases involve fuel consumption rates that generally exceed that of constant-speed travel. The primary share of overall delay costs is attributed to acceleration of vehicles after being slowed or stopped rather than fuel consumed in decelerating or idling during delay periods (AASHTO, 2003). The impact of travel delay on VOC (fuel and inventory shipping cost components) can be estimated using a methodology provided by AASHTO (2003). In the methodology, the analyst estimates the delay with and without improvement using field measurements (applicable only to the existing situation), simulation, or analytical travel delay models. Using the estimated change in delay, fuel consumption rates per minute of delay and fuel price, the total cost of delay can be calculated.
+\begin{center}
+	\includegraphics[scale=0.57]{gfx/fig67.png}
+\end{center}
+%
+\subsubsection{a) Change in Fuel Costs due to Delay Change}
+For a given vehicle class, the change in fuel costs due to a change in travel delay is found as follows (AASHTO, 2003):
+\begin{equation}
+	change \: in \: fuel \: VOC = g \times (D_0 - D_1 \times p)
+\end{equation}
+where: $ g $ is the fuel consumption in gallons per minute of delay (from the above table), $ D_0 - D_1 $ = change in delay (minutes) due to transportation improvement, and $ p $ is the price of the fuel. The parameters $ g $ and $ p $ are specific to vehicle class.\\\\
+\textbf{\textit{Example:}}\\
+Modernization and optimization of the traffic signal system at a busy urban arterial yielded, on average, a 9-minute reduction in delay per trip for users of the arterial. The traffic volume is 4300 vph and is composed of 25\% small autos, 30\% large autos, 25\% SUVs, 10\% two-axle single-unit trucks, 5\% three axle single-unit trucks, and 5\% multiple-unit trucks. After improvement, average free-flow speed increases from 45 mph to 50 mph, and traffic volume and composition remain unchanged. Determine the reduction in fuel costs during peak hours due to the decrease in delay. Assume that fuel cost is \$2.20 per gallon. Use the fuel consumption rates provided in the table above, and assume simple averages across vehicle classes.\\\\
+\textit{Solution}:\\
+The traffic volume for each vehicle class is determined by multiplying the percentage composition by the total traffic volume. Using the table above, the fuel consumption rates are determined, and the change in fuel consumption cost is presented the table below.
+\begin{center}
+	\includegraphics[scale= 0.55]{gfx/fig68.png}
+\end{center}
+Therefore, the total reduction in fuel costs during the peak hours due to the decrease in delay is \$7,369/hr.
+%
+\subsubsection{b) Change in Shipping Inventory Costs due to Delay}
+AASHTO (2003) provides a methodology for estimating the impact of time delay on shipping operating costs, as follows: The change in inventory cost per shipping vehicle due to a change in delay is given by $ \Delta I(D) I(D) \times \Delta D $, where $ \Delta D $ is the change in delay (minutes) and inventory costs (cents per vehicle-minute) is given by,
+\begin{equation}
+	I(D) = 100 \times \frac{r}{365 \times 24 \times 60} \times P
+\end{equation}
+where $ r $ is the interest rate (per annum) and $ P $ is the dollar value of the cargo being transported by the shipping vehicle.\\\\
+In some cases, the analyst is provided with an estimate of the expected change in delay, but in other cases, change in delay will need to be estimated (by calculating the delay before and after the improvement). Delay can be estimated on the basis of prevailing traffic conditions and road inventory.\\\\
+Numerical Example:\\
+A freeway was constructed in 2005 to bypass a city center. This improvement led to a 10-minute reduction in travel delay per trip for shippers who transport goods across the city. If the average value of cargo is \$265,000 per truck and the interest rate is 6\%, determine (a) the shipping inventory costs per vehicle before the construction, (b) the reduction in shipping inventory costs due to the construction in 2005, and (c) the change in user benefits accrued to shippers in 2005 compared to pre-construction conditions. The pre-construction period daily truck traffic (ADTT) was 33,000, and the trip time was 1.5 hours. Assume a 5\% ADTT increase due to induced demand.\\
+Solution:\\
+a) Shipping inventory cost per truck\\
+The unit inventory cost of the shipment before improvement can be calculated as follows:\\
+$ I(D) = P \times [r/(365 \times 25 \times 60)] = 265000 \times [0.06/(365 \times 25 \times 60)] = \$0.03025/truck-minute $\\\\
+The unit inventory cost after the improvement is the same as that before the improvement because there is no change in the total cargo value and the annual interest rate. Since the travel time reduces by 10 minutes after the improvement, the total inventory cost saved due to the improvement is\\
+Change in unit inventory cost = $ \$0.03025/truck-minute \times 10 \: minutes $ = \$0.3025/truck\\\\
+b) Reduction in Shipping Inventory Cost\\
+The unit shipping inventory cost in dollars/truck-mile, U, can be calculated as follows:\\
+Before Improvement:\\\\
+$ U_{before} = \$0.03025/truck-minute \times (60/S_{before}) $ = \$1.815T/L per truck-mile\\\\
+where $ S_{before} $ = average speed before improvement (mph) = $ L/T $, $ L $ = average truck trip length (miles) and $ T $ = average truck trip time (hours).\\\\
+$ \therefore $ Total yearly inventory cost = (\$1.815T/L)(ADTT)(L)(365)\\\\
+After Improvement:\\\\
+$ U_{after} = \$0.03025/truck-minute \times (60/S_{after})$ = \$1.815[T - (10/60)]/L per truck-mile\\\\
+Therefore, the reduction in total shipping inventory cost = Total yearly inventory cost before the improvement - Total yearly inventory cost after the improvement = 1.815 ADTT (365) [T- 1.05{T- (10/60)}] = 1.815 ADTT (365) [0.175 - 0.05T] = \$2,186,168 in the first year.\\\\
+c) Change in user benefit (Change in consumer surplus)\\\\
+The change in user benefits can be calculated based on the change in consumer surplus, which is given by the following formula:\\\\
+User Benefits = $ \frac{1}{2} \times (U_{before} -U_{after}) \times (VMT_{before} + VMT_{after})$\\
+\hspace*{2cm} = 0.5 ([(1.815 (10/60)/L)][2.05 ADTT (L)(365)] = = \$3,734,703.
+%
+\subsection{Speed Changes}
+Vehicles travel at different speeds due to geometric and/or traffic conditions. It has been shown that the more frequent the speed change of a vehicle, the higher the associated operating cost, particularly its fuel component. When vehicles slow down or pick up speed, they experience additional strain that is translated into a higher use of fuel and oil. As such, highway projects that smoothen traffic flow by reducing the frequency and intensity of speed changes ultimately reduce the costs of vehicle operation.\\\\
+An extreme case of speed change is stop–start conditions, which are usually typical of city driving. Barnes and Langworthy (2003) showed that for maintenance, repair, and depreciation, worsening stop–start conditions will increase costs of fuel consumption and to a smaller extent, the costs of maintenance, repair, and depreciation.
+%
+\subsection{Horizontal Curvature}
+A vehicle negotiating a horizontal curve requires extra energy to counter centrifugal forces in order to stay in a radial rather than a tangential path. Furthermore, the side friction increases tire wear and tear, and the frequency and cost of maintenance and replacement. The VOC due to curves involves fuel, tire, and maintenance and repair, and is typically expressed as a function of the rate of consumption and unit prices of these VOC components, vehicle type, and average speed. In the HERS methodology, VOC for curve negotiation speed is estimated separately for sections with low speeds ($ <55 $ mph) and those with high speeds ($ > $55 mph).
+%
+\subsection{Road Surface Condition}
+To some extent, pavement roughness, often measured in terms of the present serviceability index (PSI) or international roughness index (IRI), can affect the maintenance, tire, repair, and depreciation cost components of VOC. This is because the motion of vehicle tires on a rough pavement surface is associated with greater resistance to movement, which can lead to higher levels of fuel consumption compared to traveling at a similar speed on a smooth surface; and a bumpy ride, which leads to increased vibration and wear and tear of vehicle parts. Also, an indirect effect of poor pavement conditions is that road users may be forced to drive at lower speeds, leading to higher fuel consumption. Transportation projects such as resurfacing that improve pavement surfaces can therefore lead to reductions in VOCs.\\\\
+Zaniewski (1982) suggested that there can be significant impacts of pavement roughness on nonfuel vehicle operating cost components, particularly for rough pavements. Most other research on the relationship between pavement condition and VOC has been conducted outside the United States by the World Bank and other international agencies. Examples include a New Zealand study (Opus Central Laboratories, 1999) which suggests that at superior levels of pavement condition (low roughness), increments in condition have relatively little incremental effect on vehicle operating cost (Figure 7.4), and that additional costs of vehicle operation start to accrue only when the IRI exceeds approximately 100 in/mi (3.33 m/km). For paved roads in poor condition and for gravel roads, changes in road surface condition can lead to significant reductions in VOC. Barnes and Langworthy (2003) reported on a previous study that suggested that a unit increase in IRI (in m/km) can generally lead to an increase of \$200 (1.67 cents/vehicle-mile, assuming 12,000 annual mileage) in vehicle maintenance and repair costs alone. Also, Barnes and Langworthy (2003) developed adjustment factors for all VOC components combined, as a function of pavement condition (in the figure below). They assumed a baseline PSI of 3.5 or better (an IRI of about 85 in/mi or 1.35 m/km), at which further increases in pavement condition would have no impact on operating costs, and then adjusted for three levels of rougher pavement as shown in the figure. The figure can be used to estimate the VOC corresponding to a given pavement condition. For the depreciation component, there seem to be relatively few studies that have explicitly shown a relationship with pavement roughness. However, it seems obvious that in the long term, a vehicle which is operated on a rough pavement surface is likely to lose its value faster than one that is operated on a smooth-surfaced pavement.
+\begin{center}
+	\includegraphics[scale=0.6]{gfx/fig69.png}
+\end{center}
+\textbf{\textit{Numerical Example:}}\\
+A warranty HMA resurfacing project on Interstate 599 yielded a performance jump of 40 IRI (in/mi). If the base vehicle operating cost is \$143 per 1000 vehicle-miles, (a) determine the change in unit VOC due to resurfacing. Use the Barnes and Langworthy relationship. The IRI before improvement was 110 in/mi. (b) If the traffic volume is 67,500 vpd and the section is 6.5 miles in length, determine the overall change in VOC.\\
+\textit{Solution:}\\
+a) Before Improvement:\\
+IRI = 110 in/mi, and the VOC adjustment multiplier is given by\\\\
+m = $ 0.001 \times \left( \frac{110 - 80}{10} \right)^2 + 0.018 \times \frac{110 - 80}{10} + 0.9991 = 1.06$ \\\\
+$ \therefore VOC $ = (1.06)(143) = \$151.58/1000 VMT\\\\
+b) After Improvement:\\
+IRI = 110 - 40 = 70 in/mi, m = 1.00 since 70 is less than 80, and therefore VOC = \$143/1000 VMT. Change
+in unit VOC = 151.58 - 143 = \$8.58/1000 VMT.\\\\
+$ \therefore $ Overall Change in VOC = (\$8.58)(67,500)(365) (6.5)/1000 = \$1.374 million.
+%
+\subsection{Other VOC Factors}
+Other factors that can influence the cost of vehicle
+operation include driver behavior, condition of vehicle, vehicle weight, prices of vehicle maintenance (reflected in costs of labor, vehicle consumables, and spare parts), and weather severity. Operating costs for transit vehicles (such as buses and trolleys) are also affected by other factors, such as transit schedules (which typically depend on passenger demand) and vandalism.
+%%
+\section{Procedure for Assesing VOC Impacts}
+The framework for assessing VOC impacts of transportation interventions revolves around three tasks:
+\begin{enumerate}
+	\item Estimating the unit VOC rates (i.e., dollars/vehiclemile) with and without intervention
+	\item Estimating the amounts of travel (VMT) with and without the intervention
+	\item Calculating the user VOC benefits of intervention
+\end{enumerate}

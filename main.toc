@@ -30,7 +30,7 @@
 \contentsline {subsubsection}{Sight Distance}{21}{}%
 \contentsline {paragraph}{\emph {1. Stopping Sight Distance}}{21}{}%
 \contentsline {paragraph}{\emph {2. Passing Sight Distance}}{21}{}%
-\contentsline {chapter}{\numberline {2}Motor Vehicle Act}{23}{}%
+\contentsline {chapter}{\numberline {2}Motor Vehicle and Transport Management Act}{23}{}%
 \contentsline {chapter}{\numberline {3}Transportation Economics}{25}{}%
 \contentsline {section}{\numberline {3.1}Introduction}{25}{}%
 \contentsline {section}{\numberline {3.2}Scope of Transportation Economics}{27}{}%
@@ -243,13 +243,22 @@
 \contentsline {subsection}{\numberline {9.2.2}Shipping Inventory}{184}{}%
 \contentsline {subsection}{\numberline {9.2.3}Lubricating Oils for Mechanical Working of the Drivetrain}{185}{}%
 \contentsline {subsection}{\numberline {9.2.4}Preservation of the Vehicle-Guideway Contact Surface}{185}{}%
-\contentsline {section}{\numberline {9.3}Vehicle Repair and Maintenance}{185}{}%
-\contentsline {subsection}{\numberline {9.3.1}Depreciation}{186}{}%
-\contentsline {section}{\numberline {9.4}Factors That Affect Vehicle Operating Cost}{187}{}%
-\contentsline {subsection}{\numberline {9.4.1}Vehicle Type}{187}{}%
-\contentsline {subsection}{\numberline {9.4.2}Fuel Type}{188}{}%
-\contentsline {subsection}{\numberline {9.4.3}Longitudinal Grade}{188}{}%
-\contentsline {subsection}{\numberline {9.4.4}Vehicle Speed}{190}{}%
+\contentsline {subsection}{\numberline {9.2.5}Vehicle Repair and Maintenance}{185}{}%
+\contentsline {subsection}{\numberline {9.2.6}Depreciation}{186}{}%
+\contentsline {section}{\numberline {9.3}Factors That Affect Vehicle Operating Cost}{187}{}%
+\contentsline {subsection}{\numberline {9.3.1}Vehicle Type}{187}{}%
+\contentsline {subsection}{\numberline {9.3.2}Fuel Type}{188}{}%
+\contentsline {subsection}{\numberline {9.3.3}Longitudinal Grade}{188}{}%
+\contentsline {subsection}{\numberline {9.3.4}Vehicle Speed}{190}{}%
 \contentsline {subsubsection}{a) Inventory Shipping}{190}{}%
 \contentsline {subsubsection}{b) VOC Models and Look-up Table Based on Speed and Vehicle Class}{191}{}%
 \contentsline {subsubsection}{c) VOC model based on speed, grade, and vehicle class}{192}{}%
+\contentsline {subsubsection}{d) VOC Models Based on Speed, Gradient, Curvature, and Pavement Condition}{194}{}%
+\contentsline {subsection}{\numberline {9.3.5}Delay}{194}{}%
+\contentsline {subsubsection}{a) Change in Fuel Costs due to Delay Change}{195}{}%
+\contentsline {subsubsection}{b) Change in Shipping Inventory Costs due to Delay}{195}{}%
+\contentsline {subsection}{\numberline {9.3.6}Speed Changes}{197}{}%
+\contentsline {subsection}{\numberline {9.3.7}Horizontal Curvature}{198}{}%
+\contentsline {subsection}{\numberline {9.3.8}Road Surface Condition}{198}{}%
+\contentsline {subsection}{\numberline {9.3.9}Other VOC Factors}{200}{}%
+\contentsline {section}{\numberline {9.4}Procedure for Assesing VOC Impacts}{200}{}%
