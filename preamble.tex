@@ -34,3 +34,10 @@
 		\multicolumn{2}{r}{{#1}\hspace*{1.5\tabcolsep}\hspace*{2em}\rule[-2ex]{0pt}{5ex}}
 \end{tabular}}
 \renewcommand{\arraystretch}{1.25}
+%function to create a blank page
+\def\blankpage{%
+	\clearpage%
+	\thispagestyle{empty}%
+	\addtocounter{page}{-1}%
+	\null%
+	\clearpage}

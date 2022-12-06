@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  13 MAR 2022 23:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  6 DEC 2022 20:45
 entering extended mode
 **./main.tex
 (main.tex
@@ -651,9 +651,6 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
 (C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-
-LaTeX Warning: No \author given.
-
 [1
 
 
@@ -1067,17 +1064,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 325--332
 
  []
 
-) [21]
+) [21] [21
+
+
+
+]
 \openout2 = `mainmatter/ch2.aux'.
 
  (mainmatter/ch2.tex [22
 
 
 
-
 ]
 Chapter 2.
-) [23]
+) [23] [23
+
+
+
+]
 \openout2 = `mainmatter/ch3.aux'.
 
  (mainmatter/ch3.tex
@@ -1087,7 +1091,6 @@ RT MANAGEMENT ACT
  []
 
 [24
-
 
 
 
@@ -1134,13 +1137,13 @@ Overfull \hbox (5.36543pt too wide) in paragraph at lines 25--26
  micro-economics.
  []
 
-<gfx/fig38.png, id=147, 347.79938pt x 169.38281pt>
+<gfx/fig38.png, id=153, 347.79938pt x 169.38281pt>
 File: gfx/fig38.png Graphic file (type png)
 <use gfx/fig38.png>
 Package pdftex.def Info: gfx/fig38.png  used on input line 38.
 (pdftex.def)             Requested size: 347.79852pt x 169.38239pt.
 [27]
-<gfx/fig39.png, id=151, 327.47343pt x 183.68625pt>
+<gfx/fig39.png, id=158, 327.47343pt x 183.68625pt>
 File: gfx/fig39.png Graphic file (type png)
 <use gfx/fig39.png>
 Package pdftex.def Info: gfx/fig39.png  used on input line 42.
@@ -1149,32 +1152,32 @@ Package pdftex.def Info: gfx/fig39.png  used on input line 42.
 Underfull \vbox (badness 4193) has occurred while \output is active []
 
  [28 <./gfx/fig38.png> <./gfx/fig39.png>]
-<gfx/fig40.png, id=157, 355.3275pt x 309.155pt>
+<gfx/fig40.png, id=164, 355.3275pt x 309.155pt>
 File: gfx/fig40.png Graphic file (type png)
 <use gfx/fig40.png>
 Package pdftex.def Info: gfx/fig40.png  used on input line 63.
 (pdftex.def)             Requested size: 213.19814pt x 185.49442pt.
  [29]
-<gfx/fig41.png, id=163, 465.74pt x 364.36125pt>
+<gfx/fig41.png, id=169, 465.74pt x 364.36125pt>
 File: gfx/fig41.png Graphic file (type png)
 <use gfx/fig41.png>
 Package pdftex.def Info: gfx/fig41.png  used on input line 72.
 (pdftex.def)             Requested size: 232.86943pt x 182.18018pt.
  [30 <./gfx/fig40.png> <./gfx/fig41.png>]
-<gfx/fig42.png, id=169, 341.02406pt x 173.89969pt>
+<gfx/fig42.png, id=175, 341.02406pt x 173.89969pt>
 File: gfx/fig42.png Graphic file (type png)
 <use gfx/fig42.png>
 Package pdftex.def Info: gfx/fig42.png  used on input line 80.
 (pdftex.def)             Requested size: 341.02322pt x 173.89925pt.
 
 [31 <./gfx/fig42.png>]
-<gfx/fig43.png, id=174, 323.70938pt x 170.13562pt>
+<gfx/fig43.png, id=180, 323.70938pt x 170.13562pt>
 File: gfx/fig43.png Graphic file (type png)
 <use gfx/fig43.png>
 Package pdftex.def Info: gfx/fig43.png  used on input line 84.
 (pdftex.def)             Requested size: 323.70859pt x 170.1352pt.
  [32 <./gfx/fig43.png>]
-<gfx/fig44.png, id=179, 457.71pt x 385.44pt>
+<gfx/fig44.png, id=185, 457.71pt x 385.44pt>
 File: gfx/fig44.png Graphic file (type png)
 <use gfx/fig44.png>
 Package pdftex.def Info: gfx/fig44.png  used on input line 98.
@@ -1206,7 +1209,7 @@ cmr/m/n/10.95 33
  []
 
 [33 <./gfx/fig44.png>]
-<gfx/fig45.png, id=184, 229.60782pt x 163.3603pt>
+<gfx/fig45.png, id=191, 229.60782pt x 163.3603pt>
 File: gfx/fig45.png Graphic file (type png)
 <use gfx/fig45.png>
 Package pdftex.def Info: gfx/fig45.png  used on input line 117.
@@ -1221,7 +1224,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
 
-<gfx/fig46.png, id=189, 375.65344pt x 246.1697pt>
+<gfx/fig46.png, id=196, 375.65344pt x 246.1697pt>
 File: gfx/fig46.png Graphic file (type png)
 <use gfx/fig46.png>
 Package pdftex.def Info: gfx/fig46.png  used on input line 153.
@@ -1282,12 +1285,12 @@ Overfull \hbox (10.24625pt too wide) in paragraph at lines 229--229
  []
 
 [39]
-<gfx/fig47.png, id=208, 239.39438pt x 164.86594pt>
+<gfx/fig47.png, id=215, 239.39438pt x 164.86594pt>
 File: gfx/fig47.png Graphic file (type png)
 <use gfx/fig47.png>
 Package pdftex.def Info: gfx/fig47.png  used on input line 232.
 (pdftex.def)             Requested size: 239.39378pt x 164.86551pt.
-<gfx/fig48.png, id=209, 261.97874pt x 171.64125pt>
+<gfx/fig48.png, id=216, 261.97874pt x 171.64125pt>
 File: gfx/fig48.png Graphic file (type png)
 <use gfx/fig48.png>
 Package pdftex.def Info: gfx/fig48.png  used on input line 236.
@@ -1355,7 +1358,7 @@ D LATENT DEMAND \OT1/cmr/m/n/10.95 41
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [42]
-<gfx/fig52.png, id=222, 300.3722pt x 256.70906pt>
+<gfx/fig52.png, id=228, 300.3722pt x 256.70906pt>
 File: gfx/fig52.png Graphic file (type png)
 <use gfx/fig52.png>
 Package pdftex.def Info: gfx/fig52.png  used on input line 270.
@@ -1372,7 +1375,7 @@ STEMS \OT1/cmr/m/n/10.95 43
  []
 
 [43 <./gfx/fig52.png>]
-<gfx/fig49.png, id=227, 269.50688pt x 298.86656pt>
+<gfx/fig49.png, id=233, 269.50688pt x 298.86656pt>
 File: gfx/fig49.png Graphic file (type png)
 <use gfx/fig49.png>
 Package pdftex.def Info: gfx/fig49.png  used on input line 299.
@@ -1381,12 +1384,12 @@ Package pdftex.def Info: gfx/fig49.png  used on input line 299.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [44]
-<gfx/fig50.png, id=231, 485.56406pt x 199.49532pt>
+<gfx/fig50.png, id=237, 485.56406pt x 199.49532pt>
 File: gfx/fig50.png Graphic file (type png)
 <use gfx/fig50.png>
 Package pdftex.def Info: gfx/fig50.png  used on input line 305.
 (pdftex.def)             Requested size: 339.89252pt x 139.64575pt.
-<gfx/fig51.png, id=232, 271.0125pt x 368.1253pt>
+<gfx/fig51.png, id=238, 271.0125pt x 368.1253pt>
 File: gfx/fig51.png Graphic file (type png)
 <use gfx/fig51.png>
 Package pdftex.def Info: gfx/fig51.png  used on input line 308.
@@ -1640,7 +1643,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 485--513
 
  []
 
-[54] [55]) [56]
+[54] [55]) [56] [56
+
+
+
+]
 \openout2 = `mainmatter/ch4.aux'.
 
  (mainmatter/ch4.tex
@@ -1656,7 +1663,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
  []
 
 [57
-
 
 
 
@@ -1786,7 +1792,11 @@ Overfull \hbox (1.5709pt too wide) in paragraph at lines 233--233
 
  []
 
-[69]) [70]
+[69]) [70] [70
+
+
+
+]
 \openout2 = `mainmatter/ch5.aux'.
 
  (mainmatter/ch5.tex
@@ -1807,7 +1817,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--18
  []
 
 [71
-
 
 
 
@@ -1867,17 +1876,17 @@ Overfull \hbox (11.28311pt too wide) in paragraph at lines 94--94
  []
 
 [77]
-<gfx/fig15.png, id=343, 307.1475pt x 225.09094pt>
+<gfx/fig15.png, id=355, 307.1475pt x 225.09094pt>
 File: gfx/fig15.png Graphic file (type png)
 <use gfx/fig15.png>
 Package pdftex.def Info: gfx/fig15.png  used on input line 99.
 (pdftex.def)             Requested size: 245.71832pt x 180.07298pt.
-<gfx/fig16.png, id=344, 439.6425pt x 95.6072pt>
+<gfx/fig16.png, id=356, 439.6425pt x 95.6072pt>
 File: gfx/fig16.png Graphic file (type png)
 <use gfx/fig16.png>
 Package pdftex.def Info: gfx/fig16.png  used on input line 103.
 (pdftex.def)             Requested size: 351.71446pt x 76.48584pt.
-<gfx/fig17.png, id=345, 317.68687pt x 162.6075pt>
+<gfx/fig17.png, id=357, 317.68687pt x 162.6075pt>
 File: gfx/fig17.png Graphic file (type png)
 <use gfx/fig17.png>
 Package pdftex.def Info: gfx/fig17.png  used on input line 104.
@@ -1893,17 +1902,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--108
  []
 
 [78 <./gfx/fig15.png>]
-<gfx/fig18.png, id=350, 316.93407pt x 173.14688pt>
+<gfx/fig18.png, id=362, 316.93407pt x 173.14688pt>
 File: gfx/fig18.png Graphic file (type png)
 <use gfx/fig18.png>
 Package pdftex.def Info: gfx/fig18.png  used on input line 110.
 (pdftex.def)             Requested size: 221.85233pt x 121.20198pt.
-<gfx/fig19.png, id=351, 322.20375pt x 186.6975pt>
+<gfx/fig19.png, id=363, 322.20375pt x 186.6975pt>
 File: gfx/fig19.png Graphic file (type png)
 <use gfx/fig19.png>
 Package pdftex.def Info: gfx/fig19.png  used on input line 112.
 (pdftex.def)             Requested size: 225.54108pt x 130.68735pt.
-<gfx/fig20.png, id=352, 360.59718pt x 219.82124pt>
+<gfx/fig20.png, id=364, 360.59718pt x 219.82124pt>
 File: gfx/fig20.png Graphic file (type png)
 <use gfx/fig20.png>
 Package pdftex.def Info: gfx/fig20.png  used on input line 114.
@@ -1931,17 +1940,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
-<gfx/fig21.png, id=364, 283.81032pt x 189.70876pt>
+<gfx/fig21.png, id=377, 283.81032pt x 189.70876pt>
 File: gfx/fig21.png Graphic file (type png)
 <use gfx/fig21.png>
 Package pdftex.def Info: gfx/fig21.png  used on input line 122.
 (pdftex.def)             Requested size: 283.80962pt x 189.70828pt.
-<gfx/fig23.png, id=365, 370.38374pt x 115.93312pt>
+<gfx/fig23.png, id=378, 370.38374pt x 115.93312pt>
 File: gfx/fig23.png Graphic file (type png)
 <use gfx/fig23.png>
 Package pdftex.def Info: gfx/fig23.png  used on input line 123.
 (pdftex.def)             Requested size: 370.38283pt x 115.93283pt.
-<gfx/fig22.png, id=366, 241.65282pt x 185.94469pt>
+<gfx/fig22.png, id=379, 241.65282pt x 185.94469pt>
 File: gfx/fig22.png Graphic file (type png)
 <use gfx/fig22.png>
 Package pdftex.def Info: gfx/fig22.png  used on input line 128.
@@ -1968,7 +1977,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--130
  []
 
 [81 <./gfx/fig21.png> <./gfx/fig23.png>]
-<gfx/fig24.png, id=372, 302.63063pt x 170.13562pt>
+<gfx/fig24.png, id=385, 302.63063pt x 170.13562pt>
 File: gfx/fig24.png Graphic file (type png)
 <use gfx/fig24.png>
 Package pdftex.def Info: gfx/fig24.png  used on input line 132.
@@ -1989,7 +1998,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 164--166
  []
 
 [84]
-<gfx/fig25.png, id=385, 347.04657pt x 199.49532pt>
+<gfx/fig25.png, id=397, 347.04657pt x 199.49532pt>
 File: gfx/fig25.png Graphic file (type png)
 <use gfx/fig25.png>
 Package pdftex.def Info: gfx/fig25.png  used on input line 185.
@@ -1999,7 +2008,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 206--209
 
  []
 
-<gfx/fig26.png, id=389, 322.95656pt x 191.9672pt>
+<gfx/fig26.png, id=402, 322.95656pt x 191.9672pt>
 File: gfx/fig26.png Graphic file (type png)
 <use gfx/fig26.png>
 Package pdftex.def Info: gfx/fig26.png  used on input line 213.
@@ -2039,12 +2048,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 228--232
 
  []
 
-<gfx/fig27.png, id=398, 321.45094pt x 259.7203pt>
+<gfx/fig27.png, id=411, 321.45094pt x 259.7203pt>
 File: gfx/fig27.png Graphic file (type png)
 <use gfx/fig27.png>
 Package pdftex.def Info: gfx/fig27.png  used on input line 239.
 (pdftex.def)             Requested size: 321.45015pt x 259.71967pt.
-<gfx/fig28.png, id=399, 325.96782pt x 261.22594pt>
+<gfx/fig28.png, id=412, 325.96782pt x 261.22594pt>
 File: gfx/fig28.png Graphic file (type png)
 <use gfx/fig28.png>
 Package pdftex.def Info: gfx/fig28.png  used on input line 242.
@@ -2150,7 +2159,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 274--292
 
  []
 
-<gfx/fig29.png, id=415, 314.67563pt x 180.675pt>
+<gfx/fig29.png, id=428, 314.67563pt x 180.675pt>
 File: gfx/fig29.png Graphic file (type png)
 <use gfx/fig29.png>
 Package pdftex.def Info: gfx/fig29.png  used on input line 294.
@@ -2164,7 +2173,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 293--296
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [92]
-<gfx/fig30.png, id=419, 355.3275pt x 259.7203pt>
+<gfx/fig30.png, id=432, 355.3275pt x 259.7203pt>
 File: gfx/fig30.png Graphic file (type png)
 <use gfx/fig30.png>
 Package pdftex.def Info: gfx/fig30.png  used on input line 307.
@@ -2309,7 +2318,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 409--412
  []
 
 [99] [100]
-<gfx/fig31.png, id=448, 478.03593pt x 228.855pt>
+<gfx/fig31.png, id=461, 478.03593pt x 228.855pt>
 File: gfx/fig31.png Graphic file (type png)
 <use gfx/fig31.png>
 Package pdftex.def Info: gfx/fig31.png  used on input line 424.
@@ -2436,7 +2445,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [103]
-<gfx/fig32.png, id=460, 283.0575pt x 169.38281pt>
+<gfx/fig32.png, id=473, 283.0575pt x 169.38281pt>
 File: gfx/fig32.png Graphic file (type png)
 <use gfx/fig32.png>
 Package pdftex.def Info: gfx/fig32.png  used on input line 532.
@@ -2457,18 +2466,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 534--548
 
  []
 
-) [105 <./gfx/fig32.png>]
+) [105 <./gfx/fig32.png>] [105
+
+
+
+]
 \openout2 = `mainmatter/ch6.aux'.
 
  (mainmatter/ch6.tex [106
 
 
 
-
 ]
 Chapter 6.
 [107] [108] [109] [110]
-<gfx/fig33.png, id=484, 293.59688pt x 85.82062pt>
+<gfx/fig33.png, id=500, 293.59688pt x 85.82062pt>
 File: gfx/fig33.png Graphic file (type png)
 <use gfx/fig33.png>
 Package pdftex.def Info: gfx/fig33.png  used on input line 61.
@@ -2479,7 +2491,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--97
  []
 
 [113]
-<gfx/fig34.png, id=496, 335.00156pt x 115.93312pt>
+<gfx/fig34.png, id=511, 335.00156pt x 115.93312pt>
 File: gfx/fig34.png Graphic file (type png)
 <use gfx/fig34.png>
 Package pdftex.def Info: gfx/fig34.png  used on input line 98.
@@ -2497,7 +2509,7 @@ tional di-men-sion, economies
  []
 
 [116] [117]
-<gfx/fig35.png, id=510, 207.02344pt x 176.91093pt>
+<gfx/fig35.png, id=526, 207.02344pt x 176.91093pt>
 File: gfx/fig35.png Graphic file (type png)
 <use gfx/fig35.png>
 Package pdftex.def Info: gfx/fig35.png  used on input line 149.
@@ -2506,13 +2518,13 @@ Package pdftex.def Info: gfx/fig35.png  used on input line 149.
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 152.
 
-<gfx/fig36.png, id=511, 207.77625pt x 175.40532pt>
+<gfx/fig36.png, id=527, 207.77625pt x 175.40532pt>
 File: gfx/fig36.png Graphic file (type png)
 <use gfx/fig36.png>
 Package pdftex.def Info: gfx/fig36.png  used on input line 154.
 (pdftex.def)             Requested size: 207.77573pt x 175.40488pt.
 [118 <./gfx/fig35.png> <./gfx/fig36.png>]
-<gfx/fig37.png, id=517, 281.55188pt x 180.675pt>
+<gfx/fig37.png, id=533, 281.55188pt x 180.675pt>
 File: gfx/fig37.png Graphic file (type png)
 <use gfx/fig37.png>
 Package pdftex.def Info: gfx/fig37.png  used on input line 160.
@@ -2522,7 +2534,7 @@ Package pdftex.def Info: gfx/fig37.png  used on input line 160.
 LaTeX Warning: Command \textendash invalid in math mode on input line 162.
 
 [119 <./gfx/fig37.png>]
-<gfx/fig53.png, id=523, 341.02406pt x 176.91093pt>
+<gfx/fig53.png, id=538, 341.02406pt x 176.91093pt>
 File: gfx/fig53.png Graphic file (type png)
 <use gfx/fig53.png>
 Package pdftex.def Info: gfx/fig53.png  used on input line 173.
@@ -2797,7 +2809,7 @@ Overfull \hbox (7.2214pt too wide) in paragraph at lines 626--627
 []\OT1/cmr/m/n/10.95 The steps
  []
 
-<gfx/fig54.png, id=584, 471.26062pt x 398.99063pt>
+<gfx/fig54.png, id=600, 471.26062pt x 398.99063pt>
 File: gfx/fig54.png Graphic file (type png)
 <use gfx/fig54.png>
 Package pdftex.def Info: gfx/fig54.png  used on input line 637.
@@ -2899,11 +2911,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 1104--1108
 
  []
 
-[149] [150]) [151]
+[149] [150]) [151] [151
+
+
+
+]
 \openout2 = `mainmatter/ch7.aux'.
 
  (mainmatter/ch7.tex [152
-
 
 
 
@@ -3110,7 +3125,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--149
 
  []
 
-<gfx/fig55.png, id=672, 341.77687pt x 225.09094pt>
+<gfx/fig55.png, id=691, 341.77687pt x 225.09094pt>
 File: gfx/fig55.png Graphic file (type png)
 <use gfx/fig55.png>
 Package pdftex.def Info: gfx/fig55.png  used on input line 150.
@@ -3130,13 +3145,16 @@ Overfull \hbox (335.06265pt too wide) has occurred while \output is active
  TRANSPORTATION, FUEL CONSUMPTION MODELS AND EMISSION STANDARDS
  []
 
-[166]
+[166] [166
+
+
+
+]
 \openout2 = `mainmatter/ch8.aux'.
 
  (mainmatter/ch8.tex
 Chapter 8.
 [167
-
 
 
 
@@ -3166,13 +3184,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--110
  []
 
 [171]
-<gfx/fig56.png, id=699, 329.73187pt x 176.15813pt>
+<gfx/fig56.png, id=721, 329.73187pt x 176.15813pt>
 File: gfx/fig56.png Graphic file (type png)
 <use gfx/fig56.png>
 Package pdftex.def Info: gfx/fig56.png  used on input line 131.
 (pdftex.def)             Requested size: 263.78584pt x 140.92668pt.
  [172]
-<gfx/fig57.png, id=703, 324.46219pt x 88.07906pt>
+<gfx/fig57.png, id=726, 324.46219pt x 88.07906pt>
 File: gfx/fig57.png Graphic file (type png)
 <use gfx/fig57.png>
 Package pdftex.def Info: gfx/fig57.png  used on input line 139.
@@ -3326,24 +3344,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 202--224
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [176]
-<gfx/fig58.png, id=719, 534.49687pt x 295.85532pt>
+<gfx/fig58.png, id=741, 534.49687pt x 295.85532pt>
 File: gfx/fig58.png Graphic file (type png)
 <use gfx/fig58.png>
 Package pdftex.def Info: gfx/fig58.png  used on input line 227.
 (pdftex.def)             Requested size: 267.24777pt x 147.92729pt.
-<gfx/fig59.png, id=720, 505.13719pt x 290.58563pt>
+<gfx/fig59.png, id=742, 505.13719pt x 290.58563pt>
 File: gfx/fig59.png Graphic file (type png)
 <use gfx/fig59.png>
 Package pdftex.def Info: gfx/fig59.png  used on input line 231.
 (pdftex.def)             Requested size: 252.56798pt x 145.29245pt.
-<gfx/fig60.png, id=721, 413.29407pt x 313.17pt>
+<gfx/fig60.png, id=743, 413.29407pt x 313.17pt>
 File: gfx/fig60.png Graphic file (type png)
 <use gfx/fig60.png>
 Package pdftex.def Info: gfx/fig60.png  used on input line 234.
 (pdftex.def)             Requested size: 206.64651pt x 156.58461pt.
 
 [177 <./gfx/fig58.png> <./gfx/fig59.png>]
-<gfx/fig61.png, id=727, 499.11469pt x 310.15875pt>
+<gfx/fig61.png, id=749, 499.11469pt x 310.15875pt>
 File: gfx/fig61.png Graphic file (type png)
 <use gfx/fig61.png>
 Package pdftex.def Info: gfx/fig61.png  used on input line 237.
@@ -3353,7 +3371,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 239--243
 
  []
 
-<gfx/fig62.png, id=728, 250.68657pt x 212.29312pt>
+<gfx/fig62.png, id=750, 250.68657pt x 212.29312pt>
 File: gfx/fig62.png Graphic file (type png)
 <use gfx/fig62.png>
 Package pdftex.def Info: gfx/fig62.png  used on input line 244.
@@ -3491,7 +3509,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 246--272
 
  []
 
-[179 <./gfx/fig62.png>] [180] [181]) [182]
+[179 <./gfx/fig62.png>] [180] [181]) [182] [182
+
+
+
+]
 \openout2 = `mainmatter/ch9.aux'.
 
  (mainmatter/ch9.tex
@@ -3515,9 +3537,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--9
 
 
 
-
 ] [184] [185]
-<gfx/fig63.png, id=758, 563.85657pt x 248.42813pt>
+<gfx/fig63.png, id=783, 563.85657pt x 248.42813pt>
 File: gfx/fig63.png Graphic file (type png)
 <use gfx/fig63.png>
 Package pdftex.def Info: gfx/fig63.png  used on input line 29.
@@ -3527,7 +3548,7 @@ Overfull \hbox (6.50243pt too wide) in paragraph at lines 29--30
  [] 
  []
 
-<gfx/fig64.png, id=759, 465.23813pt x 267.24844pt>
+<gfx/fig64.png, id=784, 465.23813pt x 267.24844pt>
 File: gfx/fig64.png Graphic file (type png)
 <use gfx/fig64.png>
 Package pdftex.def Info: gfx/fig64.png  used on input line 33.
@@ -3536,7 +3557,7 @@ Package pdftex.def Info: gfx/fig64.png  used on input line 33.
 Underfull \vbox (badness 1546) has occurred while \output is active []
 
  [186 <./gfx/fig63.png>]
-<gfx/fig65.png, id=764, 506.6428pt x 289.08pt>
+<gfx/fig65.png, id=789, 506.6428pt x 289.08pt>
 File: gfx/fig65.png Graphic file (type png)
 <use gfx/fig65.png>
 Package pdftex.def Info: gfx/fig65.png  used on input line 39.
@@ -3547,7 +3568,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--46
  []
 
 [187 <./gfx/fig64.png> <./gfx/fig65.png>] [188]
-<gfx/fig66.png, id=773, 286.82156pt x 246.1697pt>
+<gfx/fig66.png, id=798, 286.82156pt x 246.1697pt>
 File: gfx/fig66.png Graphic file (type png)
 <use gfx/fig66.png>
 Package pdftex.def Info: gfx/fig66.png  used on input line 52.
@@ -3624,7 +3645,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--121
  []
 
 [191]
-<gfx/fig67.png, id=785, 563.10374pt x 316.93407pt>
+<gfx/fig67.png, id=810, 563.10374pt x 316.93407pt>
 File: gfx/fig67.png Graphic file (type png)
 <use gfx/fig67.png>
 Package pdftex.def Info: gfx/fig67.png  used on input line 124.
@@ -3698,7 +3719,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 168--174
 
  []
 
-<gfx/fig68.png, id=796, 703.12688pt x 208.52907pt>
+<gfx/fig68.png, id=821, 703.12688pt x 208.52907pt>
 File: gfx/fig68.png Graphic file (type png)
 <use gfx/fig68.png>
 Package pdftex.def Info: gfx/fig68.png  used on input line 175.
@@ -3793,7 +3814,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 216--218
  []
 
 [198]
-<gfx/fig69.png, id=811, 437.38406pt x 286.06876pt>
+<gfx/fig69.png, id=836, 437.38406pt x 286.06876pt>
 File: gfx/fig69.png Graphic file (type png)
 <use gfx/fig69.png>
 Package pdftex.def Info: gfx/fig69.png  used on input line 219.
@@ -3818,30 +3839,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 221--233
 
  []
 
-[199 <./gfx/fig69.png>]) [200] (main.bbl
-! Misplaced alignment tab character &.
-l.31 \newblock John Wiley &
-                            Sons, Inc., 2007.
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-) [201
+[199 <./gfx/fig69.png>]) [200] [200
 
 
 
+] (main.bbl) [201
 
-] (main.aux (mainmatter/ch1.aux) (mainmatter/ch2.aux) (mainmatter/ch3.aux) (mai
-nmatter/ch4.aux) (mainmatter/ch5.aux) (mainmatter/ch6.aux)
+
+
+] (main.aux
+(mainmatter/ch1.aux) (mainmatter/ch2.aux) (mainmatter/ch3.aux)
+(mainmatter/ch4.aux) (mainmatter/ch5.aux) (mainmatter/ch6.aux)
 (mainmatter/ch7.aux) (mainmatter/ch8.aux) (mainmatter/ch9.aux)) ) 
 Here is how much of TeX's memory you used:
- 29721 strings out of 478699
- 630719 string characters out of 2847435
- 904465 words of memory out of 3000000
- 47396 multiletter control sequences out of 15000+600000
+ 29722 strings out of 478699
+ 630728 string characters out of 2847435
+ 904489 words of memory out of 3000000
+ 47397 multiletter control sequences out of 15000+600000
  416614 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,19n,93p,2365b,1613s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3876,9 +3890,9 @@ C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfon
 t/line10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/symbols/msam10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (209 pages, 2591195 bytes).
+Output written on main.pdf (218 pages, 2596377 bytes).
 PDF statistics:
- 943 PDF objects out of 1000 (max. 8388607)
+ 975 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  338 words of extra memory for PDF output out of 10000 (max. 10000000)
 
