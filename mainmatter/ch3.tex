@@ -439,34 +439,41 @@ In this instance, the air alternate reflects the lowest cost and is the selected
 	\item [Convenience]: The number of departures and arrivals provided by each mode could be a factor. For example, if the railroad provides only two trains/day and the airline has six flights/day, the traveler may prefer to go by air.
 \end{description}
 %
-\emph{Example \#2: Computing the Toll to Maximize Revenue Using a Supply—Demand Curve}\\\\
-A toll bridge carries 5000 veh/day. The current toll is 150 cents. When the toll is increased by 25 cents, traffic volume decreases by 500 veh/day. Determine the amount of toll that should be charged such that revenue is maximized. How much additional revenue will be received?\\\\
-\emph{Solution:}Let x the toll increase in cents.
+\emph{Example \#2: Computing the Toll to Maximize Revenue Using a Demand Curve}\\\\
+A toll bridge carries 5000 veh/day. The current toll is 150 cents. When the toll is increased by 25 cents, traffic volume decreases by 500 veh/day. Determine the amount of toll that should be charged such that revenue is maximized. How much additional revenue will be received? (Assume a linear demand function)\\\\
+\emph{Solution:}
 \par
-Assuming a linear relation between traffic volume and cost, the expression
-for V is\\\\
-$V = 5000 - x/25 (500)$\\
-The toll is, $T = 150 + x$\\\\
+Let $ V $ be the number of vehicle per day using the bridge and $ x $ be the increment in toll, then using the slope-intercept form of a straight line the demand function corresponding to the increment in toll can be defined by,\\\\
+$V = mx + C$ (1)\\
+Where, m is the slope and C is the y intercept.\\\\
+When there is no increase in toll, that is, $ x = 0 $ then $ V = 5000 $,\\\\
+Substituting these values in the above demand function we get,\\
+$ C + m \times 0 = 5000 $\\
+$ \therefore C = 5000 $\\\\
+Also, 25 cents increase in toll decreases the traffic volume of the bridge by 500 vehicles per day(vpd), that is,\\\\
+$ m = \frac{change \:in \:vehicles\: per\: day}{change\: in\: toll} $\\
+$ or, m = - \frac{500}{25} $ ($ \because $ increase in toll causes decrease in vpd)\\
+$  \therefore m = -20 $\\\\
+Substituting the values of $ m $ and $ C $ in eqn (1) we get,\\\\
+$ V = 5000 - 20x $\\\\
+The toll after increment, $T = 150 + x$\\\\
 Revenue is the product of toll and volume,
 \begin{gather*}
 	R = V * T\\
-	= (5000 - x/25 * 500)(150 + x)\\
 	= (5000 - 20x)(150 + x)\\
 	= 750,000 + 2000 - 20x^2
 \end{gather*}
-For maximum value of x,\\\\
-$\frac{dR}{dT} = 0$\\
-$20,000 -40x = 0$\\
+For maximum value of R,\\\\
+$\frac{dR}{dx} = 0$\\
+$2,000 -40x = 0$\\
 $\therefore x = 50 cents$\\\\
-The new toll is the current toll plus the toll increase.\\
-Toll for maximum revenue = $150 +50 = 200cents$\\
+Toll for maximum revenue $ (T_{max}) $ = $150 +50 = 200cents$\\
 The additional revenue, AR
 \begin{gather*}
 	= V_{max} *  T_{max} - V_{current} * T_{current}\\
-	= {5000 - 50/25 * 500} * 2 - 5000 * 1.5\\
-	= 4000 *2 - 7500\\
-	= 8000 - 7500\\
-	\therefore AR = =\$500
+	= (5000 - 20 * 50) * 200 - 5000 * 150\\
+	= 50,0000\: cents\\
+	\therefore AR =\$500
 \end{gather*}\\\\
 Example \#3:\\
 The demand function for transportation from the suburbs to downtown in a large city is as follows:
@@ -514,7 +521,9 @@ So, a 4\% increase in income would cover a 30 cent increase in auto cost. If a t
 \begin{enumerate}
 	\item Describe the causes of shift in transportation demand curve.
 	\item Describe the causes of shift in transportation supply curve.
+	\item Define the law of diminishing returns. Illustrate the concept with a relevant example.
 	\item Describe the equilibrium state in a transportation demand and supply curve. Illustrate the concept with a relevant example.
+	\item Discuss why the average cost curve is a U-shaped curve and also explain the reason for marginal cost curve to intersect at the minimum of the average cost curve. Illustrate the concept with a lucid diagram.
 	\item Derive the relation of point elasticity for a linear demand curve and illustrate it's behavior along the curve.
 	\item Show that the price elasticity of demand for travel is constant for the Kraft's Demand Model.
 	\item Derive the condition for profit maximization.
@@ -525,6 +534,8 @@ So, a 4\% increase in income would cover a 30 cent increase in auto cost. If a t
 		\end{enumerate}
 	\item A 20\% increase in downtown parking costs resulted in a 5\% reduction in downtown auto trips and a 20\% increase in transit patronage for downtown routes. Determine the elasticity of auto and transit demand with respect to parking costs. \textit{[answer: 1, -0.25]}
 	\item The aggregate demand function for a bus transit service servicing a newly developed suburban area is represented by the equation, $ V = 300 - 40 P^2 $, where $ V $ is the number of trips made per month and $ P $ is the average price of the ticket for the trip. In a given month, the average price was \$0.75. What is the price elasticity of demand of the bus transit service for the same month? \textit{[answer: -0.162]}
+	\item Consideration is being given to increasing the toll on a bridge now carrying 4500 veh/day. The current toll is \$1.25/veh. It has been found from past experience that the daily traffic volume will decrease by 400 veh/day for each 25 cents increase in toll. In order to maximize revenues, what would the new toll charge be per vehicle, and what would the traffic in veh/day be after the toll increase? How much additional revenue will  be generated? \textit{[answer: $ T_{max} = 203.125 \: cents $, V = 3250 vpd, and Additional Revenue = \$ 976.5625]}
+	\item Show that the price elasticity of demand for an exponential demand function, $ V = \alpha e^{\beta p} $, is $ \beta p $. (Where $ V $ = demand, $ p $ = price of the transportation service, and $ \alpha \: and \: \beta $ are constants)
 \end{enumerate}
 
 
