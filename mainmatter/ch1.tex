@@ -253,12 +253,23 @@ A vehicle in motion has to overcome the resistance of the air in front of it as 
 \end{equation}
 Where,\\
 \hspace*{10mm}$R_a$ = air resistance force (lb)\\
-\hspace*{10mm}$\rho$ = density of air (0.0766 lb/ft3) at sea level; less at higher elevations\\
+\hspace*{10mm}$\rho$ = density of air (0.0766 $ lb/ft^3 $) at sea level; less at higher elevations\\
 \hspace*{10mm}$C_d$ = aerodynamic drag coefficient\\
 \hspace*{10mm}(current average value for passenger cars is 0.4; for trucks, this value ranges from 0.5 to 0.8, but a typical value is 0.5)\\
-\hspace*{10mm}$A$ = frontal cross-sectional area (ft2)\\
+\hspace*{10mm}$A$ = frontal cross-sectional area ($ ft^2 $)\\
 \hspace*{10mm}$u$ = vehicle speed (mi/h)\\
-\hspace*{10mm}$g$ = acceleration of gravity (32.2 ft /sec2)
+\hspace*{10mm}$g$ = acceleration of gravity (32.2 ft /sec2)\\\\
+\begin{equation}
+	R_a = 0.5 \times \frac{0.0772 \times \rho \times C_D \times A \times u^2}{g}
+\end{equation}
+Where,\\
+\hspace*{10mm}$R_a$ = air resistance force (N)\\
+\hspace*{10mm}$\rho$ = density of air (1.227 $ kg/m^3 $) at sea level; less at higher elevations\\
+\hspace*{10mm}$C_d$ = aerodynamic drag coefficient\\
+\hspace*{10mm}(current average value for passenger cars is 0.4; for trucks, this value ranges from 0.5 to 0.8, but a typical value is 0.5)\\
+\hspace*{10mm}$A$ = frontal cross-sectional area ($ m^2 $)\\
+\hspace*{10mm}$u$ = vehicle speed (Km/h)\\
+\hspace*{10mm}$g$ = acceleration of gravity (9.81 $ m/s^2 $)
 \paragraph{Grade Resistance}
 When a vehicle moves up a grade, a component of the weight of the vehicle acts downward, along the plane of the highway. This creates a force acting in a direction opposite that of the motion. This force is the grade resistance. A vehicle traveling up a grade will therefore tend to lose speed unless an accelerating force is applied. The speed achieved at any point along the grade for a given rate of acceleration will depend on the grade. Figure below shows the relationships between speed achieved and distance traveled on different grades by a typical heavy truck of 200 lb/hp during maximum acceleration. Note: grade resistance = weight * grade, in decimal.\\\\
 \includegraphics{gfx/fig8.png}
@@ -276,13 +287,22 @@ Where,\\
 \hspace*{10mm}$C_{rv}$ = constant (typically $0.65 * 10^{-6}$ sec2/ft2 for passenger cars)\\
 \hspace*{10mm}$u$ = vehicle speed (mi/h)\\
 \hspace*{10mm}$W$ = gross vehicle weight (lb)\\\\
+\begin{equation}
+	R_r = ( C_{rs} + 0.0772 \times C_{rv} \times u^2)W
+\end{equation}
+Where,\\
+\hspace*{10mm}$R_r$ = rolling resistance force (N)\\
+\hspace*{10mm}$C_{rs}$ = constant (typically 0.012 for passenger cars)\\
+\hspace*{10mm}$C_{rv}$ = constant (typically $6.99 \times 10^{-6}$ $ sec^2/m^2 $ for passenger cars)\\
+\hspace*{10mm}$u$ = vehicle speed (Km/h)\\
+\hspace*{10mm}$W$ = gross vehicle weight (N)\\\\
 For trucks, the rolling resistance can be obtained from
 \begin{equation}
 	R_r = (C_a+1.47C_b u)W
 \end{equation}
 Where,\\
 \hspace*{10mm}$R_r$ = rolling resistance force (lb)\\
-\hspace*{10mm}$C_a$ = constant (typically 0.02445 for trucks)\\
+\hspace*{10mm}$C_a$ = constant (typically 0.2445 for trucks)\\
 \hspace*{10mm}$C_b$ = constant (typically 0.00044 sec/ft for trucks)\\
 \hspace*{10mm}$u$ = vehicle speed (mi/h)\\
 \hspace*{10mm}$W$ = gross vehicle weight (lb)\\\\
@@ -298,6 +318,15 @@ Where,\\
 \hspace*{10mm}$W$ = gross vehicle weight (lb)\\
 \hspace*{10mm}$g$ = acceleration due to gravity ($ft/sec^2$)\\
 \hspace*{10mm}$R$ = radius of curvature (ft)
+\begin{equation}
+	R_c = 0.5 \times \frac{0.0772 \times u^2 \times W}{g \times R}
+\end{equation}
+Where,\\
+\hspace*{10mm}$R_c$ = curve resistance (N)\\
+\hspace*{10mm}$u$ = vehicle speed (Km/h)\\
+\hspace*{10mm}$W$ = gross vehicle weight (Kg)\\
+\hspace*{10mm}$g$ = acceleration due to gravity ($m/sec^2$)\\
+\hspace*{10mm}$R$ = radius of curvature ($ m $)
 \paragraph{Power Requirements}
 Power is the rate at which work is done. It is usually expressed in horsepower (a U.S. unit of measure), where 1 horsepower is 550 lb-ft /sec. The performance capability of a vehicle is measured in terms of the horsepower the engine can produce to overcome air, grade, curve, and friction resistance forces and put the vehicle in motion. Figure below shows how these forces act on the moving vehicle.\\
 \includegraphics[scale=0.9]{gfx/fig9.png}\\
@@ -308,7 +337,14 @@ The power delivered by the engine is
 Where,\\
 \hspace*{10mm}$P$ = horsepower delivered (hp)\\
 \hspace*{10mm}$R$ = sum of resistance to motion (lb)\\
-\hspace*{10mm}$u$ = speed of vehicle (mi/h)\\\\
+\hspace*{10mm}$u$ = speed of vehicle (mi/h)
+\begin{equation}
+	\frac{0.278 \times F \times u}{76.04}
+\end{equation}
+Where,\\
+\hspace*{10mm}$P$ = horsepower delivered (hp)\\
+\hspace*{10mm}$R$ = sum of resistance to motion (Kg)\\
+\hspace*{10mm}$u$ = speed of vehicle (Km/h)\\\\
 \emph{Numerical Example:}\\
 \includegraphics[scale=0.5]{gfx/fig10.png}\\
 \subsection{Pedestrian Characteristics}
@@ -347,6 +383,24 @@ distance required to react the stimulus ($ d_2 $) = u $ \times $ t = 55 $ \times
 Now,\\
 the minimum distance where the sign should placed ahead of the exit ramp($ d $) = $ d_1 + d_2 - d_{sight} $= 516 + 202 – 180 = 538 ft\\
 \includegraphics[scale=0.3]{gfx/visualAquityNum.png}
+\newpage
+\section{Review Problems}
+\begin{enumerate}
+	\item  Explain Perception-Reaction process with a relevant example.
+	\item  Define Visual Acuity and 20/20 vision. Derive the expression for visual angle.
+	\item  Derive the mathematical expression for kinematic characteristics of a vehicle.
+	\item Determine the difference in air resistance between a passenger car and a single-unit truck if both vehicles are traveling at a speed of 96.5 km/h. Assume that the frontal cross-sectional area of the passenger car is 2.79 $ m^2 $ and that for the truck is 10.70 $ m^2 $. [1903.6 N]
+	\item Determine the rolling resistance on a passenger car that is traveling at 105 km/h if the weight of the car is 9000 N. [161.1 N]
+	\item A single-unit three-axle truck traveling on an interstate highway at a speed of 88.5 km/h approaches a horizontal curve with a radius of 274.25 m. Determine the air resistance that acts on the truck as it traverses the curve if the weight on each axle is 22675 N. [7644.1 N]
+	\item A 13600 N passenger car is traveling at 88.5 km/h on a flat section of road with a horizontal curve of 300 m radius. If the cross-sectional area of the vehicle is 2.7 $ m^2 $, determine the horsepower required to overcome the resistance on the vehicle. [65.56 hp]
+	\item Two passenger cars are traveling at 88.5 km/h.The weight of car A is 9000 N, and that of car B is 18000 N.The cross-sectional area for car A is 3.15 $ m^2 $, and that of car B is 3.6 $ m^2 $. Determine the maximum grade on which passenger car A can travel without its total resistance exceeding that of car B traveling on a straight and level section of road.[1.9 \%]
+	\item A passenger car being driven on a flat and straight section of a highway at a speed of 105 km/h reaches a curved section of the highway with a grade of 5\% and a radius of 450 m. Determine:
+		\begin{enumerate}
+			\item The additional force that will be required to maintain the original speed of 105 km/h [532.336 N]
+			\item The percentage increase in the total force to maintain the original speed of 105 km/h [234.336 \%]
+		\end{enumerate}
+	Assume that the weight of the car is 907 kg, the cross-sectional area is 3.15 $ m^2 $, and the car is being driven at sea level.
+\end{enumerate}
 
 
 
