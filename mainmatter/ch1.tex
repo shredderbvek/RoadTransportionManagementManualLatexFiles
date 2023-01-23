@@ -305,7 +305,16 @@ Where,\\
 \hspace*{10mm}$C_a$ = constant (typically 0.2445 for trucks)\\
 \hspace*{10mm}$C_b$ = constant (typically 0.00044 sec/ft for trucks)\\
 \hspace*{10mm}$u$ = vehicle speed (mi/h)\\
-\hspace*{10mm}$W$ = gross vehicle weight (lb)\\\\
+\hspace*{10mm}$W$ = gross vehicle weight (lb)
+\begin{equation}
+	R_r = (C_a + 0.278 \times C_b \times u)\times W
+\end{equation}
+Where,\\
+\hspace*{10mm}$R_r$ = rolling resistance force (N)\\
+\hspace*{10mm}$C_a$ = constant (typically 0.2445 for trucks)\\
+\hspace*{10mm}$C_b$ = constant (typically $1.44 \times 10^{-3}$ sec/m  for trucks)\\
+\hspace*{10mm}$u$ = vehicle speed (Km/h)\\
+\hspace*{10mm}$W$ = gross vehicle weight (N)\\\\
 The surface condition of the pavement has a significant effect on the rolling resistance. For example, at a speed of 50 mi/h on a badly broken and patched asphalt surface, the rolling resistance is 51 lb/ton of weight, whereas at the same speed on a loose sand surface, the rolling resistance is 76 lb/ton of weight.
 \paragraph{Curve Resistance}
 When a passenger car is maneuvered to take a curve, external forces act on the front wheels of the vehicle. These forces have components that have a retarding effect on the forward motion of the vehicle. The sum effect of these components constitutes the curve resistance. This resistance depends on the radius of the curve, the gross weight of the vehicle, and the velocity at which the vehicle is moving. It can be determined as
@@ -400,6 +409,7 @@ the minimum distance where the sign should placed ahead of the exit ramp($ d $) 
 			\item The percentage increase in the total force to maintain the original speed of 105 km/h [234.336 \%]
 		\end{enumerate}
 	Assume that the weight of the car is 907 kg, the cross-sectional area is 3.15 $ m^2 $, and the car is being driven at sea level.
+	\item A truck and a passenger car traveling on a section of highway at a speed of 80 km/h enter a short curved section of the road with a grade of 5\% and a radius of 270 m. Determine the ratio of the additional force required by the truck to that required by the car for both vehicles to maintain their original speed of 80 km/h. Assume the weight of the car is 11250 N and that of the truck 54000 N. [5 : 1]
 \end{enumerate}
 
 
