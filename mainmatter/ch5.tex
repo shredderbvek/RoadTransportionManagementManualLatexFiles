@@ -337,36 +337,82 @@ In this section, some issues related to then number of stops (and their location
 Stopping policy relates to the policy followed by the transit system as regards to stopping on the route. There are different stopping policies of which any one may be used by a transit system. These are: (i) All stop, (ii) On-call stop, and (iii) Demand stop.\\\\
 In the all stop case, the transit stops at all the stops at all the stops on the route irrespective of whether there is any demand for that stop. For a given transit unit, the demand for a stop exists if someone wants to board the transit unit from the stop or someone on the transit unit wants to alight at that stop. In the on-call stop case, the transit unit stops at a stop if and only if there is a demand for that stop. In the demand stop case, the transit unit stops anywhere along the route where it needs to stop to pick up or drop off passengers. In this case, although the route is fixed, the stop locations are not fixed or alternatively all points on the route are viable stop locations (although the transit unit does not stop at most of them).\\\\
 In order to decide which is the best policy for a transit system (or a route in the transit system) a simple analysis, based on the expected number of places at which a transit unit a given route may have to stop, is done. The analysis procedure is shown below.\\\\
-Assume that the transit units are operating on a route with $ n $ stops (i.e. stop locations). Note that n could be infinitely many. Further, assume that a transit unit has to stop at a stop only if someone is waiting at the stop or someone on the transit unit has to stop at a stop only. Also assume that the passenger demand for boarding alighting at any stop follows a Poisson distribution with a rate of $\lambda$. Now if $h$ is the time headway at which transit units operate on the route being analyzed, then the probability that $k$ persons demand to use a stop is given by,
+Let us assume:
+\begin{enumerate}
+	\item The transit units are operating on a route with 'n' number of stops
+	\item A transit unit has to stop at a stop only is someone on the transit unit has to stop or someone is waiting at the stop
+	\item 'X' denotes the random variable that counts the number of people demanding to use the stop
+	\item The passenger demand for boarding/alighting at any stop has a mean rate of occurrence ($ \lambda $) over any interval of time in that route 
+	\item 'h' is the time headway at which transit unit operates on the route
+\end{enumerate}
+From the definition of $ \lambda $,Expected value of X or average number of passengers demanding to use a stop:
 \begin{equation}
-	Prob. \: (k \: persons \: demand \: to \: use \: a \: stop)\: = P(k) = \frac{(\lambda h)^k exp(- \lambda h)}{k !}
+	E(X) = \lambda h
+\end{equation}
+The probability distribution of X is determined as follows:
+\begin{enumerate}
+	\item The headway time is subdivided into $ n $ sub-intervals such that, $ \Delta t = \frac{h}{n} $, the sub-interval are very small and the probability that passengers demand to stop more than one at that interval is negligible.
+	\item Probability that passengers demand to stop at every sub-interval is constant, say 'p'
+	\item Passenger demanding to stop at a sub-interval is independent of passengers demanding to stop at other sub-intervals
+\end{enumerate}
+Thus, we can model the distribution of X approximately as a binomial random variable, where each sub-interval generates passenger demand to stop or not. Then,\\\\
+$ E(X) = \lambda h = np $\\
+$ \therefore p = \frac{\lambda h}{n} $\\\\
+From approximate binomial distribution,
+$$ P(X = x) = \binom{n}{x} p^x \times (1-p)^{n-x} $$
+Since the sub-intervals, $ \Delta t \to 0 $ . Thus, $ n \to \infty $,\\\\
+$ \lim_{n \to \infty} P(X = x) = \lim_{n \to \infty} \binom{n}{x} (\frac{\lambda h}{n})^x \times (1 - \frac{\lambda h}{n})^{n-x} $\\\\
+$ = \lim_{n \to \infty} \frac{n!}{(n-x)! x! } \times (\frac{\lambda h}{n})^x \times (1 - \frac{\lambda h}{n})^{n-x}  $\\\\
+$ =  \lim_{n \to \infty} \frac{n\times (n-1)...\times (n-x+1)\times (n-x)!}{(n-x)! x!} \times (\frac{\lambda h}{n})^x \times (1 - \frac{\lambda h}{n})^{n-x}$\\\\
+$ = \frac{(\lambda h)^x}{x!} \lim_{n \to \infty} \frac{n\times (n-1)...\times (n-x+1)}{n^x} \times (1 - \frac{\lambda h}{n})^n \times (1 - \frac{\lambda h}{n})^{-x} $\\\\
+$  = \frac{(\lambda h)^x}{x!} \times e^{-\lambda h} \lim_{n \to \infty} \frac{n}{n} \times \frac{(n-1)}{n} \times...\times \frac{(n-x+1)}{n} \times (1 - \frac{\lambda h}{n})^{-x} $ [$ \because \lim_{n \to \infty} (1 + \frac{x}{n}) = e^x$] \\\\
+$  = \frac{(\lambda h)^x}{x!} \times e^{-\lambda h} \lim_{n \to \infty} (1 - \frac{1}{n}) \times (1 - \frac{2}{n}) \times...\times (1 - \frac{(x+1)}{n}) \times (1 - \frac{\lambda h}{n})^{-x} $\\\\
+$  = \frac{(\lambda h)^x}{x!} \times e^{-\lambda h} \times 1 $
+\begin{equation}
+	Prob. \: (x \: passengers \: demand \: to \: use \: a \: stop)\: = P(x) = \frac{(\lambda h)^x e^{- \lambda h}}{x !}
 \end{equation}
 Hence,
 \begin{equation}
-	Prob.\: (transit \: unit \: stops \: at \: a \: STOP) = 1 - P(0) = 1 - exp(- \lambda h)
+	Prob.\: (transit \: unit \: stops \: at \: a \: STOP) = 1 - P(0) = 1 - e^{- \lambda h}
 \end{equation}
 Therefore, on the entire route of n stops, the probability the transit unit stops s times, $\Pi(s)$, is given by:
 \begin{equation}
 	\Pi(s) = \begin{pmatrix}
 		n\\
 		s
-	\end{pmatrix} [1 - exp(- \lambda h)]^s [exp(- \lambda h)]^{n - s}
+	\end{pmatrix} [1 - e^{- \lambda h}]^s [e^{- \lambda h}]^{n - s}
 \end{equation}
-Hence, the expected value of s or the average number of times a transit unit stops, $E(s)$, is given by (consult any introductory book on probability theory to see how the following relation can be obtained from the earlier one).
+Hence, , $E(s)$, expected value of s or average number of times a transit unit stops is given by:
 \begin{equation}
-	E(s) = n[1 - exp(- \lambda h)]
+	E(s) = n\times \Pi(s) = n[1 - e^{- \lambda h}]
 \end{equation}
-The rate $\lambda$, at which passenger demand for boarding/alighting arises at any stop, can be written in terms of $p$, the total passenger demand per unit time for the entire route. If $p$ is the total passenger demand per unit time, then the total demand for boarding or alighting per unit time is $ 2p $. If $n$ is the total number of stops, then the total passenger demand per unit time for boarding/alighting at a particular stop is $2p/n$ (assuming all stops have, on an average, equal demand). Hence, $\lambda = (2p/n)$. Therefore,
+Now, let v = the passenger demand per unit time for entire route\\\\
+Then,\\
+Total demand for boarding or alighting per unit time = $ 2v $\\
+Total passenger demand per unit time for each stop = $ \frac{2v}{n} $\\\\
+Since $ \lambda $ is the rate at which passenger demand for boarding/ alighting arises at any stop,\\
+$$ \lambda = \frac{2v}{n} $$
+Therefore,
 \begin{equation}
-	E(s) = n[1 - exp(- 2ph/n)]
+	E(s) = n\times \Pi(s) = n \left[1 - e^\frac{- 2vh}{n}\right]
 \end{equation}
-If the demand is very large, that is, $ph \rightarrow \infty$, then from the above relation,
-\begin{equation}
-	\lim_{ph \to \infty} E(s) = n
-\end{equation}
-The above relation implies that when the demand is large then on an average, a transit unit will have to stop at all the stops. Hence, in this case it is better to use an all-stop stopping policy.\\\\
-If, on the other hand, demand $ph$ is small compared to the total number of stops, $ n $, then by expanding the exponential term and ignoring all higher order terms of ($ph/n$) in the expansion , we can obtain $E(s) = 2ph$. This implies that the average number of places where the transit unit will have to stop is twice the number of passengers who use the transit unit that period $h$. That is, no special benefit is obtained by providing a fixed number of stops and stop locations. Hence, in the low demand case it is better to follow a demand stop stopping policy with no pre-defined stop locations on the route. For the intermediate values of demand, $ E(s) < n$ and therefore following the on-call stop stopping policy  makes sense.\\\\
-The above analysis, in effect, brings out two aspects of stopping policy: (i) it relates demands to stopping policy and (ii) it shows that for the entire range of demand for a route, the expression $n[1 - exp(-2ph/n)]$ describe the average number of times a transit unit will have to stop.
+Case I: If demand is very large, that is, $ v \to \infty $\\\\
+$ \lim_{v \to \infty} E(s) = n [1 - e^{-\infty}]  = n \left[ 1 - \frac{1}{e^\infty}\right] = n \left[ 1 - \frac{1}{\infty}\right] = n [1 - 0] $\\\\
+$ \therefore \lim_{v \to \infty} E(s) = n $\\\\
+This implies when demand is very large, then on average, a transit unit has to stop at all stops. Hence, in this case, it is better to use all stop policy.\\\\
+Case II: If demand is very small compared to the total number of stops, that is, $ v << n $\\\\
+$ E(s) = n \left[1 - e^\frac{-2vh}{n}\right] $\\\\
+$ = n \left[ 1 -\left\{ 1 + \left( \frac{-2vh}{n} \right) + \frac{(\frac{-2vh}{n})^2}{2} + \frac{(\frac{-2vh}{n})^3}{6} + ... \right\} \right] $ [$ \because e^x = 1 + x + \frac{x^2}{2} + \frac{x^3}{6} + ... $]\\\\
+Neglecting higher order terms of ($ ph/n $), we get:\\\\
+$ E(s) = n \left( 1 - 1 + \frac{2vh}{n} \right) $\\\\
+$ \therefore E(s) = 2vh $\\\\
+This implies that average number of places where transit unit has to stop is twice the number of passengers who use the transit unit for that period 'h', that is, no special benefit is obtained by a providing a fixed number of stops and stop locations. Hence, in case of low demand, it is better to follow a demand stop stopping policy with no predefined stop locations on the route.\\\\
+Case III: For intermediate values of demand,\\\\
+$ E(s) = n \left[1 - e^\frac{-2vh}{n}\right] $\\\\
+$ = n \left[ 1 -\left\{ 1 + \left( \frac{-2vh}{n} \right) + \frac{(\frac{-2vh}{n})^2}{2} + \frac{(\frac{-2vh}{n})^3}{6} + ... \right\} \right] $\\\\
+$ \therefore E(s) < n $\\\\
+Hence, on-call stop makes sense for this scenario.\\\\
+The above analysis, in effect, brings out two aspects of stopping policy: (i) it relates demands to stopping policy and (ii) it shows that for the entire range of demand for a route, the expression $n\left[1 - e^\frac{-2vh}{n}\right]$ describe the average number of times a transit unit will have to stop.
 \begin{center}
 	\begin{tikzpicture}
 		\draw[->] (0,0) -- (11,0) node[right] {$Demand$};
@@ -451,17 +497,17 @@ In the above step, node "7" is not directly connected to node "2" and the node i
 	0 & 4* & $\infty$ & $\infty$& $\infty$& $\infty$& $\infty$ & 8 & $\infty$\\
 	1 & - & 12 & $\infty$& $\infty$& $\infty$& $\infty$ & 8* & $\infty$\\
 	7 & - & 12 & $\infty$& $\infty$& $\infty$& 9* & - & 15\\
-	6 & - & 12 & $\infty$& $\infty$& 11* & - & - & 15 \\
+	6 & - & 12 & $\infty$& $\infty$& 11* & - & - & $ 15_{(6, 7)}$ \\
 \end{tabular}\\\\
-In the above step, the computed value for node "8" from node "6" was 15, since the value didn't change we set the value as it is, that is, 15. Also, $ 11 < 12 < 15 $, so we assign node "5" as our next vertex, then:\\\\
+In the above step, the computed value for node "8" from node "6" was 15, since the value didn't change we set the value as it is, that is, $ 15_{(6, 7)}$ (This means that node 8 can be traversed using 6 an 7 in same distance). Also, $ 11 < 12 < 15 $, so we assign node "5" as our next vertex, then:\\\\
 \begin{tabular}{c | c| c| c| c| c| c| c| c}
 	from/To & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\
 	\hline
 	0 & 4* & $\infty$ & $\infty$& $\infty$& $\infty$& $\infty$ & 8 & $\infty$\\
 	1 & - & 12 & $\infty$& $\infty$& $\infty$& $\infty$ & 8* & $\infty$\\
 	7 & - & 12 & $\infty$& $\infty$& $\infty$& 9* & - & 15\\
-	6 & - & 12 & $\infty$& $\infty$& 11* & - & - & 15 \\
-	5 & - & 12* ($\because 12 < 15$) & 25 & 21 & - & - & - & 15 \\
+	6 & - & 12 & $\infty$& $\infty$& 11* & - & - & $ 15_{(6, 7)}$ \\
+	5 & - & 12* ($\because 12 < 15$) & 25 & 21 & - & - & - & $ 15_{(6, 7)}$ \\
 \end{tabular}\\\\
 In the above step, the computed value for node "2" from node "5" was 15, and since $ 12 < 15 $, we retain the earlier value, that is, 12. Also, $ 12 < 15 < 21 < 25 $, we assign node "2" as our next vertex, then:\\\\
 \begin{tabular}{c | c| c| c| c| c| c| c| c}
@@ -470,8 +516,8 @@ In the above step, the computed value for node "2" from node "5" was 15, and sin
 	0 & 4* & $\infty$ & $\infty$& $\infty$& $\infty$& $\infty$ & 8 & $\infty$\\
 	1 & - & 12 & $\infty$& $\infty$& $\infty$& $\infty$ & 8* & $\infty$\\
 	7 & - & 12 & $\infty$& $\infty$& $\infty$& 9* & - & 15\\
-	6 & - & 12 & $\infty$& $\infty$& 11* & - & - & 15 \\
-	5 & - & 12* & 25 & 21 & - & - & - & 15 \\
+	6 & - & 12 & $\infty$& $\infty$& 11* & - & - & $ 15_{(6, 7)}$ \\
+	5 & - & 12* & 25 & 21 & - & - & - & $ 15_{(6, 7)}$ \\
 	2 & - & - & 19 ($\because 19 < 25$)& 21 & - & - & - & 14* ($\because 14 < 15$)\\
 \end{tabular}\\\\
 in the above step, since $ 14 < 19 < 21 $, we assign node "8" as our next vertex, then:\\\\
@@ -481,8 +527,8 @@ in the above step, since $ 14 < 19 < 21 $, we assign node "8" as our next vertex
 	0 & 4* & $\infty$ & $\infty$& $\infty$& $\infty$& $\infty$ & 8 & $\infty$\\
 	1 & - & 12 & $\infty$& $\infty$& $\infty$& $\infty$ & 8* & $\infty$\\
 	7 & - & 12 & $\infty$& $\infty$& $\infty$& 9* & - & 15\\
-	6 & - & 12 & $\infty$& $\infty$& 11* & - & - & 15 \\
-	5 & - & 12* & 25 & 21 & - & - & - & 15 \\
+	6 & - & 12 & $\infty$& $\infty$& 11* & - & - & $ 15_{(6, 7)}$ \\
+	5 & - & 12* & 25 & 21 & - & - & - & $ 15_{(6, 7)}$ \\
 	2 & - & - & 19 & 21 & - & - & - & 14*\\
 	8 & - & - & 19* & 21 & - & - & - & -\\
 \end{tabular}\\\\
@@ -493,8 +539,8 @@ In the above step, node "8" had no direct connection with either of the unsolved
 	0 & 4* & $\infty$ & $\infty$& $\infty$& $\infty$& $\infty$ & 8 & $\infty$\\
 	1 & - & 12 & $\infty$& $\infty$& $\infty$& $\infty$ & 8* & $\infty$\\
 	7 & - & 12 & $\infty$& $\infty$& $\infty$& 9* & - & 15\\
-	6 & - & 12 & $\infty$& $\infty$& 11* & - & - & 15 \\
-	5 & - & 12* & 25 & 21 & - & - & - & 15 \\
+	6 & - & 12 & $\infty$& $\infty$& 11* & - & - & $ 15_{(6, 7)}$ \\
+	5 & - & 12* & 25 & 21 & - & - & - & $ 15_{(6, 7)}$ \\
 	2 & - & - & 19 & 21 & - & - & - & 14*\\
 	8 & - & - & 19* & 21 & - & - & - & -\\
 	3 & - & - & - & 21* ($\because 21 < 28$) & - & - & - & -\\
