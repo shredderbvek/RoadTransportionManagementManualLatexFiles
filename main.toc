@@ -23,7 +23,7 @@
 \contentsline {paragraph}{Air Resistance}{16}{}%
 \contentsline {paragraph}{Grade Resistance}{16}{}%
 \contentsline {paragraph}{Rolling Resistance}{17}{}%
-\contentsline {paragraph}{Curve Resistance}{19}{}%
+\contentsline {paragraph}{Curve Resistance}{18}{}%
 \contentsline {paragraph}{Power Requirements}{19}{}%
 \contentsline {subsection}{\numberline {1.4.3}Pedestrian Characteristics}{20}{}%
 \contentsline {subsection}{\numberline {1.4.4}Road Characteristics}{21}{}%
