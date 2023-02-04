@@ -1139,24 +1139,6 @@ minimum distance = 2 + 3 + 4 + 5 + 1 = 15
 			\end{tabular}
 		\end{center}
 	How should the jobs be allocated, one per truck, so as to minimize the total truck-hours?
-	\item An Online Delivery organization is planning to deliver packages to 5 cities. Starting from the head office at city A then going round B, C, D and E and then come back to A. Their objective is to minimize the total distance covered. Help them in sequencing the cities. A, B, C, D and E as the shown in the figure. The numbers on the arrows show the distances in Km.
-		\begin{center}
-			\begin{tikzpicture}[node distance={25mm}, thick, main/.style = {draw, circle}]
-				\node[main] (1) {A};
-				\node[main] (2) [right of = 1] {E};
-				\node[main] (3) [above right of = 1] {B};
-				\node[main] (4) [below right of = 1] {D};
-				\node[main] (5) [right of = 2] {C};
-				\draw(1) -- node[midway, above ] {10} (2);
-				\draw(2) -- node[midway, above ] {20} (5);
-				\draw(1) -- node[midway, above, sloped ] {20} (3);
-				\draw(1) -- node[midway, below, sloped ] {10} (4); 
-				\draw(2) -- node[midway, above, sloped ] {10} (3);
-				\draw(2) -- node[midway, above, sloped ] {20} (4);
-				\draw(3) -- node[midway, above, sloped ] {30} (5);
-				\draw(4) -- node[midway, below, sloped ] {15} (5);
-			\end{tikzpicture}
-		\end{center}
 \end{enumerate}
 %
 \subsection{Answers}
@@ -1184,5 +1166,4 @@ minimum distance = 2 + 3 + 4 + 5 + 1 = 15
 			& & Total = 23
 		\end{tabular}
 	\end{center}
-	\item [8]. The shortest route is (A $\rightarrow$ E, E $\rightarrow$ D, D $\rightarrow$ C, C $\rightarrow$ B, B $\rightarrow$ A) and the distance travelled = 95 Km.
 \end{description}
