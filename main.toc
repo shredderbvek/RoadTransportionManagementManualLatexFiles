@@ -133,7 +133,7 @@
 \contentsline {subsection}{\numberline {5.10.1}Stopping Policy}{102}{}%
 \contentsline {subsection}{\numberline {5.10.2}Stop Location}{105}{}%
 \contentsline {subsubsection}{Determination of $T_u$}{106}{}%
-\contentsline {subsection}{\numberline {5.10.3}Properties of a Good Schedule}{107}{}%
+\contentsline {subsection}{\numberline {5.10.3}Properties of a Good Schedule}{106}{}%
 \contentsline {section}{\numberline {5.11}Optimal Paths in Transportation Networks}{107}{}%
 \contentsline {subsection}{\numberline {5.11.1}Dijkstra's Shortest Path Algorithm}{107}{}%
 \contentsline {section}{\numberline {5.12}Review Problems}{111}{}%
