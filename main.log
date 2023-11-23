@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  26 MAR 2023 20:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  14 AUG 2023 12:21
 entering extended mode
 **./main.tex
 (main.tex
@@ -4085,7 +4085,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 221--233
 Here is how much of TeX's memory you used:
  29676 strings out of 478699
  630052 string characters out of 2847435
- 904662 words of memory out of 3000000
+ 905662 words of memory out of 3000000
  47348 multiletter control sequences out of 15000+600000
  416614 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -4121,7 +4121,7 @@ C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfon
 t/line10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/symbols/msam10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (224 pages, 2713677 bytes).
+Output written on main.pdf (224 pages, 2714134 bytes).
 PDF statistics:
  1000 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
