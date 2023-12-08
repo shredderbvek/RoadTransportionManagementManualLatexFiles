@@ -174,7 +174,33 @@ The regulations also stipulate that a gross load of 34,000 lb may be carried by 
 \emph{Numerical Example:}
 \\
 \includegraphics{gfx/fig6.png}
-\\\\
+\newpage
+Because the static characteristics of the predominant vehicles are used to
+establish certain geometric parameters of the road, vehicles have been classified so that they represent static characteristics within a particular class. AASHTO has classified automobiles into four general classes of vehicles: passenger cars, buses, trucks, and recreational vehicles. Vehicles included in the passenger-car class are all sizes of passenger cars, sport/utility vehicles, minivans, vans, and pick-up trucks. Those in the bus class include intercity (motor coaches), city transit, school, and articulated buses. Vehicles in the truck class are single-unit trucks, truck tractor–semitrailer combinations, and trucks or truck tractors with semitrailers in combination with full trailers. Vehicles in the recreational-vehicle class are motor homes, cars with camper trailers, cars with boat trailers, motor homes with boat trailers, and motor homes pulling cars. The largest and most frequent vehicle expected to use the facility is selected as the design vehicle, and the following
+guidelines are provided for selection:
+\begin{enumerate}
+	\item For parking lots or a series of parking lots, passenger-car class could be considered.
+	\item For intersections on residential streets and park roads, a single-unit truck class could be considered.
+	\item For intersections of state highways with city streets on which buses travel, but on which relatively few large trucks travel, a city transit bus class could be considered.
+	\item For intersections of highways with low-volume county highways and
+	township/local roads with traffic volume under 400 Average Daily Traffic
+	(ADT), a large school bus (84 passengers) or a conventional school bus
+	(65 passengers) could be considered.
+	\item For other intersections of state highways and industrial streets with high volumes of traffic and/or providing large truck access to local facilities, the minimum design vehicle is the WB20 (WB65 or WB67) 
+	\item For intersections of freeway ramp terminals with arterial crossroads the minimum design vehicle is the WB20 (WB65 or WB67)
+\end{enumerate}
+The characteristic of vehicle categories that influence design of intersections
+when speeds are 15 km/h or less are (1) the minimum centerline radius (CTR);
+(2) the out-to-out track width; (3) the wheel base; and (4) the path of the inner
+rear tire of the vehicle as it makes a turn at the intersection. When turns are
+made at speeds of 10 km/h or less, the turning radius and turning path depend
+mainly on the size of the vehicle making the turn. These have therefore been
+established for each design vehicle.
+\newpage
+\begin{center}
+	\includegraphics[scale=0.8]{gfx/staticDesignTable.png}
+\end{center} 
+\newpage
 \subsubsection{Kinematic Characteristics}
 The primary element among kinematic characteristics is the acceleration capability of the vehicle. Acceleration capability is important in several traffic operations, such as passing maneuvers and gap acceptance. Also, the dimensioning of highway features such as freeway ramps and passing lanes is often governed by acceleration rates. Acceleration is also important in determining the forces that cause motion. Therefore, a study of the kinematic characteristics of the vehicle primarily involves a study of how acceleration rates influence the elements of motion, such as velocity and distance. We therefore review in this section the mathematical relationships among acceleration, velocity, distance, and time.
 \\\\
@@ -238,10 +264,14 @@ If the velocity is $u_o$ at $t = 0$,
 	u_t = \frac{\alpha}{\beta} (1 - e^{-\beta t}) + u_o e^{-\beta t}
 \end{equation}
 The distance $x(t)$ traveled at any time $t$ may be determined by integrating equation \ref{acln}
-\begin{equation}
-	x = \int_0^t u_t dt = \int_0^t \left[\frac{\alpha}{\beta} (1 - e^{-\beta t}) + u_o e^{-\beta t} \right] dt
+\begin{gather*}
+	x = \int_0^t u_t dt = \int_0^t \left[\frac{\alpha}{\beta} (1 - e^{-\beta t}) + u_o e^{-\beta t} \right] dt\\
+	= \left[ \frac{\alpha}{\beta} \left( t + \frac{e^{-\beta t}}{\beta} \right) - \frac{u_o}{\beta} e^{\beta t} \right]_0^t\\
+	= \left[ \frac{\alpha}{\beta}  t + \frac{\alpha}{\beta^2} e^{- \beta t} - \frac{u_o}{\beta} e^{- \beta t} \right]\\
+	= \frac{\alpha}{\beta} t + \frac{\alpha}{\beta^2} e^{-\beta t} - \frac{u_o}{\beta} e^{-\beta t} - \frac{\alpha}{\beta^2} + \frac{u_0}{\beta}\\
 	= \left(\frac{\alpha}{\beta}\right)t - \frac{\alpha}{\beta^2}(1 - e^{-\beta t}) + \frac{u_o}{\beta}(1 - e^{-\beta t})
-\end{equation}\\\\
+\end{gather*}\\\\
+\newpage
 \emph{Numerical Example:}\\
 \includegraphics[scale=0.5]{gfx/fig7.png}
 \subsubsection{Dynamic Characteristics}
