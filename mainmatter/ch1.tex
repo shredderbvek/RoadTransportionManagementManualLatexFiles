@@ -403,6 +403,37 @@ Where,\\
 \hspace*{10mm}$g$ = acceleration due to gravity\\
 \hspace*{10mm}$a$ = acceleration of the vehicle\\
 \hspace*{10mm}$G$ = $\tan \gamma$ (\% Grade/100)\\\\
+In general, Stopping Sight Distance (SSD) = lag distance + braking distance\\
+lag distance = speed of vehicle (m/s) $ \times $ total reaction time (s)\\
+Braking distance = $ \frac{v^2}{2gf} $ [For road without gradient]\\
+Where,\\
+\hspace*{10mm}v = speed of the vehicle (m/s)\\
+\hspace*{10mm}g = acceleration due to gravity (9.8 $ m/s^2 $)\\
+\hspace*{10mm}f = coefficient of friction
+\subparagraph{Calculation of speed limit at Major/ Minor Street intersection}
+\begin{center}
+	\includegraphics[scale=0.5]{gfx/ssd.png}
+\end{center}
+Let a vehile 'A' is moving on a major street having a design speed of $ V_{maj} $ and vehicle 'B'is moving on a minor street having a design speed of $ V_{min} $. $ V_{maj} $ and $ V_{min} $ should be computed such that safe operation can be achieved at the intersection.\\\\
+From the fig, $ \bigtriangleup $ CBA is the visibility traingle,\\
+To avoid collision,\\
+$ D_a $ = SSD for vehicle A + Clearance
+$ D_b $ = SSD for vehicle B + clearnce\\\\
+We have,
+\begin{equation}
+	D_a = V_{maj} \times t + \frac{V_{maj}^2}{2gf} + \; clearance
+\end{equation}
+\begin{equation}
+	D_b = V_{min} \times t + \frac{V_{min}^2}{2gf} + \; clearance
+\end{equation}
+From similar triangles, $ \bigtriangleup $ CBA and $ \bigtriangleup $ DAE,
+\begin{equation}
+	\frac{D_b}{D_a} = \frac{a}{D_a - b}
+\end{equation}
+\begin{equation}
+	D_b = \frac{a}{D_a - b} \times D_a
+\end{equation}
+When design speed for major street is known and other parameters (t, f, and clearance) are known, the design speed for minor street can be computed using above equations and vice versa.
 \paragraph{\emph{2. Passing Sight Distance}}
 The passing sight distance is the minimum sight distance required on a two-lane, twoway highway that will permit a driver to complete a passing maneuver without colliding with an opposing vehicle and without cutting off the passed vehicle. The passing sight distance will also allow the driver to successfully abort the passing maneuver (that is, return to the right lane behind the vehicle being passed) if he or she so desires. In determining minimum passing sight distances for design purposes, only single passes (that is, a single vehicle passing a single vehicle) are considered. Although it is possible for multiple passing maneuvers to occur (that is, more than one vehicle pass or are passed in one maneuver), it is not practical for minimum design criteria to be based on them.\\\\
 \emph{Numerical Example:}\\
@@ -439,6 +470,7 @@ the minimum distance where the sign should placed ahead of the exit ramp($ d $) 
 		\end{enumerate}
 	Assume that the weight of the car is 907 kg, the cross-sectional area is 3.15 $ m^2 $, and the car is being driven at sea level.
 	\item A truck and a passenger car traveling on a section of highway at a speed of 80 km/h enter a short curved section of the road with a grade of 5\% and a radius of 270 m. Determine the ratio of the additional force required by the truck to that required by the car for both vehicles to maintain their original speed of 80 km/h. Assume the weight of the car is 11250 N and that of the truck 54000 N. [5 : 1]
+	\item As a part of traffic management on minor road approach of an intersection, compute the speed limit for safe operation as per the Nepal Road Standard. The major road has been designed using 60 kmph. Assume constants a and b as 15m and 20m respectively. (As per the Nepal Road Standard, for a speed of 60 kmph, f = 0.38, t = 2.5 sec, and clearance = 5m) [36.54 kmph]
 \end{enumerate}
 
 
