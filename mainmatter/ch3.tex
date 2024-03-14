@@ -413,6 +413,52 @@ Analysts and engineers usually perform a sensitivity analysis to conclude how se
 \par
 The main weakness of the CBA is that all transportation project benefits are evaluated only in monetary terms. It is very complicated to value all the costs and benefits of transportation projects in monetary terms. In other words, in many situations, social and environmental aspects of the considered transportation projects are not treated adequately. For example, many traffic safety programs, actions and projects involve the prevention of loss of life. The logical and ethical question is how should we value a life saved? A pure economic approach would suggest to us that the value of life is equal to the PV of lifetime earnings. Obviously, there are numerous opponents to such an oversimplified and ethically questioned approach.\\
 %
+\section{Constrained Optimization using Lagrange Multipliers}
+The general technique for optimizing a function $f = f(x,y) $ subject to a constraint $ g(x,y) = c $ is to solve the system $ \nabla f = \lambda \nabla g $ and $g(x,y) = c$, for $x,\: y,\: and \:\lambda$. Then, we evaluate the function at each point $(x,y)$ that results from a solution to the system to find the optimum values of $f(x,y)$ subject to the constraint.
+\begin{center}
+	\includegraphics[scale=0.3]{gfx/lg.png}
+\end{center}
+\emph{example:} The cost function of an automobile company selling two products $x$ and $y$ is, $C = 6x + \frac{96}{x} + \frac{4y}{x}+ \frac{3x}{y}$. The restriction is that the firm is required by contract to produce a minimum quantity of $x$ and $y$ totaling 10. Determine the optimal values of two products and $\lambda$. Also, compute the value of function $C$.\\
+\emph{solution:}\\
+Let $f(x,y) = C = 6x + \frac{96}{x} + \frac{4y}{x}+ \frac{3x}{y}$\\
+$g(x,y) = x + y$\\\\
+Objective: Minimize $f(x,y)$\\
+subject to: $g(x,y) = x + y = 10$\\\\
+Now,\\\\
+$\nabla f = \Vec{i}\frac{\partial{f(x,y)}}{\partial {x}} + \Vec{j}\frac{\partial{f(x,y)}}{\partial {y}}$\\
+\hspace*{5 mm} = $\left( 6 - \frac{96}{x^2} - \frac{y}{x^2} + \frac{3}{y} \right) \Vec{i} + \left( \frac{4}{x} - \frac{3x}{y^2} \right) \Vec{j}$ \\\\
+$\nabla g = \Vec{i}\frac{\partial{(x + y)}}{\partial {x}} + \Vec{j}\frac{\partial{(x + y)}}{\partial {y}}$\\
+\hspace*{5 mm} = $ \Vec{i} + \Vec{j}$\\\\
+We have,\\\\
+$ \nabla f = \lambda \nabla g $\\
+$\left( 6 - \frac{96}{x^2} - \frac{y}{x^2} + \frac{3}{y} \right) \Vec{i} + \left( \frac{4}{x} - \frac{3x}{y^2} \right) \Vec{j} = \lambda (\Vec{i} + \Vec{j}) $\\\\
+Equating along corresponding components we get,\\\\
+$ 6 - \frac{96}{x^2} - \frac{y}{x^2} + \frac{3}{y} = \lambda $ 
+............(1)\\
+$ \frac{4}{x} - \frac{3x}{y^2} = \lambda $ ..........................(2)\\\\
+From eqn (1) and (2) we get,\\\\
+$ 6 - \frac{96}{x^2} - \frac{y}{x^2} + \frac{3}{y} = \frac{4}{x} - \frac{3x}{y^2} $\\
+or, $ \frac{4}{x} + \frac{96}{x^2} + \frac{4y}{x^2} - \frac{3x}{y^2} - \frac{3}{y} = 6$\\
+or, $ \frac{4x + 96 + 4y}{x^2} - \frac{3x + 3y}{y^2} = 6$\\
+or, $ \frac{4(x+y) + 96}{x^2} - \frac{3(x+y)}{y^2} = 6$\\
+or, $ \frac{4 \times 10 + 96}{x^2} - \frac{3 \times 10}{y^2} = 6$ $ [\because x + y = 10]$\\
+or, $ \frac{136}{x^2} - \frac{30}{y^2} = 6$\\
+or, $ 136y^2 - 30x^2 - 6x^2y^2 = 0$\\
+or, $ 68y^2 - 15x^2 - 3x^2y^2 = 0$\\
+or, $ 68(1-x)^2 - 15x^2 - 3(1-x)^2y^2 = 0$\\
+or, $ -3x^4 + 60x^3 - 247x^2 -1360x + 6800 = 0$................(3)\\\\
+Solving eqn (3) we get,\\\\
+either, $ x = 4.419$\\
+or, $ x = -4.707$\\
+or, $ x = 10.144 + 2.464\: i$\\
+or, $ x = 10.144 - 2.464\: i$\\\\
+We will neglect the complex roots and only consider real roots for our solution. Also, since the question states that the values of $x \: and \: y $ are quantity of automobiles, they cannot be negative and are integer values, i.e, $x,y \geq 0 \in Z$.\\\\
+Thus,\\\\
+$x = 4$ and $ y = 10 - x = 10 - 4 = 6$\\\\
+$C = 6 \times 4 + \frac{96}{4} + \frac{4 \times 6}{4} + \frac{3 \times 4}{6}$\\
+$ \therefore C = 56$\\\\
+$ \therefore \lambda = \frac{4}{x} - \frac{3x}{y^2} = \frac{4}{4} - \frac{3 \times 4}{6^2} = \frac{2}{3}$\\\\
+$ \therefore, \: x = 4, \: and \: y = 6 $ is the optimal solution to minimize the given cost function subject to the specified constraints.
 \section{\emph{Numerical Examples:}}
 \emph{Example \#1: Selecting a transportation mode}\\\\
 An individual is planning to take a trip between the downtown area of two cities, A and B, which are 400 miles apart. There are three options available:

@@ -66,201 +66,202 @@
 \contentsline {subsection}{\numberline {3.11.5}Cost Elasticity}{55}{}%
 \contentsline {section}{\numberline {3.12}Transportation Projects Evaluation}{56}{}%
 \contentsline {section}{\numberline {3.13}Cost-Benefit Analysis}{57}{}%
-\contentsline {section}{\numberline {3.14}\emph {Numerical Examples:}}{60}{}%
-\contentsline {section}{\numberline {3.15}Review Problems}{64}{}%
-\contentsline {chapter}{\numberline {4}Insurance}{67}{}%
-\contentsline {section}{\numberline {4.1}Introduction}{67}{}%
-\contentsline {section}{\numberline {4.2}Basic Characteristics of Insurance}{67}{}%
-\contentsline {subsection}{\numberline {4.2.1}Pooling of Losses}{67}{}%
-\contentsline {subsection}{\numberline {4.2.2}Payment of Fortuitous Losses}{69}{}%
-\contentsline {subsection}{\numberline {4.2.3}Risk Transfer}{69}{}%
-\contentsline {subsection}{\numberline {4.2.4}Indemnification}{70}{}%
-\contentsline {section}{\numberline {4.3}Characteristics of an Ideally Insurable Risk}{70}{}%
-\contentsline {subsection}{\numberline {4.3.1}Large Number of Exposure Units}{70}{}%
-\contentsline {subsection}{\numberline {4.3.2}Accidental and Unintentional Loss}{70}{}%
-\contentsline {subsection}{\numberline {4.3.3}Determinable and Measurable Loss}{71}{}%
-\contentsline {subsection}{\numberline {4.3.4}No Catastrophic Loss}{72}{}%
-\contentsline {subsection}{\numberline {4.3.5}Calculable Chance of Loss}{72}{}%
-\contentsline {subsection}{\numberline {4.3.6}Economically Feasible Premium}{73}{}%
-\contentsline {section}{\numberline {4.4}Types of Insurance}{73}{}%
-\contentsline {subsection}{\numberline {4.4.1}Private Insurance}{74}{}%
-\contentsline {subsubsection}{Life Insurance}{74}{}%
-\contentsline {subsubsection}{Health Insurance}{74}{}%
-\contentsline {subsubsection}{Property and Liability Insurance}{74}{}%
-\contentsline {subsection}{\numberline {4.4.2}Government Insurance}{74}{}%
-\contentsline {subsubsection}{Social Insurance}{75}{}%
-\contentsline {section}{\numberline {4.5}Readings from Insurance Regulation, 2049 (1993)}{75}{}%
-\contentsline {subsection}{\numberline {4.5.1}Definitions}{75}{}%
-\contentsline {subsection}{\numberline {4.5.2}Categories of Insurance Business}{75}{}%
-\contentsline {subsubsection}{Life Insurance Business}{76}{}%
-\contentsline {subsubsection}{Non-Life Insurance Business}{76}{}%
-\contentsline {subsubsection}{Re-Insurance Business}{77}{}%
-\contentsline {subsection}{\numberline {4.5.3}Provisions Relating to a Surveyor}{77}{}%
-\contentsline {subsubsection}{Application to be submitted for surveyor's license}{77}{}%
-\contentsline {subsubsection}{Surveyor's License to be provided}{77}{}%
-\contentsline {subsubsection}{Qualifications of a Surveyor}{77}{}%
-\contentsline {subsubsection}{Classification of the Surveyor}{78}{}%
-\contentsline {subsubsection}{Provisions relating to the renewal of Surveyor's License}{78}{}%
-\contentsline {subsubsection}{Limitation of Survey}{79}{}%
-\contentsline {subsubsection}{In the case of cancellation of Surveyor's License}{79}{}%
-\contentsline {subsection}{\numberline {4.5.4}Provisions relating to payment against Insurance Claim}{79}{}%
-\contentsline {subsubsection}{Process against the payment of Life Insurance Claim}{79}{}%
-\contentsline {subsubsection}{Process of payment against Non-Life Insurance Claim}{80}{}%
-\contentsline {chapter}{\numberline {5}Passenger Transport Operation}{81}{}%
-\contentsline {section}{\numberline {5.1}Public Transportation}{81}{}%
-\contentsline {subsection}{\numberline {5.1.1}Transit Modes}{81}{}%
-\contentsline {subsection}{\numberline {5.1.2}Transit Capacity and Level of Service}{82}{}%
-\contentsline {subsection}{\numberline {5.1.3}The Role and Future of Public Transportation}{84}{}%
-\contentsline {subsubsection}{Factors Bad for Transit}{84}{}%
-\contentsline {subsubsection}{Factors Good for Transit}{85}{}%
-\contentsline {section}{\numberline {5.2}Bus Transit System}{85}{}%
-\contentsline {subsection}{\numberline {5.2.1}Bus Vehicles}{85}{}%
-\contentsline {subsection}{\numberline {5.2.2}Bus Travelways}{87}{}%
-\contentsline {section}{\numberline {5.3}Number of Passengers Versus Number of Served Vehicles}{88}{}%
-\contentsline {subsection}{\numberline {5.3.1}A Hypothetical Case Study}{88}{}%
-\contentsline {section}{\numberline {5.4}Passenger Flows in Public Transportation}{89}{}%
-\contentsline {section}{\numberline {5.5}Passenger Flows Along a Transit Line}{91}{}%
-\contentsline {section}{\numberline {5.6}Service Frequency and Headways}{92}{}%
-\contentsline {subsection}{\numberline {5.6.1}The Maximum Service Frequency}{94}{}%
-\contentsline {subsection}{\numberline {5.6.2}Passenger Waiting Time}{94}{}%
-\contentsline {subsection}{\numberline {5.6.3}Headway Determination by "Square Root Formula" }{95}{}%
-\contentsline {subsection}{\numberline {5.6.4}Headway Determination by Maximum Load Method}{97}{}%
-\contentsline {section}{\numberline {5.7}Time Table}{98}{}%
-\contentsline {section}{\numberline {5.8}Transit Line Capacity}{100}{}%
-\contentsline {subsection}{\numberline {5.8.1}Transit Line Capacity Utilization}{103}{}%
-\contentsline {section}{\numberline {5.9}Route Development}{105}{}%
-\contentsline {subsection}{\numberline {5.9.1}Properties of a Good Route Set}{105}{}%
-\contentsline {section}{\numberline {5.10}Stop Location and Stopping Policy}{105}{}%
-\contentsline {subsection}{\numberline {5.10.1}Stopping Policy}{106}{}%
-\contentsline {subsection}{\numberline {5.10.2}Stop Location}{109}{}%
-\contentsline {subsubsection}{Determination of $T_u$}{110}{}%
-\contentsline {subsection}{\numberline {5.10.3}Properties of a Good Schedule}{110}{}%
-\contentsline {section}{\numberline {5.11}Optimal Paths in Transportation Networks}{111}{}%
-\contentsline {subsection}{\numberline {5.11.1}Dijkstra's Shortest Path Algorithm}{111}{}%
-\contentsline {section}{\numberline {5.12}Review Problems}{115}{}%
-\contentsline {chapter}{\numberline {6}Freight Transport Operation}{119}{}%
-\contentsline {section}{\numberline {6.1}Main Actors of Freight Transport and Distribution}{119}{}%
-\contentsline {subsection}{\numberline {6.1.1}Shippers}{119}{}%
-\contentsline {subsection}{\numberline {6.1.2}Carriers}{120}{}%
-\contentsline {subsection}{\numberline {6.1.3}Intermediaries}{120}{}%
-\contentsline {paragraph}{}{120}{}%
-\contentsline {section}{\numberline {6.2}Modes of Transportation}{120}{}%
-\contentsline {paragraph}{}{121}{}%
-\contentsline {subsection}{\numberline {6.2.1}Road}{121}{}%
-\contentsline {paragraph}{}{121}{}%
-\contentsline {paragraph}{}{121}{}%
+\contentsline {section}{\numberline {3.14}Constrained Optimization using Lagrange Multipliers}{60}{}%
+\contentsline {section}{\numberline {3.15}\emph {Numerical Examples:}}{62}{}%
+\contentsline {section}{\numberline {3.16}Review Problems}{66}{}%
+\contentsline {chapter}{\numberline {4}Insurance}{69}{}%
+\contentsline {section}{\numberline {4.1}Introduction}{69}{}%
+\contentsline {section}{\numberline {4.2}Basic Characteristics of Insurance}{69}{}%
+\contentsline {subsection}{\numberline {4.2.1}Pooling of Losses}{69}{}%
+\contentsline {subsection}{\numberline {4.2.2}Payment of Fortuitous Losses}{71}{}%
+\contentsline {subsection}{\numberline {4.2.3}Risk Transfer}{71}{}%
+\contentsline {subsection}{\numberline {4.2.4}Indemnification}{72}{}%
+\contentsline {section}{\numberline {4.3}Characteristics of an Ideally Insurable Risk}{72}{}%
+\contentsline {subsection}{\numberline {4.3.1}Large Number of Exposure Units}{72}{}%
+\contentsline {subsection}{\numberline {4.3.2}Accidental and Unintentional Loss}{72}{}%
+\contentsline {subsection}{\numberline {4.3.3}Determinable and Measurable Loss}{73}{}%
+\contentsline {subsection}{\numberline {4.3.4}No Catastrophic Loss}{74}{}%
+\contentsline {subsection}{\numberline {4.3.5}Calculable Chance of Loss}{74}{}%
+\contentsline {subsection}{\numberline {4.3.6}Economically Feasible Premium}{75}{}%
+\contentsline {section}{\numberline {4.4}Types of Insurance}{75}{}%
+\contentsline {subsection}{\numberline {4.4.1}Private Insurance}{76}{}%
+\contentsline {subsubsection}{Life Insurance}{76}{}%
+\contentsline {subsubsection}{Health Insurance}{76}{}%
+\contentsline {subsubsection}{Property and Liability Insurance}{76}{}%
+\contentsline {subsection}{\numberline {4.4.2}Government Insurance}{76}{}%
+\contentsline {subsubsection}{Social Insurance}{77}{}%
+\contentsline {section}{\numberline {4.5}Readings from Insurance Regulation, 2049 (1993)}{77}{}%
+\contentsline {subsection}{\numberline {4.5.1}Definitions}{77}{}%
+\contentsline {subsection}{\numberline {4.5.2}Categories of Insurance Business}{77}{}%
+\contentsline {subsubsection}{Life Insurance Business}{78}{}%
+\contentsline {subsubsection}{Non-Life Insurance Business}{78}{}%
+\contentsline {subsubsection}{Re-Insurance Business}{79}{}%
+\contentsline {subsection}{\numberline {4.5.3}Provisions Relating to a Surveyor}{79}{}%
+\contentsline {subsubsection}{Application to be submitted for surveyor's license}{79}{}%
+\contentsline {subsubsection}{Surveyor's License to be provided}{79}{}%
+\contentsline {subsubsection}{Qualifications of a Surveyor}{79}{}%
+\contentsline {subsubsection}{Classification of the Surveyor}{80}{}%
+\contentsline {subsubsection}{Provisions relating to the renewal of Surveyor's License}{80}{}%
+\contentsline {subsubsection}{Limitation of Survey}{81}{}%
+\contentsline {subsubsection}{In the case of cancellation of Surveyor's License}{81}{}%
+\contentsline {subsection}{\numberline {4.5.4}Provisions relating to payment against Insurance Claim}{81}{}%
+\contentsline {subsubsection}{Process against the payment of Life Insurance Claim}{81}{}%
+\contentsline {subsubsection}{Process of payment against Non-Life Insurance Claim}{82}{}%
+\contentsline {chapter}{\numberline {5}Passenger Transport Operation}{83}{}%
+\contentsline {section}{\numberline {5.1}Public Transportation}{83}{}%
+\contentsline {subsection}{\numberline {5.1.1}Transit Modes}{83}{}%
+\contentsline {subsection}{\numberline {5.1.2}Transit Capacity and Level of Service}{84}{}%
+\contentsline {subsection}{\numberline {5.1.3}The Role and Future of Public Transportation}{86}{}%
+\contentsline {subsubsection}{Factors Bad for Transit}{86}{}%
+\contentsline {subsubsection}{Factors Good for Transit}{87}{}%
+\contentsline {section}{\numberline {5.2}Bus Transit System}{87}{}%
+\contentsline {subsection}{\numberline {5.2.1}Bus Vehicles}{87}{}%
+\contentsline {subsection}{\numberline {5.2.2}Bus Travelways}{89}{}%
+\contentsline {section}{\numberline {5.3}Number of Passengers Versus Number of Served Vehicles}{90}{}%
+\contentsline {subsection}{\numberline {5.3.1}A Hypothetical Case Study}{90}{}%
+\contentsline {section}{\numberline {5.4}Passenger Flows in Public Transportation}{91}{}%
+\contentsline {section}{\numberline {5.5}Passenger Flows Along a Transit Line}{93}{}%
+\contentsline {section}{\numberline {5.6}Service Frequency and Headways}{94}{}%
+\contentsline {subsection}{\numberline {5.6.1}The Maximum Service Frequency}{96}{}%
+\contentsline {subsection}{\numberline {5.6.2}Passenger Waiting Time}{96}{}%
+\contentsline {subsection}{\numberline {5.6.3}Headway Determination by "Square Root Formula" }{97}{}%
+\contentsline {subsection}{\numberline {5.6.4}Headway Determination by Maximum Load Method}{99}{}%
+\contentsline {section}{\numberline {5.7}Time Table}{100}{}%
+\contentsline {section}{\numberline {5.8}Transit Line Capacity}{102}{}%
+\contentsline {subsection}{\numberline {5.8.1}Transit Line Capacity Utilization}{105}{}%
+\contentsline {section}{\numberline {5.9}Route Development}{107}{}%
+\contentsline {subsection}{\numberline {5.9.1}Properties of a Good Route Set}{107}{}%
+\contentsline {section}{\numberline {5.10}Stop Location and Stopping Policy}{107}{}%
+\contentsline {subsection}{\numberline {5.10.1}Stopping Policy}{108}{}%
+\contentsline {subsection}{\numberline {5.10.2}Stop Location}{111}{}%
+\contentsline {subsubsection}{Determination of $T_u$}{112}{}%
+\contentsline {subsection}{\numberline {5.10.3}Properties of a Good Schedule}{112}{}%
+\contentsline {section}{\numberline {5.11}Optimal Paths in Transportation Networks}{113}{}%
+\contentsline {subsection}{\numberline {5.11.1}Dijkstra's Shortest Path Algorithm}{113}{}%
+\contentsline {section}{\numberline {5.12}Review Problems}{117}{}%
+\contentsline {chapter}{\numberline {6}Freight Transport Operation}{121}{}%
+\contentsline {section}{\numberline {6.1}Main Actors of Freight Transport and Distribution}{121}{}%
+\contentsline {subsection}{\numberline {6.1.1}Shippers}{121}{}%
+\contentsline {subsection}{\numberline {6.1.2}Carriers}{122}{}%
+\contentsline {subsection}{\numberline {6.1.3}Intermediaries}{122}{}%
 \contentsline {paragraph}{}{122}{}%
-\contentsline {subsection}{\numberline {6.2.2}Rail}{122}{}%
-\contentsline {paragraph}{}{122}{}%
-\contentsline {paragraph}{}{122}{}%
+\contentsline {section}{\numberline {6.2}Modes of Transportation}{122}{}%
+\contentsline {paragraph}{}{123}{}%
+\contentsline {subsection}{\numberline {6.2.1}Road}{123}{}%
 \contentsline {paragraph}{}{123}{}%
 \contentsline {paragraph}{}{123}{}%
-\contentsline {subsection}{\numberline {6.2.3}Air}{124}{}%
 \contentsline {paragraph}{}{124}{}%
-\contentsline {subsection}{\numberline {6.2.4}Sea}{124}{}%
+\contentsline {subsection}{\numberline {6.2.2}Rail}{124}{}%
 \contentsline {paragraph}{}{124}{}%
 \contentsline {paragraph}{}{124}{}%
 \contentsline {paragraph}{}{125}{}%
 \contentsline {paragraph}{}{125}{}%
-\contentsline {subsection}{\numberline {6.2.5}Intermodal Transportation}{125}{}%
-\contentsline {paragraph}{}{125}{}%
-\contentsline {subsubsection}{Intermodal Terminals}{126}{}%
-\contentsline {subsubsection}{Containerized Transport}{127}{}%
-\contentsline {section}{\numberline {6.3}Choice of Carrier and Transportation Mode}{128}{}%
-\contentsline {paragraph}{}{128}{}%
-\contentsline {section}{\numberline {6.4}Shipment Options}{128}{}%
-\contentsline {subsection}{\numberline {6.4.1}Direct or Customized Shipments }{128}{}%
-\contentsline {subsection}{\numberline {6.4.2}Consolidated Shipments}{129}{}%
-\contentsline {section}{\numberline {6.5}Distribution Structures}{129}{}%
-\contentsline {subsection}{\numberline {6.5.1}Single-echelon }{130}{}%
-\contentsline {subsection}{\numberline {6.5.2}Multi-echelon}{131}{}%
-\contentsline {paragraph}{}{131}{}%
-\contentsline {section}{\numberline {6.6}Transportation Model}{132}{}%
-\contentsline {subsection}{\numberline {6.6.1}Definition of the Transportation Model}{132}{}%
-\contentsline {subsection}{\numberline {6.6.2}The Transportation Algorithm}{134}{}%
-\contentsline {subsection}{\numberline {6.6.3}Determining the Basic Feasible Solution}{135}{}%
-\contentsline {subsubsection}{a. North-West Corner Method}{135}{}%
-\contentsline {subsubsection}{b. Least-Cost Cell Method}{139}{}%
-\contentsline {subsubsection}{c. Vogel's Approximation Method (Opportunity Cost Method)}{142}{}%
-\contentsline {section}{\numberline {6.7}Assignment Model}{146}{}%
-\contentsline {subsection}{\numberline {6.7.1}Definition of the Assignment Problem}{146}{}%
-\contentsline {subsection}{\numberline {6.7.2}Hungarian Method}{147}{}%
-\contentsline {section}{\numberline {6.8}Travelling Salesman Problem}{153}{}%
-\contentsline {section}{\numberline {6.9}Review Problems}{161}{}%
-\contentsline {subsection}{\numberline {6.9.1}Answers}{162}{}%
-\contentsline {chapter}{\numberline {7}Environmental Effects of Transportation, Fuel Consumption Models and Emission Standards}{163}{}%
-\contentsline {section}{\numberline {7.1}Introduction}{163}{}%
-\contentsline {section}{\numberline {7.2}Environmental Problems due to Transportation}{164}{}%
-\contentsline {subsection}{\numberline {7.2.1}Vehicular Emissions and Air Pollution}{164}{}%
-\contentsline {subsubsection}{Particulate Matter (PM)}{164}{}%
-\contentsline {subsubsection}{Carbon Monoxide ($ CO $)}{166}{}%
-\contentsline {subsubsection}{Nitrogen Oxides ($ NO_x $)}{166}{}%
-\contentsline {subsubsection}{Photo-chemical Oxidants (Ozone)}{166}{}%
-\contentsline {subsubsection}{Lead}{167}{}%
-\contentsline {subsubsection}{Climate Change}{169}{}%
-\contentsline {subsection}{\numberline {7.2.2}Noise Pollution}{170}{}%
-\contentsline {subsection}{\numberline {7.2.3}Land and resource consumption}{170}{}%
-\contentsline {section}{\numberline {7.3}Mitigating measures}{170}{}%
-\contentsline {subsubsection}{Kyoto Protocol}{171}{}%
-\contentsline {section}{\numberline {7.4}Fuel Consumption Models}{172}{}%
-\contentsline {subsection}{\numberline {7.4.1}Drive-Mode Elemental Models}{172}{}%
-\contentsline {subsection}{\numberline {7.4.2}Average-Speed Models}{173}{}%
-\contentsline {section}{\numberline {7.5}Emissions Control Programmes}{175}{}%
-\contentsline {subsection}{\numberline {7.5.1}European Union}{175}{}%
-\contentsline {subsection}{\numberline {7.5.2}India}{176}{}%
-\contentsline {chapter}{\numberline {8}Accident Studies}{177}{}%
-\contentsline {section}{\numberline {8.1}Introduction}{177}{}%
-\contentsline {section}{\numberline {8.2}Objectives of Accident Studies}{177}{}%
-\contentsline {section}{\numberline {8.3}Causes of Road Accidents}{178}{}%
-\contentsline {section}{\numberline {8.4}Accident Analysis}{178}{}%
-\contentsline {subsection}{\numberline {8.4.1}Accident Data Collection}{178}{}%
-\contentsline {subsection}{\numberline {8.4.2}Accident Investigation}{179}{}%
-\contentsline {subsection}{\numberline {8.4.3}Accident Data Analysis}{180}{}%
-\contentsline {subsubsection}{Accident Rate per Kilometer:}{180}{}%
-\contentsline {subsubsection}{Accident Involvement Rate:}{180}{}%
-\contentsline {subsubsection}{Death Rate Based on Population:}{181}{}%
-\contentsline {subsubsection}{Death Rate Based on Registration:}{181}{}%
-\contentsline {subsubsection}{Accident Based on Vehicle-Km of Travel:}{181}{}%
-\contentsline {section}{\numberline {8.5}Accident Reconstruction}{182}{}%
-\contentsline {subsection}{\numberline {8.5.1}Collinear Impact}{182}{}%
-\contentsline {subsubsection}{Poisson Impact Theory}{183}{}%
-\contentsline {subsubsection}{Energy Theory}{185}{}%
-\contentsline {subsection}{\numberline {8.5.2}Angular Collision}{187}{}%
-\contentsline {section}{\numberline {8.6}Safety Measures}{190}{}%
-\contentsline {subsection}{\numberline {8.6.1}Road Signs}{190}{}%
-\contentsline {subsection}{\numberline {8.6.2}Street Lighting}{190}{}%
-\contentsline {subsection}{\numberline {8.6.3}Improvement in Skid Resistance}{191}{}%
-\contentsline {subsection}{\numberline {8.6.4}Road Markings}{191}{}%
-\contentsline {subsection}{\numberline {8.6.5}Guide Posts With or Without Reflector}{191}{}%
-\contentsline {subsection}{\numberline {8.6.6}Guard Rail}{191}{}%
-\contentsline {subsection}{\numberline {8.6.7}Driver Reviver Stop}{191}{}%
-\contentsline {subsection}{\numberline {8.6.8}Constructing Flyovers and Bypasses}{192}{}%
-\contentsline {subsection}{\numberline {8.6.9}Regular Accident Studies}{192}{}%
-\contentsline {subsection}{\numberline {8.6.10}Speed Control}{192}{}%
-\contentsline {subsection}{\numberline {8.6.11}Training and Supervision}{192}{}%
-\contentsline {chapter}{\numberline {9}Vehicle Operating Cost Impacts}{193}{}%
-\contentsline {section}{\numberline {9.1}Introduction}{193}{}%
-\contentsline {section}{\numberline {9.2}Components of Vehicle Operating Cost}{194}{}%
-\contentsline {subsection}{\numberline {9.2.1}Fuel}{194}{}%
-\contentsline {subsection}{\numberline {9.2.2}Shipping Inventory}{194}{}%
-\contentsline {subsection}{\numberline {9.2.3}Lubricating Oils for Mechanical Working of the Drivetrain}{195}{}%
-\contentsline {subsection}{\numberline {9.2.4}Preservation of the Vehicle-Guideway Contact Surface}{195}{}%
-\contentsline {subsection}{\numberline {9.2.5}Vehicle Repair and Maintenance}{195}{}%
-\contentsline {subsection}{\numberline {9.2.6}Depreciation}{196}{}%
-\contentsline {section}{\numberline {9.3}Factors That Affect Vehicle Operating Cost}{197}{}%
-\contentsline {subsection}{\numberline {9.3.1}Vehicle Type}{197}{}%
-\contentsline {subsection}{\numberline {9.3.2}Fuel Type}{198}{}%
-\contentsline {subsection}{\numberline {9.3.3}Longitudinal Grade}{198}{}%
-\contentsline {subsection}{\numberline {9.3.4}Vehicle Speed}{200}{}%
-\contentsline {subsubsection}{a) Inventory Shipping}{200}{}%
-\contentsline {subsubsection}{b) VOC Models and Look-up Table Based on Speed and Vehicle Class}{201}{}%
-\contentsline {subsubsection}{c) VOC model based on speed, grade, and vehicle class}{202}{}%
-\contentsline {subsubsection}{d) VOC Models Based on Speed, Gradient, Curvature, and Pavement Condition}{204}{}%
-\contentsline {subsection}{\numberline {9.3.5}Delay}{204}{}%
-\contentsline {subsubsection}{a) Change in Fuel Costs due to Delay Change}{205}{}%
-\contentsline {subsubsection}{b) Change in Shipping Inventory Costs due to Delay}{205}{}%
-\contentsline {subsection}{\numberline {9.3.6}Speed Changes}{207}{}%
-\contentsline {subsection}{\numberline {9.3.7}Horizontal Curvature}{208}{}%
-\contentsline {subsection}{\numberline {9.3.8}Road Surface Condition}{208}{}%
-\contentsline {subsection}{\numberline {9.3.9}Other VOC Factors}{210}{}%
-\contentsline {section}{\numberline {9.4}Procedure for Assesing VOC Impacts}{210}{}%
+\contentsline {subsection}{\numberline {6.2.3}Air}{126}{}%
+\contentsline {paragraph}{}{126}{}%
+\contentsline {subsection}{\numberline {6.2.4}Sea}{126}{}%
+\contentsline {paragraph}{}{126}{}%
+\contentsline {paragraph}{}{126}{}%
+\contentsline {paragraph}{}{127}{}%
+\contentsline {paragraph}{}{127}{}%
+\contentsline {subsection}{\numberline {6.2.5}Intermodal Transportation}{127}{}%
+\contentsline {paragraph}{}{127}{}%
+\contentsline {subsubsection}{Intermodal Terminals}{128}{}%
+\contentsline {subsubsection}{Containerized Transport}{129}{}%
+\contentsline {section}{\numberline {6.3}Choice of Carrier and Transportation Mode}{130}{}%
+\contentsline {paragraph}{}{130}{}%
+\contentsline {section}{\numberline {6.4}Shipment Options}{130}{}%
+\contentsline {subsection}{\numberline {6.4.1}Direct or Customized Shipments }{130}{}%
+\contentsline {subsection}{\numberline {6.4.2}Consolidated Shipments}{131}{}%
+\contentsline {section}{\numberline {6.5}Distribution Structures}{131}{}%
+\contentsline {subsection}{\numberline {6.5.1}Single-echelon }{132}{}%
+\contentsline {subsection}{\numberline {6.5.2}Multi-echelon}{133}{}%
+\contentsline {paragraph}{}{133}{}%
+\contentsline {section}{\numberline {6.6}Transportation Model}{134}{}%
+\contentsline {subsection}{\numberline {6.6.1}Definition of the Transportation Model}{134}{}%
+\contentsline {subsection}{\numberline {6.6.2}The Transportation Algorithm}{136}{}%
+\contentsline {subsection}{\numberline {6.6.3}Determining the Basic Feasible Solution}{137}{}%
+\contentsline {subsubsection}{a. North-West Corner Method}{137}{}%
+\contentsline {subsubsection}{b. Least-Cost Cell Method}{141}{}%
+\contentsline {subsubsection}{c. Vogel's Approximation Method (Opportunity Cost Method)}{144}{}%
+\contentsline {section}{\numberline {6.7}Assignment Model}{148}{}%
+\contentsline {subsection}{\numberline {6.7.1}Definition of the Assignment Problem}{148}{}%
+\contentsline {subsection}{\numberline {6.7.2}Hungarian Method}{149}{}%
+\contentsline {section}{\numberline {6.8}Travelling Salesman Problem}{155}{}%
+\contentsline {section}{\numberline {6.9}Review Problems}{163}{}%
+\contentsline {subsection}{\numberline {6.9.1}Answers}{164}{}%
+\contentsline {chapter}{\numberline {7}Environmental Effects of Transportation, Fuel Consumption Models and Emission Standards}{165}{}%
+\contentsline {section}{\numberline {7.1}Introduction}{165}{}%
+\contentsline {section}{\numberline {7.2}Environmental Problems due to Transportation}{166}{}%
+\contentsline {subsection}{\numberline {7.2.1}Vehicular Emissions and Air Pollution}{166}{}%
+\contentsline {subsubsection}{Particulate Matter (PM)}{166}{}%
+\contentsline {subsubsection}{Carbon Monoxide ($ CO $)}{168}{}%
+\contentsline {subsubsection}{Nitrogen Oxides ($ NO_x $)}{168}{}%
+\contentsline {subsubsection}{Photo-chemical Oxidants (Ozone)}{168}{}%
+\contentsline {subsubsection}{Lead}{169}{}%
+\contentsline {subsubsection}{Climate Change}{171}{}%
+\contentsline {subsection}{\numberline {7.2.2}Noise Pollution}{172}{}%
+\contentsline {subsection}{\numberline {7.2.3}Land and resource consumption}{172}{}%
+\contentsline {section}{\numberline {7.3}Mitigating measures}{172}{}%
+\contentsline {subsubsection}{Kyoto Protocol}{173}{}%
+\contentsline {section}{\numberline {7.4}Fuel Consumption Models}{174}{}%
+\contentsline {subsection}{\numberline {7.4.1}Drive-Mode Elemental Models}{174}{}%
+\contentsline {subsection}{\numberline {7.4.2}Average-Speed Models}{175}{}%
+\contentsline {section}{\numberline {7.5}Emissions Control Programmes}{177}{}%
+\contentsline {subsection}{\numberline {7.5.1}European Union}{177}{}%
+\contentsline {subsection}{\numberline {7.5.2}India}{178}{}%
+\contentsline {chapter}{\numberline {8}Accident Studies}{179}{}%
+\contentsline {section}{\numberline {8.1}Introduction}{179}{}%
+\contentsline {section}{\numberline {8.2}Objectives of Accident Studies}{179}{}%
+\contentsline {section}{\numberline {8.3}Causes of Road Accidents}{180}{}%
+\contentsline {section}{\numberline {8.4}Accident Analysis}{180}{}%
+\contentsline {subsection}{\numberline {8.4.1}Accident Data Collection}{180}{}%
+\contentsline {subsection}{\numberline {8.4.2}Accident Investigation}{181}{}%
+\contentsline {subsection}{\numberline {8.4.3}Accident Data Analysis}{182}{}%
+\contentsline {subsubsection}{Accident Rate per Kilometer:}{182}{}%
+\contentsline {subsubsection}{Accident Involvement Rate:}{182}{}%
+\contentsline {subsubsection}{Death Rate Based on Population:}{183}{}%
+\contentsline {subsubsection}{Death Rate Based on Registration:}{183}{}%
+\contentsline {subsubsection}{Accident Based on Vehicle-Km of Travel:}{183}{}%
+\contentsline {section}{\numberline {8.5}Accident Reconstruction}{184}{}%
+\contentsline {subsection}{\numberline {8.5.1}Collinear Impact}{184}{}%
+\contentsline {subsubsection}{Poisson Impact Theory}{185}{}%
+\contentsline {subsubsection}{Energy Theory}{187}{}%
+\contentsline {subsection}{\numberline {8.5.2}Angular Collision}{189}{}%
+\contentsline {section}{\numberline {8.6}Safety Measures}{192}{}%
+\contentsline {subsection}{\numberline {8.6.1}Road Signs}{192}{}%
+\contentsline {subsection}{\numberline {8.6.2}Street Lighting}{192}{}%
+\contentsline {subsection}{\numberline {8.6.3}Improvement in Skid Resistance}{193}{}%
+\contentsline {subsection}{\numberline {8.6.4}Road Markings}{193}{}%
+\contentsline {subsection}{\numberline {8.6.5}Guide Posts With or Without Reflector}{193}{}%
+\contentsline {subsection}{\numberline {8.6.6}Guard Rail}{193}{}%
+\contentsline {subsection}{\numberline {8.6.7}Driver Reviver Stop}{193}{}%
+\contentsline {subsection}{\numberline {8.6.8}Constructing Flyovers and Bypasses}{194}{}%
+\contentsline {subsection}{\numberline {8.6.9}Regular Accident Studies}{194}{}%
+\contentsline {subsection}{\numberline {8.6.10}Speed Control}{194}{}%
+\contentsline {subsection}{\numberline {8.6.11}Training and Supervision}{194}{}%
+\contentsline {chapter}{\numberline {9}Vehicle Operating Cost Impacts}{195}{}%
+\contentsline {section}{\numberline {9.1}Introduction}{195}{}%
+\contentsline {section}{\numberline {9.2}Components of Vehicle Operating Cost}{196}{}%
+\contentsline {subsection}{\numberline {9.2.1}Fuel}{196}{}%
+\contentsline {subsection}{\numberline {9.2.2}Shipping Inventory}{196}{}%
+\contentsline {subsection}{\numberline {9.2.3}Lubricating Oils for Mechanical Working of the Drivetrain}{197}{}%
+\contentsline {subsection}{\numberline {9.2.4}Preservation of the Vehicle-Guideway Contact Surface}{197}{}%
+\contentsline {subsection}{\numberline {9.2.5}Vehicle Repair and Maintenance}{197}{}%
+\contentsline {subsection}{\numberline {9.2.6}Depreciation}{198}{}%
+\contentsline {section}{\numberline {9.3}Factors That Affect Vehicle Operating Cost}{199}{}%
+\contentsline {subsection}{\numberline {9.3.1}Vehicle Type}{199}{}%
+\contentsline {subsection}{\numberline {9.3.2}Fuel Type}{200}{}%
+\contentsline {subsection}{\numberline {9.3.3}Longitudinal Grade}{200}{}%
+\contentsline {subsection}{\numberline {9.3.4}Vehicle Speed}{202}{}%
+\contentsline {subsubsection}{a) Inventory Shipping}{202}{}%
+\contentsline {subsubsection}{b) VOC Models and Look-up Table Based on Speed and Vehicle Class}{203}{}%
+\contentsline {subsubsection}{c) VOC model based on speed, grade, and vehicle class}{204}{}%
+\contentsline {subsubsection}{d) VOC Models Based on Speed, Gradient, Curvature, and Pavement Condition}{206}{}%
+\contentsline {subsection}{\numberline {9.3.5}Delay}{206}{}%
+\contentsline {subsubsection}{a) Change in Fuel Costs due to Delay Change}{207}{}%
+\contentsline {subsubsection}{b) Change in Shipping Inventory Costs due to Delay}{207}{}%
+\contentsline {subsection}{\numberline {9.3.6}Speed Changes}{209}{}%
+\contentsline {subsection}{\numberline {9.3.7}Horizontal Curvature}{210}{}%
+\contentsline {subsection}{\numberline {9.3.8}Road Surface Condition}{210}{}%
+\contentsline {subsection}{\numberline {9.3.9}Other VOC Factors}{212}{}%
+\contentsline {section}{\numberline {9.4}Procedure for Assesing VOC Impacts}{212}{}%
