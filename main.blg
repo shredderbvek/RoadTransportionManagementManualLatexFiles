@@ -17,6 +17,8 @@ Reallocating 'name_of_file' (item size: 1) to 19 items.
 A level-1 auxiliary file: mainmatter/ch7.aux
 Reallocating 'name_of_file' (item size: 1) to 19 items.
 A level-1 auxiliary file: mainmatter/ch8.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: mainmatter/ch9.aux
 Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 8 items.
@@ -25,7 +27,7 @@ Warning--to sort, need author or key in ira
 Warning--empty author in ira
 You've used 13 entries,
             2118 wiz_defined-function locations,
-            569 strings with 5253 characters,
+            570 strings with 5271 characters,
 and the built_in function-call counts, 2822 in all, are:
 = -- 258
 > -- 85
